@@ -12,3 +12,5 @@ logs/
 
 notebook
 uv.lock
+
+.pytest_cache
