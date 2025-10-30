@@ -10,5 +10,6 @@ app.include_router(chat_endpoint.router)
 
 @app.get("/")
 async def read_root():
-    return {"message": "/docs for API documentation."}
+    return {"message": "Diaz AI API documentation."}
+
 
