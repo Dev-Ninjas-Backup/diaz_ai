@@ -1,5 +1,3 @@
-# House Price Prediction Chatbot
-
 A production-ready conversational AI system built with FastAPI and LangGraph for real estate price predictions and consultations.
 
 ## 🚀 Features
@@ -39,12 +37,14 @@ A production-ready conversational AI system built with FastAPI and LangGraph for
 ## ⚡ Quick Start
 
 ### 1. Clone Repository
+
 ```bash
 git clone <repository-url>
 cd HousePricePredictionChatbot
 ```
 
 ### 2. Environment Setup
+
 ```bash
 # Create virtual environment
 python -m venv .venv
@@ -55,7 +55,9 @@ pip install -r requirements.txt
 ```
 
 ### 3. Configuration
+
 Create `.env` file:
+
 ```env
 OPENAI_API_KEY="your-openai-api-key"
 MONGODB_URI="mongodb+srv://username:password@cluster.mongodb.net/"
@@ -65,6 +67,7 @@ NEONDB_NAME="neondb"
 ```
 
 ### 4. Run Application
+
 ```bash
 # Development
 uvicorn main:app --reload
@@ -76,6 +79,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 ## 📚 API Documentation
 
 ### Base URL
+
 ```
 http://localhost:8000
 ```
@@ -83,6 +87,7 @@ http://localhost:8000
 ### Endpoints
 
 #### Chat
+
 ```http
 POST /chat
 Content-Type: application/json
@@ -95,6 +100,7 @@ Content-Type: application/json
 ```
 
 #### Chat History
+
 ```http
 POST /chat_history
 Content-Type: application/json
@@ -106,6 +112,7 @@ Content-Type: application/json
 ```
 
 #### Delete History
+
 ```http
 DELETE /delete_chat_history
 Content-Type: application/json
@@ -117,12 +124,14 @@ Content-Type: application/json
 ```
 
 ### Interactive Documentation
+
 - Swagger UI: `http://localhost:8000/docs`
 - ReDoc: `http://localhost:8000/redoc`
 
 ## 🔧 Configuration
 
 ### Model Settings (`config/config.yaml`)
+
 ```yaml
 openai:
   model: "gpt-4o-mini"
@@ -133,17 +142,19 @@ logger:
 ```
 
 ### Environment Variables
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `OPENAI_API_KEY` | OpenAI API key | ✅ |
-| `MONGODB_URI` | MongoDB connection string | ✅ |
-| `DB_NAME` | MongoDB database name | ✅ |
-| `POSTGRES_URI` | PostgreSQL connection string | ❌ |
-| `NEONDB_NAME` | PostgreSQL database name | ❌ |
+
+| Variable         | Description                  | Required |
+| ---------------- | ---------------------------- | -------- |
+| `OPENAI_API_KEY` | OpenAI API key               | ✅       |
+| `MONGODB_URI`    | MongoDB connection string    | ✅       |
+| `DB_NAME`        | MongoDB database name        | ✅       |
+| `POSTGRES_URI`   | PostgreSQL connection string | ❌       |
+| `NEONDB_NAME`    | PostgreSQL database name     | ❌       |
 
 ## 🏃‍♂️ Usage Examples
 
 ### Python Client
+
 ```python
 import requests
 
@@ -158,6 +169,7 @@ print(response.json())
 ```
 
 ### cURL
+
 ```bash
 curl -X POST "http://localhost:8000/chat" \
   -H "Content-Type: application/json" \
@@ -177,6 +189,7 @@ curl -X POST "http://localhost:8000/chat" \
 ## 🔄 Changelog
 
 ### v1.0.0
+
 - Initial release
 - Basic chat functionality
 - MongoDB integration
