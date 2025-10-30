@@ -1,0 +1,17 @@
+fastapi
+fastapi[standard]
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langgraph
+pydantic
+pydantic-settings
+langgraph-checkpoint-mongodb
+pymongo
+
+
+## prosgrase
+langgraph-checkpoint-postgres
+psycopg[binary,pool]
+asyncpg
