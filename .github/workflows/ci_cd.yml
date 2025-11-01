@@ -34,4 +34,6 @@ jobs:
             run: |
               pytest -v --maxfail=1 --disable-warnings
               
-    
+        # 4. build docker
+          - name: Build Docker
+          
