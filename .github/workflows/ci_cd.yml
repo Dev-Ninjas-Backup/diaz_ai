@@ -46,3 +46,21 @@ jobs:
               docker compose build --no-cache
               docker compose push
           
+        # 5. Deploy to EC2
+          - name: Deploy to ec2
+            uses: appleboy/ssh-action@v1.2.2
+            with:
+              host: ${{secrets.EC2_HOST}}
+              username: ${{secrets.EC2_USER}}
+              key: ${{secrets.EC2_SSH_KEY}}
+              script: |
+                makdir diaz_ai
+                cd diaz_ai
+
+                git init
+                git remote add origin https://github.com/Softvence-Omega-Dev-Ninjas/diaz_ai
+                git config core.sparseCheckout true
+                echo "server_folder/" >> .git/info/sparse-checkout
+                git pull origin main
+
+
