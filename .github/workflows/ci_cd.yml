@@ -35,5 +35,14 @@ jobs:
               pytest -v --maxfail=1 --disable-warnings
               
         # 4. Build and push
-          # - name: Build Docker
-          #   uses: 
+          - name: Login to docker hub
+            uses: docker/login-action@v3
+            with:
+              username: ${{vars.DOCKERHUB_USERNAME}}
+              password: ${{secrets.DOCKERHUB_TOKEN}}
+            
+          - name: Build and push to Docker hub
+            run: |
+              docker compose build --no-cache
+              docker compose push
+          
