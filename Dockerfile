@@ -6,7 +6,7 @@ RUN pip install uv
 
 COPY requirements.txt .
 
-RUN uv pip install --system -r requirements
+RUN uv pip install --system -r requirements.txt
 
 COPY . .
 
