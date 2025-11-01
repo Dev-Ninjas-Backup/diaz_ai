@@ -10,7 +10,6 @@ services:
       - diaz_fastapi
 
   diaz_fastapi:
-    build: .
     image: root762/diaz_ai_app:latest
     env_file:
       - .env
