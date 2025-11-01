@@ -54,7 +54,7 @@ jobs:
               username: ${{secrets.EC2_USER}}
               key: ${{secrets.EC2_SSH_KEY}}
               script: |
-                cd /diaz_server_file
+                cd diaz_server_file
                 
                 sudo docker compose down --remove-orphans
                 sudo docker compose pull
