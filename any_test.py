@@ -7,4 +7,5 @@ vec = VectorDataBase()
 
 
 # asyncio.run(vec.merge_data())
-vec.merge_data()
+# vec.merge_data()
+vec.process_data()

@@ -14,3 +14,29 @@ api:
 
 database_loc:
   raw_data_loc: "database/raw_json_data/"
+  process_data_loc: "database/process_csv_data/"
+
+
+columns:
+  keep: [
+    "GeneralBoatDescription",
+    "AdditionalDetailDescription",
+    "DocumentID",
+
+    "MakeString",
+    "Model",
+    "ModelYear",
+
+    "BoatLocation",
+    "BoatCityNameNoCaseAlnumOnly",
+
+    "Price",
+
+    "NominalLength",
+    "LengthOverall",
+    "BeamMeasure",
+
+    "Engines",
+    "TotalEnginePowerQuantity",
+    "NumberOfEngines"
+  ]
