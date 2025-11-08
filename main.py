@@ -13,3 +13,4 @@ async def read_root():
     return {"message": "Diaz AI API documentation."}
 
 
+
