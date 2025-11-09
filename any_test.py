@@ -10,4 +10,4 @@ vec = VectorDataBase()
 # vec.merge_data()
 # vec.process_data()
 
-asyncio.run(vec.init_vector_database())
+asyncio.run(vec.vectorize_data())

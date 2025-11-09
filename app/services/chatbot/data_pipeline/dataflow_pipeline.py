@@ -8,6 +8,8 @@ import re
 from qdrant_client import QdrantClient
 from qdrant_client.models import VectorParams, Distance
 from langchain_community.vectorstores import Qdrant
+from langchain_classic.docstore.document import Document
+import pprint
 
 logger = get_logger(__name__)
 
@@ -90,6 +92,22 @@ class VectorDataBase:
         except Exception as e:
             raise(e)
     
+    def chunking_data(self):
+        chunks = []
+        try:
+            logger.info("Chunking Data.............")
+            df = pd.read_csv(f"{self.process_data_loc}/process_data.csv")
+            # Chunking data
+            for row in df.itertuples(index=False):
+                combine = " ".join(f"{col}={value}" for col, value in zip(df.columns,row))
+                chunks.append(combine)
+            # create docs
+            docs = [Document(page_content=chunk, metadata={"id" : doc_id}) for chunk, doc_id in zip(chunks, df["DocumentID"])]
+            logger.info("Data Chunked Successfully")
+            return docs
+        except Exception as e:
+            raise(e)
+        
     async def init_vector_database(self):
         try:
             logger.info("Initializing Vector Database.........")
@@ -112,12 +130,13 @@ class VectorDataBase:
         except Exception as e:
             raise(e)
     
+    
     async def vectorize_data(self):
         try:
-            pass
+            docs = self.chunking_data()
+            client = self.init_vector_database()
+            
+            ## vectorize
+            
         except Exception as e:
             raise(e)
-        
-    
-    
-    
