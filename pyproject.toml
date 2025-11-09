@@ -22,6 +22,7 @@ dependencies = [
     "langchain-community>=0.4.1",
     "langchain-core>=1.0.1",
     "langchain-openai>=1.0.1",
+    "langchain-qdrant>=1.1.0",
     "langgraph>=1.0.2",
     "langgraph-checkpoint-mongodb>=0.2.1",
     "langgraph-checkpoint-postgres>=3.0.0",

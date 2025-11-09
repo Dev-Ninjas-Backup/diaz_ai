@@ -1,13 +1,14 @@
 from app.config import configs
 from app.utils.helper import request_data, save_json, load_json
 from app.utils.logger import get_logger
+from app.services.chatbot.llms.open_ai_llm import OpenaiLLM
 
 import os
 import pandas as pd
 import re
 from qdrant_client import QdrantClient
 from qdrant_client.models import VectorParams, Distance
-from langchain_community.vectorstores import Qdrant
+from langchain_qdrant import QdrantVectorStore
 from langchain_classic.docstore.document import Document
 import pprint
 
@@ -26,6 +27,7 @@ class VectorDataBase:
         os.makedirs(configs["database_loc"]["process_data_loc"], exist_ok=True)
         self.qdrant_url = configs["vector"]["url"]
         self.collection_name = configs["vector"]["collection_name"]
+        self.embed = OpenaiLLM().get_embeddings()
     
     
     async def collect_data(self):
@@ -41,6 +43,7 @@ class VectorDataBase:
                     folder_loc=self.data_save_loc
                 )
             logger.info("Data Saved Successfully")
+            print(f"\033[92m✅ PASSED: Collected Data\033[0m")
         except Exception as e:
             raise(e)
            
@@ -67,6 +70,7 @@ class VectorDataBase:
             )
             
             logger.info("Data Merged Successfully")
+            print(f"\033[92m✅ PASSED: Data Merged\033[0m")
                 
         except Exception as e:
             raise(e)
@@ -89,9 +93,11 @@ class VectorDataBase:
             )
             df.to_csv(f"{self.process_data_loc}/process_data.csv", index=False)
             logger.info("Data Processed Successfully")
+            print(f"\033[92m✅ PASSED: Data Processed\033[0m")
         except Exception as e:
             raise(e)
     
+    # don't use outside the class
     def chunking_data(self):
         chunks = []
         try:
@@ -104,10 +110,12 @@ class VectorDataBase:
             # create docs
             docs = [Document(page_content=chunk, metadata={"id" : doc_id}) for chunk, doc_id in zip(chunks, df["DocumentID"])]
             logger.info("Data Chunked Successfully")
+            print(f"\033[92m✅ PASSED: Chunked\033[0m")
             return docs
         except Exception as e:
             raise(e)
         
+    # don't use outside the class
     async def init_vector_database(self):
         try:
             logger.info("Initializing Vector Database.........")
@@ -123,8 +131,10 @@ class VectorDataBase:
                     )
                 )
                 logger.info("Collection Created Successfully")
+                print(f"\033[92m✅ PASSED: Init Vector Database\033[0m")
             else:
                 logger.info("Collection Already Exists")
+                print(f"\033[92m✅ PASSED: Init Vector Database\033[0m")
             # print(client.get_collections())
             return client
         except Exception as e:
@@ -133,10 +143,18 @@ class VectorDataBase:
     
     async def vectorize_data(self):
         try:
+            logger.info("Vectorizing Data.........")
             docs = self.chunking_data()
-            client = self.init_vector_database()
+            client = await self.init_vector_database()
             
             ## vectorize
-            
+            vector_store = QdrantVectorStore(
+                client = client,
+                collection_name = self.collection_name,
+                embedding = self.embed
+            )
+            vector_store.add_documents(docs, ids=[doc.metadata["id"] for doc in docs])
+            logger.info("Data Vectorized Successfully")
+            print(f"\033[92m✅ PASSED: Vectorized\033[0m")
         except Exception as e:
             raise(e)
