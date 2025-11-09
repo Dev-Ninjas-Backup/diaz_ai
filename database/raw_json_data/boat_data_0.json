@@ -1,6 +1,6 @@
 {
     "data": {
-        "numResults": 3035,
+        "numResults": 3037,
         "results": [
             {
                 "DocumentID": "9874756",
@@ -310,6 +310,283 @@
                     }
                 ],
                 "DryWeightMeasure": null
+            },
+            {
+                "DocumentID": "9932707",
+                "MaxDraft": "3.25 ft",
+                "BeamMeasure": "13 ft",
+                "NumberOfEngines": 1,
+                "TotalEnginePowerQuantity": "600 hp",
+                "BoatCityNameNoCaseAlnumOnly": "Charleston",
+                "Price": "585000.00 USD",
+                "BoatLocation": {
+                    "BoatCityName": "Charleston",
+                    "BoatCountryID": "US",
+                    "BoatStateCode": "SC"
+                },
+                "Model": "37",
+                "FuelTankCapacityMeasure": "300|gallon",
+                "Engines": [
+                    {
+                        "Make": "Cummins",
+                        "Model": "QSC 8.3",
+                        "Fuel": "diesel",
+                        "EnginePower": "600|horsepower",
+                        "Type": "Inboard",
+                        "Hours": 450
+                    }
+                ],
+                "ModelYear": 2016,
+                "OriginalPrice": "585000 USD",
+                "MakeString": "Back Cove",
+                "WaterTankCapacityMeasure": "120|gallon",
+                "LengthOverall": "38 ft",
+                "NominalLength": "37 ft",
+                "GeneralBoatDescription": [
+                    "<p>The Back Cove 37 continues the practical features that have identified the Back Cove range of down east style motor yachts: Usability, low maintenance and fuel efficiency.</p><p>In the master stateroom there is an island berth for ease of egress, and for stowage of owner\u2019s gear, there are many lockers and drawers provided. To starboard aft of the master is a full guest cabin with a pullman berth and ample storage capacity. Opposite and to port is a large head unit with separate stall shower.</p><p>Between the lower and salon sole levels, the mid-galley is fully equipped with a refrigerator, freezer, microwave oven and deep stainless steel sink as well as many drawers and lockers for galley storage. Large windows overhead provide the galley with ample visibility and light.</p><p>In the salon twin Stidd helm seats are provided for the helmsman and crew. Aft of the helm is an L-shaped settee and to port a two person love seat. An elegant inlaid table offers a comfortable space for dining with crew and guests. Large windows offer plenty of light and air while overhead a large sliding pilot hatch allows air to flow through the salon. At the aft end of the main salon large swing-bi-fold doors completely open up the salon to the cockpit. At the transom, fixed seating will provide the comfort you desire for socializing with guests.</p>"
+                ],
+                "HoldingTankCapacityMeasure": "50|gallon",
+                "AdditionalDetailDescription": [
+                    "<strong>Key Features</strong><br><ul> <li>Cummins QSC 8.3 600hp with 450 hours (Serviced March 2025)</li> <li>Cummins Onan 9.0 kw Generator with 370 hours</li> <li>Stars and Stripes Awlgrip Hull Paint (March of 2024)</li> <li>Fridge/Freezer in galley\u00a0</li> <li>LCD TV / DVD in guest stateroom</li> <li>LCD TV / DVD in master stateroom</li> <li>Ocean Air blinds (4) on bi-fold salon entry doors</li> <li>Ocean Air blinds on side windows</li> <li>Vitrofrigo DW70 drawer fridge in storage space below helm sole</li> <li>1800 Watt inverter</li> <li>Fresh water washdown anchor locker</li> <li>Oil changing system</li> <li>Power assist steering</li> <li>Power center window</li> <li>Raw water wash-down fore and aft</li> <li>Removable cockpit table with two brackets</li> <li>Shore water inlet in cockpit</li> <li>RayMarine glass cockpit electronic navigation system</li> <li>Integrated camera for stern view</li> <li>Multi-Colored underwater lights</li> <li>Bow & Stern thrusters</li> <li>Upgraded Stidd Helm Seats</li> <li>Custom Portland Mattress' in master and guest staterooms</li> <li>Ocean Air blinds on side windows and aft bi-fold salon entry doors</li> <li>Custom Cockpit Sunshade</li> <li>Cockpit cushions \u00a0</li> <li>2 RayMarine GS 125 Glass Bridge Displays</li> <li>1 RayMarine RD 424 HD 24\" Radar Dome</li> <li>1 Gem DT800. N2K XDCR Bronze</li> <li>1 Raystar 130 GPS Antenna</li> <li>1 RayMarineEV-200 AutoPilot</li> <li>1 Navionics 904p N.E. & Canyons</li> <li>1 HS5- Network Hub</li> <li>1 N2K Install Kit</li> <li>1 I Com M506 w/ Remote \u00a0Mic, Hailer Horn, 2-3.5' S/S Antennas w/AIS</li> <li>1 ACR. 75L Remote Spot Light</li> <li>1 KVH TV1</li> <li>2 Direct TV Boxes with RF Remote</li> <li>1 RMK -9 Remote Keypad</li> <li>1 RayMarine 170 Display</li></ul>",
+                    "<strong>Disclaimer</strong><br><p>The Company offers the details of this vessel in good faith but cannot guarantee or warrant the accuracy of this information nor warrant the condition of the vessel. A buyer should instruct his agents, or his surveyors, to investigate such details as the buyer desires validated. This vessel is offered subject to prior sale, price change, or withdrawal without notice.</p>"
+                ],
+                "Images": [
+                    {
+                        "Priority": "0",
+                        "Caption": "2016 Back Cove 37 boat docked in urban marina under clear blue sky.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124152365-2.jpg",
+                        "LastModifiedDateTime": "2025-09-20T12:56:54-08:00"
+                    },
+                    {
+                        "Priority": "1",
+                        "Caption": "2016 Back Cove 37 boat docked on a sunny day, with cityscape background.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124153018-3.jpg",
+                        "LastModifiedDateTime": "2025-09-20T12:56:58-08:00"
+                    },
+                    {
+                        "Priority": "2",
+                        "Caption": "2016 Back Cove 37 boat on calm water, blue hull, clear sky background.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124153681-4.jpg",
+                        "LastModifiedDateTime": "2025-09-20T12:56:59-08:00"
+                    },
+                    {
+                        "Priority": "3",
+                        "Caption": "2016 Back Cove 37 boat on water, blue hull, cityscape background.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124155218-1.jpg",
+                        "LastModifiedDateTime": "2025-09-20T12:56:58-08:00"
+                    },
+                    {
+                        "Priority": "4",
+                        "Caption": "2016 Back Cove 37 boat on water, urban buildings in background, clear blue sky.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124155849-2.jpg",
+                        "LastModifiedDateTime": "2025-09-20T12:57:10-08:00"
+                    },
+                    {
+                        "Priority": "5",
+                        "Caption": "2016 Back Cove 37 boat cruising on a sunny day near waterfront buildings.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124156584-3.jpg",
+                        "LastModifiedDateTime": "2025-09-20T12:57:01-08:00"
+                    },
+                    {
+                        "Priority": "6",
+                        "Caption": "2016 Back Cove 37 boat cruising on a sunny day near waterfront buildings.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124157312-4.jpg",
+                        "LastModifiedDateTime": "2025-09-20T12:57:03-08:00"
+                    },
+                    {
+                        "Priority": "7",
+                        "Caption": "2016 Back Cove 37 boat \"Abigail Rose\" cruising in Charleston, SC marina.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124158877-1.jpg",
+                        "LastModifiedDateTime": "2025-09-20T12:57:02-08:00"
+                    },
+                    {
+                        "Priority": "8",
+                        "Caption": "2016 Back Cove 37 yacht docked, showcasing sleek blue hull and elegant design.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124151609-1.jpg",
+                        "LastModifiedDateTime": "2025-09-22T08:03:28-08:00"
+                    },
+                    {
+                        "Priority": "9",
+                        "Caption": "2016 Back Cove 37 yacht docked at marina, blue hull, sunny day.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124200144-3.jpg",
+                        "LastModifiedDateTime": "2025-09-22T08:03:28-08:00"
+                    },
+                    {
+                        "Priority": "10",
+                        "Caption": "2016 Back Cove 37 boat docked on calm water under clear blue sky.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124159511-2.jpg",
+                        "LastModifiedDateTime": "2025-09-22T08:03:28-08:00"
+                    },
+                    {
+                        "Priority": "11",
+                        "Caption": "Storage compartment on a 2016 Back Cove 37 boat with cleaning supplies.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124202544-1.jpg",
+                        "LastModifiedDateTime": "2025-09-22T08:03:28-08:00"
+                    },
+                    {
+                        "Priority": "12",
+                        "Caption": "Storage compartment on a 2016 Back Cove 37 boat, open and empty.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124203223-2.jpg",
+                        "LastModifiedDateTime": "2025-09-22T08:03:28-08:00"
+                    },
+                    {
+                        "Priority": "13",
+                        "Caption": "Open storage compartment on a 2016 Back Cove 37 boat, showing interior details.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124213036-1.jpg",
+                        "LastModifiedDateTime": "2025-09-22T08:03:28-08:00"
+                    },
+                    {
+                        "Priority": "14",
+                        "Caption": "Open storage compartment on a 2016 Back Cove 37 boat, showcasing interior space.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124214280-3.jpg",
+                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
+                    },
+                    {
+                        "Priority": "15",
+                        "Caption": "2016 Back Cove 37 boat with striped seating and a wooden table on deck.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124213642-2.jpg",
+                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
+                    },
+                    {
+                        "Priority": "16",
+                        "Caption": "Luxurious interior of 2016 Back Cove 37 yacht with plush seating and elegant wood finishes.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124206877-2.jpg",
+                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
+                    },
+                    {
+                        "Priority": "17",
+                        "Caption": "Luxurious seating area on a 2016 Back Cove 37 yacht with elegant wood table.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124206203-1.jpg",
+                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
+                    },
+                    {
+                        "Priority": "18",
+                        "Caption": "Interior of a 2016 Back Cove 37 boat with a mounted TV and scenic window view.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124214894-4.jpg",
+                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
+                    },
+                    {
+                        "Priority": "19",
+                        "Caption": "2016 Back Cove 37 yacht interior with modern kitchen, featuring wood cabinetry and stainless steel sink.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124207765-4.jpg",
+                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
+                    },
+                    {
+                        "Priority": "20",
+                        "Caption": "2016 Back Cove 37 yacht kitchen with wood cabinetry, stainless appliances, and modern fixtures.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124203855-3.jpg",
+                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
+                    },
+                    {
+                        "Priority": "21",
+                        "Caption": "Interior of a 2016 Back Cove 37 yacht with helm seats and a wooden table.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124204535-4.jpg",
+                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
+                    },
+                    {
+                        "Priority": "22",
+                        "Caption": "Helm of 2016 Back Cove 37 boat with advanced navigation displays and wooden steering wheel.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124210089-2.jpg",
+                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
+                    },
+                    {
+                        "Priority": "23",
+                        "Caption": "Display screen showing Mercury Marine engine hours at 440.5 on a 2016 Back Cove 37.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20251007123511372-2.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:50:15-08:00"
+                    },
+                    {
+                        "Priority": "24",
+                        "Caption": "Cummins Onan marine generator display on 2016 Back Cove 37 boat.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20251007123510394-1.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:50:16-08:00"
+                    },
+                    {
+                        "Priority": "25",
+                        "Caption": "Interior of 2016 Back Cove 37 boat with helm station and seating.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124209237-1.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
+                    },
+                    {
+                        "Priority": "26",
+                        "Caption": "2016 Back Cove 37 boat interior storage compartment with open hatch and visible contents.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124210798-3.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
+                    },
+                    {
+                        "Priority": "27",
+                        "Caption": "Cozy cabin interior of 2016 Back Cove 37 with nautical decor and porthole windows.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124211403-4.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
+                    },
+                    {
+                        "Priority": "28",
+                        "Caption": "Luxurious cabin interior of 2016 Back Cove 37 yacht with cozy bed and wooden accents.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124216481-1.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
+                    },
+                    {
+                        "Priority": "29",
+                        "Caption": "Cozy cabin interior of 2016 Back Cove 37 yacht with bed and wooden storage.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124220784-2.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
+                    },
+                    {
+                        "Priority": "30",
+                        "Caption": "2016 Back Cove 37 interior with wooden cabinetry and porthole window.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124218509-4.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
+                    },
+                    {
+                        "Priority": "31",
+                        "Caption": "2016 Back Cove 37 yacht bathroom with shower, toilet, sink, and storage cabinets.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124217190-2.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
+                    },
+                    {
+                        "Priority": "32",
+                        "Caption": "2016 Back Cove 37 yacht docked at marina with clear blue sky.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124222129-4.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
+                    },
+                    {
+                        "Priority": "33",
+                        "Caption": "2016 Back Cove 37 yacht bathroom with shower, toilet, sink, and storage cabinets.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124217847-3.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
+                    },
+                    {
+                        "Priority": "34",
+                        "Caption": "Interior view of 2016 Back Cove 37 yacht with wooden finishes and steps leading to cockpit.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124220166-1.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
+                    },
+                    {
+                        "Priority": "35",
+                        "Caption": "Engine room of a 2016 Back Cove 37 boat, featuring a Cummins engine.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124223501-1.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
+                    },
+                    {
+                        "Priority": "36",
+                        "Caption": "Engine room of 2016 Back Cove 37 with Cummins Onan generator and air filter system.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124221437-3.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
+                    },
+                    {
+                        "Priority": "37",
+                        "Caption": "Engine compartment of a 2016 Back Cove 37 boat, featuring a Cummins engine.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124224139-2.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
+                    },
+                    {
+                        "Priority": "38",
+                        "Caption": "Engine compartment of a 2016 Back Cove 37 boat, showcasing electrical components and wiring.",
+                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124207309-3.jpg",
+                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
+                    }
+                ],
+                "DryWeightMeasure": "22,000 lb"
             },
             {
                 "DocumentID": "9932498",
@@ -648,283 +925,6 @@
                     }
                 ],
                 "DryWeightMeasure": "8,500 lb"
-            },
-            {
-                "DocumentID": "9932707",
-                "MaxDraft": "3.25 ft",
-                "BeamMeasure": "13 ft",
-                "NumberOfEngines": 1,
-                "TotalEnginePowerQuantity": "600 hp",
-                "BoatCityNameNoCaseAlnumOnly": "Charleston",
-                "Price": "585000.00 USD",
-                "BoatLocation": {
-                    "BoatCityName": "Charleston",
-                    "BoatCountryID": "US",
-                    "BoatStateCode": "SC"
-                },
-                "Model": "37",
-                "FuelTankCapacityMeasure": "300|gallon",
-                "Engines": [
-                    {
-                        "Make": "Cummins",
-                        "Model": "QSC 8.3",
-                        "Fuel": "diesel",
-                        "EnginePower": "600|horsepower",
-                        "Type": "Inboard",
-                        "Hours": 450
-                    }
-                ],
-                "ModelYear": 2016,
-                "OriginalPrice": "585000 USD",
-                "MakeString": "Back Cove",
-                "WaterTankCapacityMeasure": "120|gallon",
-                "LengthOverall": "38 ft",
-                "NominalLength": "37 ft",
-                "GeneralBoatDescription": [
-                    "<p>The Back Cove 37 continues the practical features that have identified the Back Cove range of down east style motor yachts: Usability, low maintenance and fuel efficiency.</p><p>In the master stateroom there is an island berth for ease of egress, and for stowage of owner\u2019s gear, there are many lockers and drawers provided. To starboard aft of the master is a full guest cabin with a pullman berth and ample storage capacity. Opposite and to port is a large head unit with separate stall shower.</p><p>Between the lower and salon sole levels, the mid-galley is fully equipped with a refrigerator, freezer, microwave oven and deep stainless steel sink as well as many drawers and lockers for galley storage. Large windows overhead provide the galley with ample visibility and light.</p><p>In the salon twin Stidd helm seats are provided for the helmsman and crew. Aft of the helm is an L-shaped settee and to port a two person love seat. An elegant inlaid table offers a comfortable space for dining with crew and guests. Large windows offer plenty of light and air while overhead a large sliding pilot hatch allows air to flow through the salon. At the aft end of the main salon large swing-bi-fold doors completely open up the salon to the cockpit. At the transom, fixed seating will provide the comfort you desire for socializing with guests.</p>"
-                ],
-                "HoldingTankCapacityMeasure": "50|gallon",
-                "AdditionalDetailDescription": [
-                    "<strong>Key Features</strong><br><ul> <li>Cummins QSC 8.3 600hp with 450 hours (Serviced March 2025)</li> <li>Cummins Onan 9.0 kw Generator with 370 hours</li> <li>Stars and Stripes Awlgrip Hull Paint (March of 2024)</li> <li>Fridge/Freezer in galley\u00a0</li> <li>LCD TV / DVD in guest stateroom</li> <li>LCD TV / DVD in master stateroom</li> <li>Ocean Air blinds (4) on bi-fold salon entry doors</li> <li>Ocean Air blinds on side windows</li> <li>Vitrofrigo DW70 drawer fridge in storage space below helm sole</li> <li>1800 Watt inverter</li> <li>Fresh water washdown anchor locker</li> <li>Oil changing system</li> <li>Power assist steering</li> <li>Power center window</li> <li>Raw water wash-down fore and aft</li> <li>Removable cockpit table with two brackets</li> <li>Shore water inlet in cockpit</li> <li>RayMarine glass cockpit electronic navigation system</li> <li>Integrated camera for stern view</li> <li>Multi-Colored underwater lights</li> <li>Bow & Stern thrusters</li> <li>Upgraded Stidd Helm Seats</li> <li>Custom Portland Mattress' in master and guest staterooms</li> <li>Ocean Air blinds on side windows and aft bi-fold salon entry doors</li> <li>Custom Cockpit Sunshade</li> <li>Cockpit cushions \u00a0</li> <li>2 RayMarine GS 125 Glass Bridge Displays</li> <li>1 RayMarine RD 424 HD 24\" Radar Dome</li> <li>1 Gem DT800. N2K XDCR Bronze</li> <li>1 Raystar 130 GPS Antenna</li> <li>1 RayMarineEV-200 AutoPilot</li> <li>1 Navionics 904p N.E. & Canyons</li> <li>1 HS5- Network Hub</li> <li>1 N2K Install Kit</li> <li>1 I Com M506 w/ Remote \u00a0Mic, Hailer Horn, 2-3.5' S/S Antennas w/AIS</li> <li>1 ACR. 75L Remote Spot Light</li> <li>1 KVH TV1</li> <li>2 Direct TV Boxes with RF Remote</li> <li>1 RMK -9 Remote Keypad</li> <li>1 RayMarine 170 Display</li></ul>",
-                    "<strong>Disclaimer</strong><br><p>The Company offers the details of this vessel in good faith but cannot guarantee or warrant the accuracy of this information nor warrant the condition of the vessel. A buyer should instruct his agents, or his surveyors, to investigate such details as the buyer desires validated. This vessel is offered subject to prior sale, price change, or withdrawal without notice.</p>"
-                ],
-                "Images": [
-                    {
-                        "Priority": "0",
-                        "Caption": "2016 Back Cove 37 boat docked in urban marina under clear blue sky.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124152365-2.jpg",
-                        "LastModifiedDateTime": "2025-09-20T12:56:54-08:00"
-                    },
-                    {
-                        "Priority": "1",
-                        "Caption": "2016 Back Cove 37 boat docked on a sunny day, with cityscape background.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124153018-3.jpg",
-                        "LastModifiedDateTime": "2025-09-20T12:56:58-08:00"
-                    },
-                    {
-                        "Priority": "2",
-                        "Caption": "2016 Back Cove 37 boat on calm water, blue hull, clear sky background.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124153681-4.jpg",
-                        "LastModifiedDateTime": "2025-09-20T12:56:59-08:00"
-                    },
-                    {
-                        "Priority": "3",
-                        "Caption": "2016 Back Cove 37 boat on water, blue hull, cityscape background.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124155218-1.jpg",
-                        "LastModifiedDateTime": "2025-09-20T12:56:58-08:00"
-                    },
-                    {
-                        "Priority": "4",
-                        "Caption": "2016 Back Cove 37 boat on water, urban buildings in background, clear blue sky.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124155849-2.jpg",
-                        "LastModifiedDateTime": "2025-09-20T12:57:10-08:00"
-                    },
-                    {
-                        "Priority": "5",
-                        "Caption": "2016 Back Cove 37 boat cruising on a sunny day near waterfront buildings.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124156584-3.jpg",
-                        "LastModifiedDateTime": "2025-09-20T12:57:01-08:00"
-                    },
-                    {
-                        "Priority": "6",
-                        "Caption": "2016 Back Cove 37 boat cruising on a sunny day near waterfront buildings.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124157312-4.jpg",
-                        "LastModifiedDateTime": "2025-09-20T12:57:03-08:00"
-                    },
-                    {
-                        "Priority": "7",
-                        "Caption": "2016 Back Cove 37 boat \"Abigail Rose\" cruising in Charleston, SC marina.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124158877-1.jpg",
-                        "LastModifiedDateTime": "2025-09-20T12:57:02-08:00"
-                    },
-                    {
-                        "Priority": "8",
-                        "Caption": "2016 Back Cove 37 yacht docked, showcasing sleek blue hull and elegant design.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124151609-1.jpg",
-                        "LastModifiedDateTime": "2025-09-22T08:03:28-08:00"
-                    },
-                    {
-                        "Priority": "9",
-                        "Caption": "2016 Back Cove 37 yacht docked at marina, blue hull, sunny day.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124200144-3.jpg",
-                        "LastModifiedDateTime": "2025-09-22T08:03:28-08:00"
-                    },
-                    {
-                        "Priority": "10",
-                        "Caption": "2016 Back Cove 37 boat docked on calm water under clear blue sky.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124159511-2.jpg",
-                        "LastModifiedDateTime": "2025-09-22T08:03:28-08:00"
-                    },
-                    {
-                        "Priority": "11",
-                        "Caption": "Storage compartment on a 2016 Back Cove 37 boat with cleaning supplies.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124202544-1.jpg",
-                        "LastModifiedDateTime": "2025-09-22T08:03:28-08:00"
-                    },
-                    {
-                        "Priority": "12",
-                        "Caption": "Storage compartment on a 2016 Back Cove 37 boat, open and empty.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124203223-2.jpg",
-                        "LastModifiedDateTime": "2025-09-22T08:03:28-08:00"
-                    },
-                    {
-                        "Priority": "13",
-                        "Caption": "Open storage compartment on a 2016 Back Cove 37 boat, showing interior details.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124213036-1.jpg",
-                        "LastModifiedDateTime": "2025-09-22T08:03:28-08:00"
-                    },
-                    {
-                        "Priority": "14",
-                        "Caption": "Open storage compartment on a 2016 Back Cove 37 boat, showcasing interior space.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124214280-3.jpg",
-                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
-                    },
-                    {
-                        "Priority": "15",
-                        "Caption": "2016 Back Cove 37 boat with striped seating and a wooden table on deck.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124213642-2.jpg",
-                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
-                    },
-                    {
-                        "Priority": "16",
-                        "Caption": "Luxurious interior of 2016 Back Cove 37 yacht with plush seating and elegant wood finishes.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124206877-2.jpg",
-                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
-                    },
-                    {
-                        "Priority": "17",
-                        "Caption": "Luxurious seating area on a 2016 Back Cove 37 yacht with elegant wood table.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124206203-1.jpg",
-                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
-                    },
-                    {
-                        "Priority": "18",
-                        "Caption": "Interior of a 2016 Back Cove 37 boat with a mounted TV and scenic window view.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124214894-4.jpg",
-                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
-                    },
-                    {
-                        "Priority": "19",
-                        "Caption": "2016 Back Cove 37 yacht interior with modern kitchen, featuring wood cabinetry and stainless steel sink.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124207765-4.jpg",
-                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
-                    },
-                    {
-                        "Priority": "20",
-                        "Caption": "2016 Back Cove 37 yacht kitchen with wood cabinetry, stainless appliances, and modern fixtures.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124203855-3.jpg",
-                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
-                    },
-                    {
-                        "Priority": "21",
-                        "Caption": "Interior of a 2016 Back Cove 37 yacht with helm seats and a wooden table.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124204535-4.jpg",
-                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
-                    },
-                    {
-                        "Priority": "22",
-                        "Caption": "Helm of 2016 Back Cove 37 boat with advanced navigation displays and wooden steering wheel.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124210089-2.jpg",
-                        "LastModifiedDateTime": "2025-09-22T08:03:29-08:00"
-                    },
-                    {
-                        "Priority": "23",
-                        "Caption": "Display screen showing Mercury Marine engine hours at 440.5 on a 2016 Back Cove 37.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20251007123511372-2.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:50:15-08:00"
-                    },
-                    {
-                        "Priority": "24",
-                        "Caption": "Cummins Onan marine generator display on 2016 Back Cove 37 boat.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20251007123510394-1.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:50:16-08:00"
-                    },
-                    {
-                        "Priority": "25",
-                        "Caption": "Interior of 2016 Back Cove 37 boat with helm station and seating.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124209237-1.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
-                    },
-                    {
-                        "Priority": "26",
-                        "Caption": "2016 Back Cove 37 boat interior storage compartment with open hatch and visible contents.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124210798-3.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
-                    },
-                    {
-                        "Priority": "27",
-                        "Caption": "Cozy cabin interior of 2016 Back Cove 37 with nautical decor and porthole windows.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124211403-4.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
-                    },
-                    {
-                        "Priority": "28",
-                        "Caption": "Luxurious cabin interior of 2016 Back Cove 37 yacht with cozy bed and wooden accents.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124216481-1.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
-                    },
-                    {
-                        "Priority": "29",
-                        "Caption": "Cozy cabin interior of 2016 Back Cove 37 yacht with bed and wooden storage.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124220784-2.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
-                    },
-                    {
-                        "Priority": "30",
-                        "Caption": "2016 Back Cove 37 interior with wooden cabinetry and porthole window.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124218509-4.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
-                    },
-                    {
-                        "Priority": "31",
-                        "Caption": "2016 Back Cove 37 yacht bathroom with shower, toilet, sink, and storage cabinets.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124217190-2.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
-                    },
-                    {
-                        "Priority": "32",
-                        "Caption": "2016 Back Cove 37 yacht docked at marina with clear blue sky.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124222129-4.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
-                    },
-                    {
-                        "Priority": "33",
-                        "Caption": "2016 Back Cove 37 yacht bathroom with shower, toilet, sink, and storage cabinets.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124217847-3.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
-                    },
-                    {
-                        "Priority": "34",
-                        "Caption": "Interior view of 2016 Back Cove 37 yacht with wooden finishes and steps leading to cockpit.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124220166-1.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
-                    },
-                    {
-                        "Priority": "35",
-                        "Caption": "Engine room of a 2016 Back Cove 37 boat, featuring a Cummins engine.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124223501-1.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
-                    },
-                    {
-                        "Priority": "36",
-                        "Caption": "Engine room of 2016 Back Cove 37 with Cummins Onan generator and air filter system.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124221437-3.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
-                    },
-                    {
-                        "Priority": "37",
-                        "Caption": "Engine compartment of a 2016 Back Cove 37 boat, featuring a Cummins engine.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124224139-2.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
-                    },
-                    {
-                        "Priority": "38",
-                        "Caption": "Engine compartment of a 2016 Back Cove 37 boat, showcasing electrical components and wiring.",
-                        "Uri": "https://images.boatsgroup.com/images/1/27/7/2016-back-cove-37-power-9932707-20250920124207309-3.jpg",
-                        "LastModifiedDateTime": "2025-10-07T12:40:24-08:00"
-                    }
-                ],
-                "DryWeightMeasure": "22,000 lb"
             },
             {
                 "DocumentID": "9568233",
@@ -6996,6 +6996,320 @@
                 "DryWeightMeasure": null
             },
             {
+                "DocumentID": "9418350",
+                "BeamMeasure": "10.5 ft",
+                "NumberOfEngines": 3,
+                "TotalEnginePowerQuantity": "1,050 hp",
+                "BoatCityNameNoCaseAlnumOnly": "Coral Gables",
+                "Price": "279000.00 USD",
+                "BoatLocation": {
+                    "BoatCityName": "Coral Gables",
+                    "BoatCountryID": "US",
+                    "BoatStateCode": "FL"
+                },
+                "Model": "375 Walkaround",
+                "FuelTankCapacityMeasure": "350|gallon",
+                "Engines": [
+                    {
+                        "Make": "Yamaha",
+                        "Model": "F350",
+                        "Fuel": "unleaded",
+                        "EnginePower": "350|horsepower",
+                        "Type": "Outboard 4 Stroke",
+                        "PropellerType": "3 Blade, Stainless Steel",
+                        "Year": 2016,
+                        "Hours": 660,
+                        "BoatEngineLocationCode": "Starboard"
+                    },
+                    {
+                        "Make": "Yamaha",
+                        "Model": "F350",
+                        "Fuel": "unleaded",
+                        "EnginePower": "350|horsepower",
+                        "Type": "Outboard 4 Stroke",
+                        "PropellerType": "3 Blade, Stainless Steel",
+                        "Year": 2016,
+                        "Hours": 660,
+                        "BoatEngineLocationCode": "Center"
+                    },
+                    {
+                        "Make": "Yamaha",
+                        "Model": "F350",
+                        "Fuel": "unleaded",
+                        "EnginePower": "350|horsepower",
+                        "Type": "Outboard 4 Stroke",
+                        "PropellerType": "3 Blade, Stainless Steel",
+                        "Year": 2016,
+                        "Hours": 660,
+                        "BoatEngineLocationCode": "Port"
+                    }
+                ],
+                "ModelYear": 2016,
+                "OriginalPrice": "279000 USD",
+                "MakeString": "Intrepid",
+                "WaterTankCapacityMeasure": "30|gallon",
+                "LengthOverall": "37 ft",
+                "NominalLength": "37 ft",
+                "GeneralBoatDescription": [
+                    "<p>All new exterior Upholstery done in June 2025.</p><p>37 Intrepid 2016 Walkaround, loaded with Options such as: Dive Door, Bow Thruster, Sat TV, Flir Nightvision Camera, All Garmin Electronics, Auto Pilot, all JL Audio Speakers, and more.</p><p>She is powered by triple Yamaha 350's with all done updates, recently serviced and she has 670 hours.</p>"
+                ],
+                "HoldingTankCapacityMeasure": "14|gallon",
+                "AdditionalDetailDescription": [
+                    "<strong>Manufacturer Provided Description</strong><br><p>This one-of-a-kind design delivers the accessibility of a walk around with the visibility of a step-up helm and forward cockpit seating, while all along doing it with the sexier lines and profile look of a cuddy. Moving the head out of the cabin created roomier overnight accommodations with a full galley, extra storage space and a convertible dinette-berth. Hidden under the console, the innovative new head is unlike any on a boat of its size, featuring a separate stall shower with space saving retractable commode, elegant vanity and spacious dressing room. We build each Intrepid to order so tell us what works for you, and we\u2019ll craft your new 375 for just the boating experience you have in mind.</p><p>You can expect the same smoothness on the water that every Intrepid is known for. A smooth, dry ride and maximum deadrise are the result of our industry-leading transverse stepped hull design. Vacuum-bagged, infused, and hand laid knitted uni-and multi-directional fiberglass laminates, foam-cored hullsides, transoms, boat deck liners and wood free construction provide unprecedented strength, rigidity and safety without the performance-robbing weight.\u00a0</p>",
+                    "<strong>Features</strong><br><ul> <li>White/White Gel Coat</li> <li>Tinned Wiring</li> <li>Navigation Lights</li> <li>Auto Bilge Pump (2)</li> <li>Breaker Panel Switches</li> <li>12/110 Volt refrigerator in cabin</li> <li>Separation fuel Filters</li> <li>Solid Stainless Steel Hardware</li> <li>Guttered Cockpit Hatches with Self Bailing Cockpit</li> <li>PVC Foam Core Vacuum-bagged</li> <li>Non-woven Multi-directional hand laid and infused fiberglass</li> <li>Rocker solonoid battery switches in lockable compartment</li> <li>Deck and Spring line Cleats</li> <li>Hawse Pipes for Cleats</li> <li>Console Windshield</li> <li>Integral Motor Bracket</li> <li>Insulated Fish box Port Aft with Thru</li> <li>Transom Ball Valve and Macerator</li> <li>Bow Eye</li> <li>Non-Skid Deck and Gunwales</li> <li>Aluminum Fuel Tank</li> <li>Heavy Duty Vinyl Rubrail</li> <li>Push button LED back lit switches</li> <li>Swing in dive door with fold out ladder</li> <li>Bennett trim tabs w/ auto retract and digital display</li> <li>Pressurized fresh water system with 40 gallon tank</li> <li>Forward Recessed Deck Hatch</li> <li>U-Shaped Seating Forward with Pull Out Filler</li> <li>Electric hideaway head with macerator and holding tank</li> <li>Galley with sink and hard surface countertop</li> <li>Cabin cushions</li> <li>Cabin Lights</li> <li>Cabin / Head Skylights</li> <li>Anchor Roller Thru Bow</li> <li>Plexi Trim Package</li> <li>Fold under swim ladder</li> <li>Four cockpit LED lights</li> <li>Console w/ full head, separate shower, vanity and U Shape seating</li> <li>Port side forward seat with storage</li> <li>High Water Alarm in cabin</li> <li>Integrated overhead cabin storage compartments</li> <li>Ocean Elite Helm Seat w/ fiberglass base. Includes trash compartment and storage</li> <li>Bow rail</li> <li>Rear Facing Console Seat</li></ul>",
+                    "<strong>Disclaimer</strong><br><p>The Company offers the details of this vessel in good faith but cannot guarantee or warrant the accuracy of this information nor warrant the condition of the vessel. A buyer should instruct his agents, or his surveyors, to investigate such details as the buyer desires validated. This vessel is offered subject to prior sale, price change, or withdrawal without notice.</p>"
+                ],
+                "Images": [
+                    {
+                        "Priority": "0",
+                        "Caption": "2016 Intrepid 375 Walkaround boat docked by waterfront homes.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240618080348327-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2024-06-18T08:04:04-08:00"
+                    },
+                    {
+                        "Priority": "1",
+                        "Caption": "2016 Intrepid 375 Walkaround boat docked on a serene river.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240605150028766-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2024-06-05T15:00:31-08:00"
+                    },
+                    {
+                        "Priority": "2",
+                        "Caption": "2016 Intrepid 375 Walkaround boat docked on a calm river.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120157771-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2024-06-11T12:01:58-08:00"
+                    },
+                    {
+                        "Priority": "3",
+                        "Caption": "Luxurious seating on a 2016 Intrepid 375 Walkaround boat with quilted upholstery and cup holders.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20250818192759352-1.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:43:01-08:00"
+                    },
+                    {
+                        "Priority": "4",
+                        "Caption": "2016 Intrepid 375 Walkaround boat interior with cushioned seating and cup holders.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20250818192759982-2.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:43:02-08:00"
+                    },
+                    {
+                        "Priority": "5",
+                        "Caption": "White quilted seat on 2016 Intrepid 375 Walkaround boat, featuring blue trim accents.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20250818192800527-3.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:43:09-08:00"
+                    },
+                    {
+                        "Priority": "6",
+                        "Caption": "2016 Intrepid 375 Walkaround boat interior with white quilted seating and speaker.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20250818192801062-4.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:43:04-08:00"
+                    },
+                    {
+                        "Priority": "7",
+                        "Caption": "2016 Intrepid 375 Walkaround interior with control panel, microwave, and storage.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120206032-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "8",
+                        "Caption": "2016 Intrepid 375 Walkaround boat seat with white diamond stitching and blue trim.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20250818192802206-1.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:43:04-08:00"
+                    },
+                    {
+                        "Priority": "9",
+                        "Caption": "2016 Intrepid 375 Walkaround boat interior kitchen with white cabinets and countertop.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120207709-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "10",
+                        "Caption": "2016 Intrepid 375 Walkaround electrical control panel.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120208943-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "11",
+                        "Caption": "Life jackets and sunscreen in storage on a 2016 Intrepid 375 Walkaround boat.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120210692-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "12",
+                        "Caption": "2016 Intrepid 375 Walkaround boat helm with Garmin navigation system.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120213738-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "13",
+                        "Caption": "KVH TracVision TV3 satellite dome on 2016 Intrepid 375 Walkaround boat.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120214568-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "14",
+                        "Caption": "2016 Intrepid 375 Walkaround thruster control panel",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120215734-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "15",
+                        "Caption": "Bennett trim tab control panel on 2016 Intrepid 375 Walkaround boat.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120217690-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "16",
+                        "Caption": "Garmin control panel on a 2016 Intrepid 375 Walkaround boat.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120218973-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "17",
+                        "Caption": "ICOM VHF Marine IC-M506 and FLIR control panel on 2016 Intrepid 375 Walkaround.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120220769-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "18",
+                        "Caption": "2016 Intrepid 375 Walkaround electronics panel with Yamaha, Icom, and FLIR devices.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120222734-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "19",
+                        "Caption": "Garmin navigation display on 2016 Intrepid 375 Walkaround boat.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120223676-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "20",
+                        "Caption": "Garmin display and controls on a 2016 Intrepid 375 Walkaround boat.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120224702-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "21",
+                        "Caption": "Control panel of a 2016 Intrepid 375 Walkaround boat with labeled buttons.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120225715-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "22",
+                        "Caption": "ICOM radio microphone on a 2016 Intrepid 375 Walkaround boat.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120228538-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "23",
+                        "Caption": "Yamaha engine hours display on a 2016 Intrepid 375 Walkaround boat.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120230517-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "24",
+                        "Caption": "2016 Intrepid 375 Walkaround boat dashboard with navigation and control systems.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120232193-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "25",
+                        "Caption": "2016 Intrepid 375 Walkaround boat interior with built-in speakers.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120233731-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "26",
+                        "Caption": "Close-up of a speaker on a 2016 Intrepid 375 Walkaround boat.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120234744-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "27",
+                        "Caption": "2016 Intrepid 375 Walkaround with triple outboard engines docked by a canal.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120236885-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "28",
+                        "Caption": "2016 Intrepid 375 Walkaround boat deck with water view.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120238800-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "29",
+                        "Caption": "2016 Intrepid 375 Walkaround boat interior with fishing rod holders and storage compartments.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120240869-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "30",
+                        "Caption": "2016 Intrepid 375 Walkaround boat with triple outboard engines docked by a canal.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120242943-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "31",
+                        "Caption": "2016 Intrepid 375 Walkaround Next Gen generator with 'No Step' warning.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120244870-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "32",
+                        "Caption": "2016 Intrepid 375 Walkaround boat deck on calm water.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120246843-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "33",
+                        "Caption": "2016 Intrepid 375 Walkaround anchor windlass system.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120248965-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "34",
+                        "Caption": "Close-up of spotlight on 2016 Intrepid 375 Walkaround boat.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120250886-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "35",
+                        "Caption": "2016 Intrepid 375 Walkaround boat camera system.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120252835-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "36",
+                        "Caption": "2016 Intrepid 375 Walkaround boat radar system with tropical background.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120253810-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "37",
+                        "Caption": "2016 Intrepid 375 Walkaround cabin with white seating and decorative pillows.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120255954-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "38",
+                        "Caption": "2016 Intrepid 375 Walkaround interior with TV and white leather seating.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120257860-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "39",
+                        "Caption": "Fusion marine stereo system on a 2016 Intrepid 375 Walkaround boat.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120300079-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    },
+                    {
+                        "Priority": "40",
+                        "Caption": "2016 Intrepid 375 Walkaround boat docked by a river.",
+                        "Uri": "https://images.boatsgroup.com/images/1/83/50/2016-intrepid-375-walkaround-power-9418350-20240611120302685-1_XLARGE.jpg",
+                        "LastModifiedDateTime": "2025-08-18T19:29:12-08:00"
+                    }
+                ],
+                "DryWeightMeasure": null
+            },
+            {
                 "DocumentID": "9959209",
                 "BeamMeasure": "11.08 ft",
                 "NumberOfEngines": 3,
@@ -7432,242 +7746,6 @@
                         "Caption": "",
                         "Uri": "https://images.boatsgroup.com/images/1/29/8/2020-intrepid-407-cuddy-power-9712908-20250312095852780-1_XLARGE.jpg",
                         "LastModifiedDateTime": "2025-09-25T09:24:39-08:00"
-                    }
-                ],
-                "DryWeightMeasure": null
-            },
-            {
-                "DocumentID": "9969412",
-                "BeamMeasure": "13.67 ft",
-                "NumberOfEngines": 4,
-                "TotalEnginePowerQuantity": "1,700 hp",
-                "BoatCityNameNoCaseAlnumOnly": "Boca Raton",
-                "Price": "799000.00 USD",
-                "BoatLocation": {
-                    "BoatCityName": "Boca Raton",
-                    "BoatCountryID": "US",
-                    "BoatStateCode": "FL"
-                },
-                "Model": "475 Sport Yacht",
-                "FuelTankCapacityMeasure": "548|gallon",
-                "Engines": [
-                    {
-                        "Make": "Yamaha",
-                        "Model": "425 XTO",
-                        "Fuel": "unleaded",
-                        "EnginePower": "425|horsepower",
-                        "Type": "Outboard",
-                        "PropellerType": "3 Blade, Stainless Steel",
-                        "Hours": 924,
-                        "BoatEngineLocationCode": "Port"
-                    },
-                    {
-                        "Make": "Yamaha",
-                        "Model": "425 XTO",
-                        "Fuel": "unleaded",
-                        "EnginePower": "425|horsepower",
-                        "Type": "Outboard",
-                        "PropellerType": "3 Blade, Stainless Steel",
-                        "Hours": 924,
-                        "BoatEngineLocationCode": "Center Port"
-                    },
-                    {
-                        "Make": "Yamaha",
-                        "Model": "425 XTO",
-                        "Fuel": "unleaded",
-                        "EnginePower": "425|horsepower",
-                        "Type": "Outboard",
-                        "PropellerType": "3 Blade, Stainless Steel",
-                        "Hours": 924,
-                        "BoatEngineLocationCode": "Center Starboard"
-                    },
-                    {
-                        "Make": "Yamaha",
-                        "Model": "425 XTO",
-                        "Fuel": "unleaded",
-                        "EnginePower": "425|horsepower",
-                        "Type": "Outboard",
-                        "PropellerType": "3 Blade, Stainless Steel",
-                        "Hours": 924,
-                        "BoatEngineLocationCode": "Starboard"
-                    }
-                ],
-                "ModelYear": 2019,
-                "OriginalPrice": "799000 USD",
-                "MakeString": "Intrepid",
-                "WaterTankCapacityMeasure": "100|gallon",
-                "LengthOverall": "47.5 ft",
-                "NominalLength": "47 ft",
-                "GeneralBoatDescription": [
-                    "<p>Introducing <em>TEKEZE</em></p><p>This Beautiful 475 Sport Yacht is Highly Optioned, Very Well Maintained and Ready for a New Home!</p><p><em><u>\u00a0</u></em><u>Build Features:</u></p><ul> <li>Quad Yamaha 425 XTOs\u00a0</li> <li>Yamaha Helm Master Joystick Piloting</li> <li>Fischer Panda 12 kw Diesel Generator (Upgraded 40 Gallon Diesel Tank)</li> <li>Sea Keeper 6</li> <li>Vetus Bow Thruster</li> <li>Maxwell Windlass System w/ Polished Stainless Steel 35lb Anchor</li> <li>Air Conditioning / Heating System <ul> <li>Helm Deck - Dual Unit 30,000 BTU (total)</li> <li>Main Cabin - 16,000 BTU\u00a0</li> <li>Master Stateroom - 12,000 BTU</li> </ul></li> <li>Custom Helm Seat w/ Dual Isotherm Refrigerators</li> <li>Upgraded Quilted Upholstery</li> <li>Custom Obecchi Wood Veneer Cabin Cabinetry\u00a0</li> <li>Fold Down Transom Bench Seat</li> <li>Swing in Dive Door w/ Heavy Duty Fold Out Ladder</li> <li>Full 4 Sided Helm Deck Enclosure\u00a0</li> <li>In Deck Cockpit Baitwell w/ Hooker Sea Chest 4500 GPH Pump</li> <li>Taco Grand Slam Outrigger System w/ 18' Poles</li></ul><p><u>Electronics:</u></p><ul> <li>Dual Garmin 22\" Displays</li> <li>Garmin Open Array Radar</li> <li>FLIR Night Vision Camera</li> <li>Fusion Stereo | JL Audio Speakers & Amps</li> <li>Forward Lightbar</li> <li>KVH TracVision TV3</li> <li>ICOM VHF Radio</li> <li>Dual Trumpet Electric Horn</li> <li>Cabin Samsung 32\" TV</li></ul><p><br /></p>"
-                ],
-                "HoldingTankCapacityMeasure": "40|gallon",
-                "AdditionalDetailDescription": [
-                    "<strong>Steering System</strong><br>Joystick Control",
-                    "<strong>Disclaimer</strong><br><p>The Company offers the details of this vessel in good faith but cannot guarantee or warrant the accuracy of this information nor warrant the condition of the vessel. A buyer should instruct his agents, or his surveyors, to investigate such details as the buyer desires validated. This vessel is offered subject to prior sale, price change, or withdrawal without notice.</p>"
-                ],
-                "Images": [
-                    {
-                        "Priority": "0",
-                        "Caption": "2019 Intrepid 475 Sport Yacht cruising on water near a coastal area.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173342297-4.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:51-08:00"
-                    },
-                    {
-                        "Priority": "1",
-                        "Caption": "2019 Intrepid 475 Sport Yacht docked with four powerful outboard engines.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173239129-1.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:47:42-08:00"
-                    },
-                    {
-                        "Priority": "2",
-                        "Caption": "2019 Intrepid 475 Sport Yacht helm with advanced navigation displays and luxurious seating.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173300096-1.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:02-08:00"
-                    },
-                    {
-                        "Priority": "3",
-                        "Caption": "Helm of 2019 Intrepid 475 Sport Yacht with Garmin navigation system and steering wheel.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173301833-2.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:04-08:00"
-                    },
-                    {
-                        "Priority": "4",
-                        "Caption": "2019 Intrepid 475 Sport Yacht helm with luxurious seating and advanced navigation controls.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173303682-3.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:06-08:00"
-                    },
-                    {
-                        "Priority": "5",
-                        "Caption": "Luxurious helm seating on 2019 Intrepid 475 Sport Yacht with quilted upholstery and chrome accents.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173305329-4.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:08-08:00"
-                    },
-                    {
-                        "Priority": "6",
-                        "Caption": "Luxurious interior of 2019 Intrepid 475 Sport Yacht with white quilted seating and sleek table.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173254670-4.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:47:57-08:00"
-                    },
-                    {
-                        "Priority": "7",
-                        "Caption": "Luxurious interior of 2019 Intrepid 475 Sport Yacht with quilted seating and sleek design.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173311122-2.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:13-08:00"
-                    },
-                    {
-                        "Priority": "8",
-                        "Caption": "Luxurious interior of 2019 Intrepid 475 Sport Yacht with plush seating and sleek design.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173312832-3.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:51:16-08:00"
-                    },
-                    {
-                        "Priority": "9",
-                        "Caption": "2019 Intrepid 475 Sport Yacht deck with Yamaha outboard engines and storage compartments.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173242794-3.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:47:51-08:00"
-                    },
-                    {
-                        "Priority": "10",
-                        "Caption": "2019 Intrepid 475 Sport Yacht with white quilted seating and multiple Yamaha outboard engines.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173244544-4.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:47:48-08:00"
-                    },
-                    {
-                        "Priority": "11",
-                        "Caption": "2019 Intrepid 475 Sport Yacht with Garmin equipment, docked near waterfront homes.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173241002-2.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:47:44-08:00"
-                    },
-                    {
-                        "Priority": "12",
-                        "Caption": "Open storage compartment on 2019 Intrepid 475 Sport Yacht with blue interior.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173251274-2.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:47:54-08:00"
-                    },
-                    {
-                        "Priority": "13",
-                        "Caption": "Engine compartment of a 2019 Intrepid 475 Sport Yacht, showcasing mechanical components and wiring.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173249568-1.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:47:52-08:00"
-                    },
-                    {
-                        "Priority": "14",
-                        "Caption": "Stainless steel storage on 2019 Intrepid 475 Sport Yacht with rod holders and accessories.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173253020-3.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:47:55-08:00"
-                    },
-                    {
-                        "Priority": "15",
-                        "Caption": "Luxurious interior of 2019 Intrepid 475 Sport Yacht with modern seating and dining area.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173314508-4.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:17-08:00"
-                    },
-                    {
-                        "Priority": "16",
-                        "Caption": "Luxurious bathroom in 2019 Intrepid 475 Sport Yacht with modern fixtures and shower.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173319228-1.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:22-08:00"
-                    },
-                    {
-                        "Priority": "17",
-                        "Caption": "Cozy cabin interior of 2019 Intrepid 475 Sport Yacht with bed and porthole windows.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173320909-2.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:23-08:00"
-                    },
-                    {
-                        "Priority": "18",
-                        "Caption": "Cozy cabin interior of 2019 Intrepid 475 Sport Yacht with comfortable bedding.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173322589-3.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:25-08:00"
-                    },
-                    {
-                        "Priority": "19",
-                        "Caption": "Luxurious kitchen area in 2019 Intrepid 475 Sport Yacht with modern cabinetry and appliances.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173324223-4.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:27-08:00"
-                    },
-                    {
-                        "Priority": "20",
-                        "Caption": "Luxurious interior of 2019 Intrepid 475 Sport Yacht with modern design and elegant finishes.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173328841-1.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:31-08:00"
-                    },
-                    {
-                        "Priority": "21",
-                        "Caption": "Interior of 2019 Intrepid 475 Sport Yacht featuring TV, shower, and modern cabinetry.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173330534-2.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:33-08:00"
-                    },
-                    {
-                        "Priority": "22",
-                        "Caption": "Control panel of a 2019 Intrepid 475 Sport Yacht, featuring electrical system displays.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173332299-3.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:35-08:00"
-                    },
-                    {
-                        "Priority": "23",
-                        "Caption": "Fischer Panda generator display on 2019 Intrepid 475 Sport Yacht, showing 1094.4 hours usage.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173333507-4.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:38-08:00"
-                    },
-                    {
-                        "Priority": "24",
-                        "Caption": "2019 Intrepid 475 Sport Yacht with Garmin equipment, docked near luxury waterfront homes.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173337837-1.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:41-08:00"
-                    },
-                    {
-                        "Priority": "25",
-                        "Caption": "2019 Intrepid 475 Sport Yacht docked, showcasing spacious deck and sleek design.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173339593-2.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:42-08:00"
-                    },
-                    {
-                        "Priority": "26",
-                        "Caption": "2019 Intrepid 475 Sport Yacht with sleek design, docked by the waterfront.",
-                        "Uri": "https://images.boatsgroup.com/images/1/94/12/2019-intrepid-475-sport-yacht-power-9969412-20251005173341248-3.jpg",
-                        "LastModifiedDateTime": "2025-10-05T17:48:44-08:00"
                     }
                 ],
                 "DryWeightMeasure": null

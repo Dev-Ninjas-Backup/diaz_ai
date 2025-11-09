@@ -45,6 +45,7 @@ class VectorDataBase:
             logger.info("Data Saved Successfully")
             print(f"\033[92m✅ PASSED: Collected Data\033[0m")
         except Exception as e:
+            print(f"\033[91m❌ FAILED: Collect Data\033[0m")
             raise(e)
            
     
@@ -73,6 +74,7 @@ class VectorDataBase:
             print(f"\033[92m✅ PASSED: Data Merged\033[0m")
                 
         except Exception as e:
+            print(f"\033[91m❌ FAILED: Data Merge\033[0m")
             raise(e)
     
     
@@ -95,6 +97,7 @@ class VectorDataBase:
             logger.info("Data Processed Successfully")
             print(f"\033[92m✅ PASSED: Data Processed\033[0m")
         except Exception as e:
+            print(f"\033[91m❌ FAILED: Data Process\033[0m")
             raise(e)
     
     # don't use outside the class
@@ -113,6 +116,7 @@ class VectorDataBase:
             print(f"\033[92m✅ PASSED: Chunked\033[0m")
             return docs
         except Exception as e:
+            print(f"\033[91m❌ FAILED: Chunk\033[0m")
             raise(e)
         
     # don't use outside the class
@@ -138,6 +142,7 @@ class VectorDataBase:
             # print(client.get_collections())
             return client
         except Exception as e:
+            print(f"\033[91m❌ FAILED: Init Vector Database\033[0m")
             raise(e)
     
     
@@ -157,4 +162,5 @@ class VectorDataBase:
             logger.info("Data Vectorized Successfully")
             print(f"\033[92m✅ PASSED: Vectorized\033[0m")
         except Exception as e:
+            print(f"\033[91m❌ FAILED: Vectorize Data\033[0m")
             raise(e)
