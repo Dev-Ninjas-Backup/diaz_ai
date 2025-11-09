@@ -5,6 +5,9 @@ from app.utils.logger import get_logger
 import os
 import pandas as pd
 import re
+from qdrant_client import QdrantClient
+from qdrant_client.models import VectorParams, Distance
+from langchain_community.vectorstores import Qdrant
 
 logger = get_logger(__name__)
 
@@ -19,6 +22,8 @@ class VectorDataBase:
         self.process_data_loc = configs["database_loc"]["process_data_loc"]
         os.makedirs(configs["database_loc"]["raw_data_loc"], exist_ok=True)
         os.makedirs(configs["database_loc"]["process_data_loc"], exist_ok=True)
+        self.qdrant_url = configs["vector"]["url"]
+        self.collection_name = configs["vector"]["collection_name"]
     
     
     async def collect_data(self):
@@ -85,9 +90,34 @@ class VectorDataBase:
         except Exception as e:
             raise(e)
     
+    async def init_vector_database(self):
+        try:
+            logger.info("Initializing Vector Database.........")
+            client = QdrantClient(url=self.qdrant_url)
+            logger.info("Vector Database Initialized Successfully")
+            # create collection
+            if self.collection_name not in [c.name for c in client.get_collections().collections]:
+                client.create_collection(
+                    collection_name = self.collection_name,
+                    vectors_config = VectorParams(
+                        size = 3072,
+                        distance = Distance.COSINE
+                    )
+                )
+                logger.info("Collection Created Successfully")
+            else:
+                logger.info("Collection Already Exists")
+            # print(client.get_collections())
+            return client
+        except Exception as e:
+            raise(e)
     
-    def vectorize_data(self):
-        pass
+    async def vectorize_data(self):
+        try:
+            pass
+        except Exception as e:
+            raise(e)
+        
     
     
     
