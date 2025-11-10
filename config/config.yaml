@@ -47,4 +47,3 @@ vector:
   url: "http://localhost:6333"
   collection_name: "boat_vector_data"
   dim_size: 3072
-
