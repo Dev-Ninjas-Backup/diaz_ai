@@ -13,11 +13,11 @@ import asyncio
 # asyncio.run(vec.vectorize_data())
 
 
-ret = Retriever()
+# ret = Retriever()
 
-retriever = asyncio.run(ret.get_retriever())
+# retriever = asyncio.run(ret.get_retriever())
 
-input_text = "Do you have any Yamaha boats?"
-docs = retriever.invoke(input_text, k=10)
+# input_text = "Do you have any Yamaha boats?"
+# docs = retriever.invoke(input_text, k=10)
 
-print(docs)
+# print(docs)
