@@ -39,22 +39,22 @@ class SearchEngine:
             print(f"\033[91m❌ FAILED: Elasticsearch Connection\033[0m")
             raise (e)
 
-    async def search_boat(self, query, k: int = 5):
+    async def search_boat(self, query, k: int = 5, es: Elasticsearch = None):
         try:
             logger.info("Searching boat.....")
-            es = await self._init_search_engine()
-            vector_query = self.embed.embed_query(query)
-            query = {
-                "knn": {
-                    "field": "vector",
-                    "query_vector": vector_query,
-                    "k": k,
-                    "num_candidates": 50,
+            if es.ping():
+                vector_query = self.embed.embed_query(query)
+                query = {
+                    "knn": {
+                        "field": "vector",
+                        "query_vector": vector_query,
+                        "k": k,
+                        "num_candidates": 50,
+                    }
                 }
-            }
-            res = es.search(index=self.index_name, body=query)
-            logger.info("Search completed.....")
-            return res["hits"]["hits"]
+                res = es.search(index=self.index_name, body=query)
+                logger.info("Search completed.....")
+                return res["hits"]["hits"]
         except Exception as e:
             logger.error(f"Error while searching: {e}")
             raise (e)
