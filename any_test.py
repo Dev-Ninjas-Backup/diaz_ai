@@ -27,4 +27,4 @@ import asyncio
 index = DataIndex()
 
 
-asyncio.run(index._init_search_engine())
+asyncio.run(index.indexing_data())

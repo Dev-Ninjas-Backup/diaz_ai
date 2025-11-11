@@ -57,4 +57,5 @@ search:
   user: "elastic"
   pass: "xARs94-gKY_Sc3gZSCzv"
   # certificate: "certs/ca.crt"
+  index_name: "boat_data"
   
