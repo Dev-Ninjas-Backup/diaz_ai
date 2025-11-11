@@ -14,3 +14,5 @@ notebook
 uv.lock
 
 .pytest_cache
+
+chat.html

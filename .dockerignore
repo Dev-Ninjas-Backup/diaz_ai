@@ -21,3 +21,6 @@ venv/
 notebook/
 .venv
 .pytest_cache
+
+
+chat.html
