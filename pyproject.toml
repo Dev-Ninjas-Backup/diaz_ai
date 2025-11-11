@@ -28,6 +28,7 @@ dependencies = [
     "langgraph-checkpoint-mongodb>=0.2.1",
     "langgraph-checkpoint-postgres>=3.0.0",
     "langgraph-cli[inmem]>=0.4.5",
+    "more-itertools>=10.8.0",
     "pandas>=2.3.3",
     "psycopg[binary,pool]>=3.2.12",
     "pydantic>=2.12.3",

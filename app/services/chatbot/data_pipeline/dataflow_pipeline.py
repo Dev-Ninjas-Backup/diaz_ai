@@ -164,3 +164,6 @@ class VectorDataBase:
         except Exception as e:
             print(f"\033[91m❌ FAILED: Vectorize Data\033[0m")
             raise(e)
+        
+        
+        

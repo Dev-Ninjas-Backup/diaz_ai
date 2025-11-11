@@ -39,7 +39,8 @@ columns:
 
     "Engines",
     "TotalEnginePowerQuantity",
-    "NumberOfEngines"
+    "NumberOfEngines",
+    "Images"
   ]
 
 # Vector Database
