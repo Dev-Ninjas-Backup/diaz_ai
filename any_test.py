@@ -1,6 +1,7 @@
 from app.services.chatbot.data_pipeline.dataflow_pipeline import VectorDataBase
 from app.services.chatbot.retriever.qdrant_retriever import Retriever
 from app.services.search_engine.data_indexing_pipeline import DataIndex
+from app.services.search_engine.search import SearchEngine
 
 import asyncio
 
@@ -23,8 +24,18 @@ import asyncio
 
 # print(docs)
 
+### boat
 
-index = DataIndex()
+# index = DataIndex()
 
 
-asyncio.run(index.indexing_data())
+# asyncio.run(index.indexing_data())
+
+
+### search
+
+input_text = "Do you have any Yamaha boats?"
+
+sh = SearchEngine()
+
+print(asyncio.run(sh.search_boat(query=input_text)))
