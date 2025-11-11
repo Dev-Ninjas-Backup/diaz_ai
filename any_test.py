@@ -1,5 +1,6 @@
 from app.services.chatbot.data_pipeline.dataflow_pipeline import VectorDataBase
 from app.services.chatbot.retriever.qdrant_retriever import Retriever
+from app.services.search_engine.data_indexing_pipeline import DataIndex
 
 import asyncio
 
@@ -21,3 +22,9 @@ import asyncio
 # docs = retriever.invoke(input_text, k=10)
 
 # print(docs)
+
+
+index = DataIndex()
+
+
+asyncio.run(index._init_search_engine())

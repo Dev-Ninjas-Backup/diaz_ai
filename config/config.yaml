@@ -48,3 +48,13 @@ vector:
   url: "http://localhost:6333"
   collection_name: "boat_vector_data"
   dim_size: 3072
+
+
+# Search engine
+search:
+  pre_index_data_loc: "indexDatabase/"
+  elastic_url: "https://localhost:9200"
+  user: "elastic"
+  pass: "xARs94-gKY_Sc3gZSCzv"
+  # certificate: "certs/ca.crt"
+  
