@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boat Search</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+        .search-box {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 15px 20px;
+            font-size: 16px;
+            border: 2px solid #e0e6ed;
+            border-radius: 50px;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+        input[type="text"]:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 16px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        .loading {
+            display: none;
+            text-align: center;
+            color: #667eea;
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        .results {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .boat-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border: 1px solid #f0f0f0;
+        }
+        .boat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        .boat-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .boat-info {
+            padding: 20px;
+        }
+        .boat-card h3 {
+            color: #2c3e50;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        .boat-card p {
+            margin: 8px 0;
+            color: #5a6c7d;
+            line-height: 1.5;
+        }
+        .boat-card strong {
+            color: #667eea;
+            font-weight: 600;
+        }
+        .price {
+            font-size: 1.2rem;
+            color: #27ae60 !important;
+            font-weight: bold;
+        }
+        .view-details {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .view-details:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+        .no-results {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 18px;
+            margin: 40px 0;
+        }
+        .error {
+            text-align: center;
+            color: #e74c3c;
+            font-size: 18px;
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚤 Boat Search</h1>
+        
+        <div class="search-box">
+            <input type="text" id="searchQuery" placeholder="Search for boats..." />
+            <button onclick="searchBoats()">Search</button>
+        </div>
+        
+        <div class="loading" id="loading">🔍 Searching...</div>
+        <div class="results" id="results"></div>
+    </div>
+
+    <script>
+        async function searchBoats() {
+            const query = document.getElementById('searchQuery').value;
+            const loading = document.getElementById('loading');
+            const results = document.getElementById('results');
+            
+            if (!query) return;
+            
+            loading.style.display = 'block';
+            results.innerHTML = '';
+            
+            try {
+                const response = await fetch('http://localhost:8000/search_boat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query: query, k: 5 })
+                });
+                
+                const data = await response.json();
+                console.log('API Response:', data); // Debug log
+                loading.style.display = 'none';
+                
+                if (!data || data.length === 0) {
+                    results.innerHTML = '<div class="no-results">🚫 No boats found.</div>';
+                    return;
+                }
+                
+                data.forEach(boat => {
+                    // Handle both direct data and _source wrapped data
+                    const source = boat._source || boat;
+                    
+                    let images = [];
+                    let mainImage = 'https://via.placeholder.com/400x200?text=No+Image';
+                    
+                    try {
+                        if (source.Images) {
+                            let imageStr = source.Images;
+                            if (typeof imageStr === 'string') {
+                                // Fix single quotes to double quotes for valid JSON
+                                imageStr = imageStr.replace(/'/g, '"');
+                                images = JSON.parse(imageStr);
+                            } else {
+                                images = imageStr;
+                            }
+                            console.log('Parsed images:', images); // Debug log
+                            if (images && images.length > 0 && images[0].Uri) {
+                                mainImage = images[0].Uri;
+                            }
+                        }
+                    } catch (e) {
+                        console.error('Error parsing images:', e, source.Images);
+                    }
+                    
+                    const card = document.createElement('div');
+                    card.className = 'boat-card';
+                    card.innerHTML = `
+                        <img src="${mainImage}" alt="${source.MakeString || 'Boat'} ${source.Model || ''}" class="boat-image" 
+                             onload="console.log('Image loaded:', this.src)" 
+                             onerror="console.log('Image failed:', this.src); this.src='https://via.placeholder.com/400x200?text=Image+Not+Available'">
+                        <div class="boat-info">
+                            <h3>${source.MakeString || 'Unknown'} ${source.Model || ''} (${source.ModelYear || 'N/A'})</h3>
+                            <p class="price"><strong>💰 ${source.Price || 'Price not available'}</strong></p>
+                            <p><strong>📍 Location:</strong> ${source.BoatCityNameNoCaseAlnumOnly || 'N/A'}</p>
+                            <p><strong>📏 Length:</strong> ${source.NominalLength || 'N/A'}</p>
+                            <p><strong>⚙️ Engines:</strong> ${source.NumberOfEngines || 'N/A'}</p>
+                            <p><strong>🔧 Power:</strong> ${source.TotalEnginePowerQuantity || 'N/A'}</p>
+                            ${source.Link ? `<a href="${source.Link}" target="_blank" class="view-details">View Details</a>` : ''}
+                        </div>
+                    `;
+                    results.appendChild(card);
+                });
+            } catch (error) {
+                console.error('Search error:', error);
+                loading.style.display = 'none';
+                results.innerHTML = '<div class="error">❌ Error searching boats. Please try again.</div>';
+            }
+        }
+        
+        document.getElementById('searchQuery').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') searchBoats();
+        });
+    </script>
+</body>
+</html>
