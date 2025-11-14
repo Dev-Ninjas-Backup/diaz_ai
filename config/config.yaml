@@ -8,9 +8,12 @@ logger:
   log_dir: "logs"
 
 
+# api:
+#   api_1: "https://services.boats.com/pls/boats/search?key=9424cb9fae&fields=NumberOfEngines,DryWeightMeasure,WaterTankCapacityMeasure,FuelTankCapacityMeasure,HoldingTankCapacityMeasure,TotalEnginePowerQuantity,GeneralBoatDescription,AdditionalDetailDescription,DocumentID,MakeString,Model,ModelYear,BoatLocation,BoatCityNameNoCaseAlnumOnly,Price,OriginalPrice,CompanyName,Office,NominalLength,LengthOverall,BeamMeasure,MaxDraft,Engines,TotalEnginePowerQuantity,Images"
+#   api_2: "https://api.boats.com/inventory/search?key=YawGVsdoOdbfivrATkE4DM1XIGOEn1"
 api:
-  api_1: "https://services.boats.com/pls/boats/search?key=9424cb9fae&fields=NumberOfEngines,DryWeightMeasure,WaterTankCapacityMeasure,FuelTankCapacityMeasure,HoldingTankCapacityMeasure,TotalEnginePowerQuantity,GeneralBoatDescription,AdditionalDetailDescription,DocumentID,MakeString,Model,ModelYear,BoatLocation,BoatCityNameNoCaseAlnumOnly,Price,OriginalPrice,CompanyName,Office,NominalLength,LengthOverall,BeamMeasure,MaxDraft,Engines,TotalEnginePowerQuantity,Images"
-  api_2: "https://api.boats.com/inventory/search?key=YawGVsdoOdbfivrATkE4DM1XIGOEn1"
+  api_1: "https://api.floridayachttrader.com/api/boats/merged/all-sources"
+  api_2: "" 
 
 
 database_loc:
@@ -20,6 +23,7 @@ database_loc:
 # Data Preprocessing
 columns:
   keep: [
+    "Source",
     "GeneralBoatDescription",
     "AdditionalDetailDescription",
     "DocumentID",
@@ -53,9 +57,12 @@ vector:
 # Search engine
 search:
   pre_index_data_loc: "indexDatabase/"
-  elastic_url: "https://localhost:9200"
-  user: "elastic"
-  pass: "xARs94-gKY_Sc3gZSCzv"
+  # elastic_url: "https://localhost:9200"
+  # user: "elastic"
+  # pass: "xARs94-gKY_Sc3gZSCzv"
+  elastic_url: "http://localhost:9200"
+  user: "" # Remove or leave blank
+  pass: "" # Remove or leave blank
   # certificate: "certs/ca.crt"
   index_name: "boat_data"
   

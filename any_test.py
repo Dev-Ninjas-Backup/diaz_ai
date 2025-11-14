@@ -6,13 +6,13 @@ from app.services.search_engine.search import SearchEngine
 import asyncio
 
 
-# vec = VectorDataBase()
+vec = VectorDataBase()
 
 
-# asyncio.run(vec.collect_data())
+asyncio.run(vec.collect_data())
 # vec.merge_data()
-# vec.process_data()
-# asyncio.run(vec.vectorize_data())
+vec.process_data()
+asyncio.run(vec.vectorize_data())
 
 
 # ret = Retriever()
@@ -26,16 +26,16 @@ import asyncio
 
 ### boat
 
-# index = DataIndex()
+index = DataIndex()
 
-
-# asyncio.run(index.indexing_data())
+index.vectorize_data_for_search()   # <--- missing in your code
+asyncio.run(index.indexing_data())
 
 
 ### search
 
-input_text = "Do you have any Yamaha boats?"
+# input_text = "Do you have any Yamaha boats?"
 
-sh = SearchEngine()
+# sh = SearchEngine()
 
-print(asyncio.run(sh.search_boat(query=input_text)))
+# print(asyncio.run(sh.search_boat(query=input_text)))

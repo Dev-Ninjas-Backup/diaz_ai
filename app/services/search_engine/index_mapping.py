@@ -15,6 +15,11 @@ settings = {
 mappings = {
     "dynamic": "strict",
     "properties": {
+        "Source": {
+            "type": "text",
+            "analyzer": "folding_analyzer",
+            "fields": {"keyword": {"type": "keyword"}},
+        },
         "DocumentID": {"type": "long"},
         "Price": {"type": "text"},
         "BoatLocation": {

@@ -29,53 +29,96 @@ class VectorDataBase:
         self.collection_name = configs["vector"]["collection_name"]
         self.embed = OpenaiLLM().get_embeddings()
     
-    
     async def collect_data(self):
-        all_url = [self.data_url_1, self.data_url_2]
-        
-        try:  
-            logger.info("Collecting Data.........")
-            for i,url in enumerate(all_url):
-                data = await request_data(url)
-                save_json(
-                    json_data=data,
-                    index=i,
-                    folder_loc=self.data_save_loc
-                )
-            logger.info("Data Saved Successfully")
-            print(f"\033[92m✅ PASSED: Collected Data\033[0m")
-        except Exception as e:
-            print(f"\033[91m❌ FAILED: Collect Data\033[0m")
-            raise(e)
-           
-    
-    def merge_data(self):
-        all_data = []
         try:
-            logger.info("Merging Data.........")
-            for i in range(0,2):
-                data_load = load_json(
-                    folder_loc=self.data_save_loc,
-                    index=i
-                )
-                
-                if "data" in data_load and "results" in data_load["data"]:
-                    all_data.extend(data_load["data"]["results"])
-                else:
-                    all_data.extend(data_load["results"])
-            
+            logger.info("Collecting Data (Paginated)...")
+
+            base_url = self.data_url_1
+            page = 1
+            limit = 10
+            all_results = []
+
+            while True:
+                url = f"{base_url}?page={page}&limit={limit}&fields=minimal"
+
+                print(f"Fetching page {page} ...")
+                data = await request_data(url)
+
+                results = data.get("data", [])
+                metadata = data.get("metadata", {})
+
+                all_results.extend(results)
+
+                current_page = metadata.get("page", page)
+                # total_pages = metadata.get("totalPage", 1)
+                total_pages = 1
+
+                print(f"Page {current_page}/{total_pages}: {len(results)} items")
+
+                if current_page >= total_pages:
+                    print("Reached last page. Stopping.")
+                    break
+
+                page += 1
+
             save_json(
-                json_data=all_data,
+                json_data=all_results,
                 index="all",
                 folder_loc=self.data_save_loc
             )
-            
-            logger.info("Data Merged Successfully")
-            print(f"\033[92m✅ PASSED: Data Merged\033[0m")
-                
+
+            print("\033[92m✅ PASSED: Collected Paginated Data\033[0m")
+
         except Exception as e:
-            print(f"\033[91m❌ FAILED: Data Merge\033[0m")
-            raise(e)
+            print("\033[91m❌ FAILED: Paginated Collect Data\033[0m")
+            raise e
+        
+    # async def collect_data(self):
+    #     all_url = [self.data_url_1, self.data_url_2]
+        
+    #     try:  
+    #         logger.info("Collecting Data.........")
+    #         for i,url in enumerate(all_url):
+    #             data = await request_data(url)
+    #             save_json(
+    #                 json_data=data,
+    #                 index=i,
+    #                 folder_loc=self.data_save_loc
+    #             )
+    #         logger.info("Data Saved Successfully")
+    #         print(f"\033[92m✅ PASSED: Collected Data\033[0m")
+    #     except Exception as e:
+    #         print(f"\033[91m❌ FAILED: Collect Data\033[0m")
+    #         raise(e)
+           
+    
+    # def merge_data(self):
+    #     all_data = []
+    #     try:
+    #         logger.info("Merging Data.........")
+    #         for i in range(0,2):
+    #             data_load = load_json(
+    #                 folder_loc=self.data_save_loc,
+    #                 index=i
+    #             )
+                
+    #             if "data" in data_load and "results" in data_load["data"]:
+    #                 all_data.extend(data_load["data"]["results"])
+    #             else:
+    #                 all_data.extend(data_load["results"])
+            
+    #         save_json(
+    #             json_data=all_data,
+    #             index="all",
+    #             folder_loc=self.data_save_loc
+    #         )
+            
+    #         logger.info("Data Merged Successfully")
+    #         print(f"\033[92m✅ PASSED: Data Merged\033[0m")
+                
+    #     except Exception as e:
+    #         print(f"\033[91m❌ FAILED: Data Merge\033[0m")
+    #         raise(e)
     
     
     def process_data(self):

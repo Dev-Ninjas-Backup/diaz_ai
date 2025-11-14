@@ -41,35 +41,70 @@ class DataIndex:
             logger.error(f"Error while loading data: {e}")
             print(f"\033[91m❌ FAILED: Data Load\033[0m")
             raise (e)
-
+        
     def vectorize_data_for_search(self):
         try:
             logger.info("Vectorizing data for indexing.....")
+            
+            # Load fresh processed CSV
             df = self._load_data()
+
+            # REMOVE older pickle file to avoid duplicates
+            vector_file = os.path.join(
+                configs["search"]["pre_index_data_loc"], 
+                "index_vector_data.pkl"
+            )
+            if os.path.exists(vector_file):
+                os.remove(vector_file)
+                logger.info("Old vector file removed.")
+
+            # Generate vectors
+            available_cols = [c for c in self.keep if c in df.columns]
             df["vector"] = (
-                df[self.keep]
+                df[available_cols]
                 .fillna("")
-                .apply(
-                    lambda x: self.embed.embed_query(" ".join(x.astype(str))), axis=1
-                )
+                .apply(lambda x: self.embed.embed_query(" ".join(x.astype(str))), axis=1)
             )
-            # df.to_csv(
-            #     os.path.join(
-            #         configs["search"]["pre_index_data_loc"], "index_vector_data.csv"
-            #     ),
-            #     index=False,
-            # )
-            df.to_pickle(
-                os.path.join(
-                    configs["search"]["pre_index_data_loc"], "index_vector_data.pkl"
-                )
-            )
+
+            # Save new clean file
+            df.to_pickle(vector_file)
+
             logger.info("Data vectorized successfully for indexing.....")
             print(f"\033[92m✅ PASSED: Index Vector\033[0m")
         except Exception as e:
             logger.error(f"Error while vectorizing data: {e}")
             print(f"\033[91m❌ FAILED: Vector Index\033[0m")
             raise (e)
+
+#Mahadi Vai____________________________________
+    # def vectorize_data_for_search(self):
+    #     try:
+    #         logger.info("Vectorizing data for indexing.....")
+    #         df = self._load_data()
+    #         df["vector"] = (
+    #             df[self.keep]
+    #             .fillna("")
+    #             .apply(
+    #                 lambda x: self.embed.embed_query(" ".join(x.astype(str))), axis=1
+    #             )
+    #         )
+    #         # df.to_csv(
+    #         #     os.path.join(
+    #         #         configs["search"]["pre_index_data_loc"], "index_vector_data.csv"
+    #         #     ),
+    #         #     index=False,
+    #         # )
+    #         df.to_pickle(
+    #             os.path.join(
+    #                 configs["search"]["pre_index_data_loc"], "index_vector_data.pkl"
+    #             )
+    #         )
+    #         logger.info("Data vectorized successfully for indexing.....")
+    #         print(f"\033[92m✅ PASSED: Index Vector\033[0m")
+    #     except Exception as e:
+    #         logger.error(f"Error while vectorizing data: {e}")
+    #         print(f"\033[91m❌ FAILED: Vector Index\033[0m")
+    #         raise (e)
 
     async def _init_search_engine(self):
         try:

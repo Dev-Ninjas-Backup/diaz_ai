@@ -1,18 +1,29 @@
+# Environment files
 .env
-.venv
+.venv/
+uv.lock
+
+# Python cache and compiled files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-ab.json
-test.py
+# Logs
 logs/
 
+# IDE and editor settings
 .idea/
 .vscode/
 
-notebook
-uv.lock
+# Notebooks
+notebook/
 
-.pytest_cache
+# Test cache
+.pytest_cache/
 
+# Miscellaneous files
+ab.json
+test.py
 chat.html
+.DS_Store   
