@@ -11,6 +11,7 @@ from qdrant_client.models import VectorParams, Distance
 from langchain_qdrant import QdrantVectorStore
 from langchain_classic.docstore.document import Document
 import pprint
+import uuid
 
 logger = get_logger(__name__)
 
@@ -35,7 +36,7 @@ class VectorDataBase:
 
             base_url = self.data_url_1
             page = 1
-            limit = 10
+            limit = 2000
             all_results = []
 
             while True:
@@ -50,8 +51,8 @@ class VectorDataBase:
                 all_results.extend(results)
 
                 current_page = metadata.get("page", page)
-                # total_pages = metadata.get("totalPage", 1)
-                total_pages = 1
+                #total_pages = metadata.get("totalPage", 1)
+                total_pages = 2
 
                 print(f"Page {current_page}/{total_pages}: {len(results)} items")
 
@@ -201,7 +202,16 @@ class VectorDataBase:
                 collection_name = self.collection_name,
                 embedding = self.embed
             )
-            vector_store.add_documents(docs, ids=[doc.metadata["id"] for doc in docs])
+            
+            vector_store.add_documents(
+                docs,
+                ids=[
+                    str(uuid.uuid5(uuid.NAMESPACE_DNS, str(doc.metadata["id"])))
+                    for doc in docs
+                ]
+            )
+
+            # vector_store.add_documents(docs, ids=[doc.metadata["id"] for doc in docs])
             logger.info("Data Vectorized Successfully")
             print(f"\033[92m✅ PASSED: Vectorized\033[0m")
         except Exception as e:

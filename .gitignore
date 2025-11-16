@@ -27,3 +27,6 @@ ab.json
 test.py
 chat.html
 .DS_Store   
+
+
+qdrant_storage/

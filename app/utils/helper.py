@@ -29,9 +29,10 @@ import httpx
 import asyncio
 
 async def request_data(url, retries=5):
-    timeout = httpx.Timeout(40.0)
+    timeout = httpx.Timeout(600.0)
 
     for attempt in range(retries):
+        await asyncio.sleep(5)  # Small delay before each attempt
         try:
             async with httpx.AsyncClient(timeout=timeout, verify=False) as client:  # Added verify=False
                 print(f"🔗 Attempting to connect to: {url}")
