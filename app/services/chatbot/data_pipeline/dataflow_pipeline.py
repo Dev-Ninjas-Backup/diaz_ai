@@ -74,52 +74,6 @@ class VectorDataBase:
             print("\033[91m❌ FAILED: Paginated Collect Data\033[0m")
             raise e
         
-    # async def collect_data(self):
-    #     all_url = [self.data_url_1, self.data_url_2]
-        
-    #     try:  
-    #         logger.info("Collecting Data.........")
-    #         for i,url in enumerate(all_url):
-    #             data = await request_data(url)
-    #             save_json(
-    #                 json_data=data,
-    #                 index=i,
-    #                 folder_loc=self.data_save_loc
-    #             )
-    #         logger.info("Data Saved Successfully")
-    #         print(f"\033[92m✅ PASSED: Collected Data\033[0m")
-    #     except Exception as e:
-    #         print(f"\033[91m❌ FAILED: Collect Data\033[0m")
-    #         raise(e)
-           
-    
-    # def merge_data(self):
-    #     all_data = []
-    #     try:
-    #         logger.info("Merging Data.........")
-    #         for i in range(0,2):
-    #             data_load = load_json(
-    #                 folder_loc=self.data_save_loc,
-    #                 index=i
-    #             )
-                
-    #             if "data" in data_load and "results" in data_load["data"]:
-    #                 all_data.extend(data_load["data"]["results"])
-    #             else:
-    #                 all_data.extend(data_load["results"])
-            
-    #         save_json(
-    #             json_data=all_data,
-    #             index="all",
-    #             folder_loc=self.data_save_loc
-    #         )
-            
-    #         logger.info("Data Merged Successfully")
-    #         print(f"\033[92m✅ PASSED: Data Merged\033[0m")
-                
-    #     except Exception as e:
-    #         print(f"\033[91m❌ FAILED: Data Merge\033[0m")
-    #         raise(e)
     
     
     def process_data(self):
@@ -219,4 +173,50 @@ class VectorDataBase:
             raise(e)
         
         
+    # async def collect_data(self):
+    #     all_url = [self.data_url_1, self.data_url_2]
         
+    #     try:  
+    #         logger.info("Collecting Data.........")
+    #         for i,url in enumerate(all_url):
+    #             data = await request_data(url)
+    #             save_json(
+    #                 json_data=data,
+    #                 index=i,
+    #                 folder_loc=self.data_save_loc
+    #             )
+    #         logger.info("Data Saved Successfully")
+    #         print(f"\033[92m✅ PASSED: Collected Data\033[0m")
+    #     except Exception as e:
+    #         print(f"\033[91m❌ FAILED: Collect Data\033[0m")
+    #         raise(e)
+           
+    
+    # def merge_data(self):
+    #     all_data = []
+    #     try:
+    #         logger.info("Merging Data.........")
+    #         for i in range(0,2):
+    #             data_load = load_json(
+    #                 folder_loc=self.data_save_loc,
+    #                 index=i
+    #             )
+                
+    #             if "data" in data_load and "results" in data_load["data"]:
+    #                 all_data.extend(data_load["data"]["results"])
+    #             else:
+    #                 all_data.extend(data_load["results"])
+            
+    #         save_json(
+    #             json_data=all_data,
+    #             index="all",
+    #             folder_loc=self.data_save_loc
+    #         )
+            
+    #         logger.info("Data Merged Successfully")
+    #         print(f"\033[92m✅ PASSED: Data Merged\033[0m")
+                
+    #     except Exception as e:
+    #         print(f"\033[91m❌ FAILED: Data Merge\033[0m")
+    #         raise(e)
+    

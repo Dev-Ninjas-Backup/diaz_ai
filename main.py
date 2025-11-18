@@ -5,6 +5,8 @@ from app.api.v1.endpoints import chat_endpoint, search_endpoint
 
 app = FastAPI()
 
+
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],

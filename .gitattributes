@@ -1,0 +1,13 @@
+# Set all text files to use LF in the repo
+* text=auto
+
+# Python files
+*.py text eol=lf
+
+# Lock files
+*.lock text eol=lf
+
+# YAML, JSON
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf

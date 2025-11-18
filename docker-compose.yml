@@ -1,19 +1,51 @@
-services:
-  nginx:
-    image: nginx:latest
-    container_name: nginx_server
-    ports:
-      - "80:80"
-    volumes:
-      - ./reverse_proxy/nginx.conf:/etc/nginx/nginx.conf:ro
-    depends_on:
-      - diaz_fastapi
 
-  diaz_fastapi:
+
+services:
+  redis:
+    image: redis:7
+    container_name: redis
+    ports:
+      - "6379:6379"
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
+  fastapi:
     build: .
-    image: root762/diaz_ai_app:latest
+    container_name: fastapi_app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - redis
+      - qdrant
+    env_file:
+      - .env   # <-- point to your .env file
+
+  celery_worker:
+    build: .
+    container_name: celery_worker
+    command: celery -A app.celery_app worker --loglevel=info --pool=solo
+    depends_on:
+      - redis
+      - qdrant
     env_file:
       - .env
-    expose:
-      - "8080"
-    restart: always
+
+  celery_beat:
+    build: .
+    container_name: celery_beat
+    command: celery -A app.celery_app beat --loglevel=info
+    depends_on:
+      - redis
+      - qdrant
+    env_file:
+      - .env
+
+volumes:
+  qdrant_storage:

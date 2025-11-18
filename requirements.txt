@@ -26,3 +26,6 @@ qdrant-client
 langchain-qdrant
 apache-airflow
 more-itertools
+celery[redis]
+celery
+pandas
