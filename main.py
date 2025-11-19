@@ -15,8 +15,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(chat_endpoint.router)
-app.include_router(search_endpoint.router)
+app.include_router(chat_endpoint.router, prefix="/api/v1", tags=["Chat"])
+app.include_router(search_endpoint.router, prefix="/api/v1", tags=["Elastic Search"])
 
 
 @app.get("/")

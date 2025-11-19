@@ -25,15 +25,15 @@ async def get_chat_instance():
 async def chat(request: ChatRequest, init_chat : InitChat = Depends(get_chat_instance)):
     try:
         logger.info(f"Received chat request: {request}")
-        session_id = request.session_id or uuid4()
+        # session_id = request.session_id or uuid4()
         user_id = request.user_id
-        full_id = f"{user_id}_{session_id}"
+        # full_id = f"{user_id}_{session_id}"
 
-        respond = await init_chat.chat(request.messages, full_id)
+        respond = await init_chat.chat(request.messages, user_id)
 
         return JSONResponse(status_code=200, content={
             "messages" : respond,
-            "session_id" : session_id
+            "user_id" : user_id
         })
 
     except Exception as e:
@@ -46,9 +46,10 @@ async def chat(request: ChatRequest, init_chat : InitChat = Depends(get_chat_ins
 async def chat_history(request : HistoryModel, init_chat : InitChat = Depends(get_chat_instance)):
     try:
         logger.info(f"Received chat history request: {request}")
-        full_id = f"{request.user_id}_{request.session_id}"
+        # full_id = f"{request.user_id}_{request.session_id}"
+        user_id= request.user_id
 
-        respond = await init_chat.get_chat_history(full_id)
+        respond = await init_chat.get_chat_history(user_id)
 
         return JSONResponse(status_code=200, content=respond)
     except Exception as e:
