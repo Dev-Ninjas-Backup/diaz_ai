@@ -1,26 +1,39 @@
-# Ignore Python cache files
-__pycache__
+# Python
+__pycache__/
 *.pyc
+*.pyo
 
-# Ignore git files
-.git
-.gitignore
-
-# ignore
+# Environments
+.venv/
+venv/
+env/
+ENV/
 .env
 
-# Ignore data or logs folders
-logs/
+# Version control
+.git/
+.gitignore
 
-# Ignore IDE config folders
-.vscode/
-.idea/
+# Docker
+docker-compose.override.yml
+*.tar
 
-# custom folder
-venv/
+# Jupyter
+notebooks/
 notebook/
-.venv
-.pytest_cache
+.ipynb_checkpoints/
 
+# Data & cache
+qdrant_storage/
+datasets/
+models/
+storage/
+logs/
+*.log
+tmp/
+cache/
 
-chat.html
+# Node
+node_modules/
+dist/
+build/
