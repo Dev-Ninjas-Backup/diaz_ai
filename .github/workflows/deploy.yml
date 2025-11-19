@@ -45,6 +45,6 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_KEY }}
           script: |
-            cd /home/ubuntu/diaz_ai    # Path to your docker-compose.yml on EC2
+            cd /home/jupitermarineAI    # Path to your docker-compose.yml on EC2
             docker compose pull
             docker compose up -d
