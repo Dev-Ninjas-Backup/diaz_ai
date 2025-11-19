@@ -46,5 +46,5 @@ jobs:
           key: ${{ secrets.EC2_KEY }}
           script: |
             cd /home/jupitermarineAI    # Path to your docker-compose.yml on EC2
-            docker compose pull
-            docker compose up -d
+            docker-compose pull
+            docker-compose up -d
