@@ -1,11 +1,22 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+import os
 
-from app.api.v1.endpoints import chat_endpoint, search_endpoint
+
+from app.api.v1.endpoints import chat_endpoint, search_endpoint, search
+from app.api.v1.endpoints.search import initialize_agent
+from app.utils.openapi import custom_openapi
+
 
 app = FastAPI()
 
+app.openapi = lambda: custom_openapi(app)
 
+# Initialize CSV agent
+try:
+    initialize_agent("database/process_csv_data/process_data.csv")
+except Exception as e:
+    print(f"Failed to initialize CSV agent: {e}")
 
 app.add_middleware(
     CORSMiddleware,
@@ -17,6 +28,7 @@ app.add_middleware(
 
 app.include_router(chat_endpoint.router, prefix="/api/v1", tags=["Chat"])
 app.include_router(search_endpoint.router, prefix="/api/v1", tags=["Elastic Search"])
+app.include_router(search.router, prefix="/api/v1", tags=["CSV Search"])
 
 
 @app.get("/")
