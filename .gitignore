@@ -1,6 +1,6 @@
 # Environment files
 .env                 # sensitive environment variables
-.venv/               # local Python virtual environment
+.venv/             # local Python virtual environment
 uv.lock              # pip-compile lock file
 
 # Python cache and compiled files
@@ -39,3 +39,6 @@ qdrant_storage/
 
 # Celery beat schedule (optional, keeps your local schedule file out of git)
 celerybeat-schedule
+
+
+.venv
