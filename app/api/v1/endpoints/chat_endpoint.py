@@ -40,21 +40,33 @@ async def chat(request: ChatRequest, init_chat : InitChat = Depends(get_chat_ins
         logger.error(f"Error in chat endpoint: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
-
-
-@router.post("/chat_history")
-async def chat_history(request : HistoryModel, init_chat : InitChat = Depends(get_chat_instance)):
+@router.get("/chat_history")
+async def chat_history(user_id: str, init_chat: InitChat = Depends(get_chat_instance)):
     try:
-        logger.info(f"Received chat history request: {request}")
-        # full_id = f"{request.user_id}_{request.session_id}"
-        user_id= request.user_id
+        logger.info(f"Received chat history request for user_id: {user_id}")
 
         respond = await init_chat.get_chat_history(user_id)
 
         return JSONResponse(status_code=200, content=respond)
+
     except Exception as e:
         logger.error(f"Error in chat history endpoint: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
+
+# @router.post("/chat_history")
+# async def chat_history(request : HistoryModel, init_chat : InitChat = Depends(get_chat_instance)):
+#     try:
+#         logger.info(f"Received chat history request: {request}")
+#         # full_id = f"{request.user_id}_{request.session_id}"
+#         user_id= request.user_id
+
+#         respond = await init_chat.get_chat_history(user_id)
+
+#         return JSONResponse(status_code=200, content=respond)
+#     except Exception as e:
+#         logger.error(f"Error in chat history endpoint: {e}")
+#         raise HTTPException(status_code=500, detail=str(e))
 
 
 # @router.delete("/delete_chat_history")
