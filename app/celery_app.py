@@ -14,8 +14,8 @@ celery.conf.timezone = "Asia/Dhaka"
 
 import app.schedule_task  # Ensure tasks are registered
 celery.conf.beat_schedule = {
-    "run-at-0330-evryday": {
+    "run-at-0350-evryday": {
         "task": "app.tasks.daily_task",
-        "schedule": crontab(hour=3, minute=30),  # <-- updated to 4:10 AM
+        "schedule": crontab(hour=3, minute=50),  # <-- updated to 4:10 AM
     }
 }

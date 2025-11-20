@@ -24,17 +24,17 @@ jobs:
       # 3️⃣ Build and push Docker images
       - name: Build and push FastAPI image
         run: |
-          docker build -t softvence/fastapi:latest ./ && \
+          docker build --no-cache -t softvence/fastapi:latest ./ && \
           docker push softvence/fastapi:latest
 
       - name: Build and push Celery worker image
         run: |
-          docker build -t softvence/celery_worker:latest ./ && \
+          docker build --no-cache -t softvence/celery_worker:latest ./ && \
           docker push softvence/celery_worker:latest
 
       - name: Build and push Celery beat image
         run: |
-          docker build -t softvence/celery_beat:latest ./ && \
+          docker build --no-cache -t softvence/celery_beat:latest ./ && \
           docker push softvence/celery_beat:latest
 
       # 4️⃣ Deploy to EC2
