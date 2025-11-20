@@ -1,6 +1,6 @@
 # 🚤 Diaz AI - Boat Sales AI Assistant
 
-A production-ready conversational AI system built with FastAPI, LangGraph, and OpenAI for boat sales consultations. The system features intelligent retrieval-augmented generation (RAG) powered by Qdrant vector database and Elasticsearch for semantic search across boat inventory data.
+A production-ready conversational AI system built with FastAPI, LangGraph, and OpenAI for boat sales consultations. The system features intelligent retrieval-augmented generation (RAG) powered by Qdrant vector database and csv for semantic search across boat inventory data. 
 
 ## 🎯 Overview
 
