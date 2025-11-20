@@ -6,6 +6,7 @@ from app.utils.prompt import SYSTEM_PROMPT
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_classic.chains import create_retrieval_chain
 from langchain_classic.chains.combine_documents import create_stuff_documents_chain
+from langchain_core.messages import AIMessage
 
 logger = get_logger(__name__)
 
@@ -54,7 +55,9 @@ class ChatbotNodes:
                 "input" : current_input
             })
 
-            return {"messages" : [response["answer"]]}
+            # return {"messages" : [response["answer"]]}
+            # ✅ CORRECT - returns an AIMessage object
+            return {"messages": [AIMessage(content=response["answer"])]}
 
         except Exception as e:
             logger.error(f"Error invoking LLM: {e}")

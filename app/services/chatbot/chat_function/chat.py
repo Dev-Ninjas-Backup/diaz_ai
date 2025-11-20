@@ -3,7 +3,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from app.services.chatbot.llms.open_ai_llm import OpenaiLLM
 from app.services.chatbot.memory.memory import BotMemory
 from app.services.chatbot.graph.graph_builder import GraphBuilder
-from langchain_core.messages import HumanMessage
+from langchain_core.messages import HumanMessage, AIMessage
 
 
 from app.utils.logger import get_logger
@@ -55,25 +55,25 @@ class InitChat:
             config = {"configurable": {"thread_id": thread_id}}
             state = await self.graph.aget_state(config)
 
+            # if state.values:
+            #     return [{"role" : "user" if isinstance(msg, HumanMessage) else "assistant", "content" : msg.content} for msg in state.values["messages"]]
             if state.values:
-                return [{"role" : "user" if isinstance(msg, HumanMessage) else "assistant", "content" : msg.content} for msg in state.values["messages"]]
+                history = []
+                for msg in state.values["messages"]:
+                    if isinstance(msg, HumanMessage):
+                        role= "user"
+                    elif isinstance(msg, AIMessage):
+                        role= "assistant"
+                    else:
+                        role= msg.__class__.__name__.lower()
+                    history.append({"role": role, "content": msg.content})
+                return history
 
         except Exception as e:
             logger.error(f"Failed to get chat history for session {thread_id}: {e}")
             return None
         return []
 
-
-    # async def delete_chat_history(self, thread_id : str):
-    #     try:
-    #         logger.info(f"Deleting chat history for session {thread_id}")
-    #         if self.checkpointer is not None:
-    #             await self.checkpointer.adelete_thread(thread_id)
-    #             return True
-    #     except Exception as e:
-    #         logger.error(f"Failed to delete chat history for session {thread_id}: {e}")
-    #         return None
-    #     return False
 
 
 

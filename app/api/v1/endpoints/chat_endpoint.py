@@ -6,7 +6,7 @@ from uuid import uuid4
 from app.services.chatbot.chat_function.chat import InitChat
 from app.schemas.schema import ChatResponse, ChatRequest, HistoryModel
 from app.utils.logger import get_logger
-
+import re
 
 logger = get_logger(__name__)
 router = APIRouter()
@@ -28,6 +28,8 @@ async def chat(request: ChatRequest, init_chat : InitChat = Depends(get_chat_ins
         # session_id = request.session_id or uuid4()
         user_id = request.user_id
         # full_id = f"{user_id}_{session_id}"
+        
+   
 
         respond = await init_chat.chat(request.messages, user_id)
 
@@ -40,6 +42,8 @@ async def chat(request: ChatRequest, init_chat : InitChat = Depends(get_chat_ins
         logger.error(f"Error in chat endpoint: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+
+    
 @router.get("/chat_history")
 async def chat_history(user_id: str, init_chat: InitChat = Depends(get_chat_instance)):
     try:

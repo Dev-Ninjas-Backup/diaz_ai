@@ -88,7 +88,8 @@ class VectorDataBase:
             df = df.drop(columns=[c for c in df.columns if c not in self.keep_col])
             df = df.map(lambda x: re.sub(r'<[^>]+>', '', str(x)))
             df["Link"] = df.apply(
-                lambda r: f'https://development.jupitermarinesales.com/search-listing/{r["DocumentID"]}',
+                # lambda r: f'https://development.jupitermarinesales.com/search-listing/{r["DocumentID"]}',
+                lambda r: f'/search-listing/{r["DocumentID"]}',
                 axis=1
             )
             df.to_csv(f"{self.process_data_loc}/process_data.csv", index=False)
