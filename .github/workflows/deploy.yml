@@ -47,5 +47,6 @@ jobs:
           script: |
             cd /home/jupitermarineAI    # Path to your docker-compose.yml on EC2
             sudo docker-compose down 
+            sudo docker-compose prune -a
             sudo docker-compose pull
             sudo docker-compose up -d
