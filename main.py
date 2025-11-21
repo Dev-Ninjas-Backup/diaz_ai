@@ -20,7 +20,7 @@ except Exception as e:
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://diaz-florida-yacht-frontend.vercel.app/"],
+    allow_origins=["https://diaz-florida-yacht-frontend.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
