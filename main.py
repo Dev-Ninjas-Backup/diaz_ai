@@ -20,11 +20,29 @@ except Exception as e:
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://diaz-florida-yacht-frontend.vercel.app"],
+    allow_origins=[
+        "http://localhost:3000",
+        "http://localhost:3001",
+        "http://localhost:3002",
+        "http://localhost:5173",
+        "http://localhost:5174",
+        "https://development.jupitermarinesales.com",
+        "https://jupitermarinesales.com",
+        "https://development.floridayachttrader.com",
+        "https://floridayachttrader.com",
+        "https://admin.floridayachttrader.com",
+        "https://diaz-florida-yacht-frontend.vercel.app",
+        "https://florida-yacht-dashboard.pages.dev",
+        "https://diaz-jupiter-marine-frontend.vercel.app",
+        "http://16.171.46.71:3000",
+        "http://16.171.46.71:4173",
+        "http://13.50.239.13:3000",
+    ],
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE"],
     allow_headers=["*"],
 )
+
 
 app.include_router(chat_endpoint.router, prefix="/api/v1", tags=["Chat"])
 app.include_router(search_endpoint.router, prefix="/api/v1", tags=["Elastic Search"])
