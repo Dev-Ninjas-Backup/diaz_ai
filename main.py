@@ -19,7 +19,19 @@ except Exception as e:
     print(f"Failed to initialize CSV agent: {e}")
 
 app.add_middleware( CORSMiddleware,
-                   allow_origins=["https://diaz-florida-yacht-frontend.vercel.app"],
+                   allow_origins=[
+                       "https://diaz-florida-yacht-frontend.vercel.app",
+                       "https://diaz-jupiter-marine-frontend.vercel.app",
+                       "http://localhost:3000",
+                       "http://localhost:3001",
+                       "http://localhost:5173",
+                       "http://localhost:5174",
+                       "https://development.jupitermarinesales.com",
+                       "https://development.floridayachttrader.com",
+                       "https://floridayachttrader.com",
+                       "https://jupitermarinesales.com",
+                       "https://admin.floridayachttrader.com"
+                       ],
                    allow_credentials=True,
                    allow_methods=["*"],
                    allow_headers=["*"], 
