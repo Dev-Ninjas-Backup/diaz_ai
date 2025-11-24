@@ -40,6 +40,7 @@ jobs:
       # 4️⃣ Prepare SSH (fix fingerprint issues with new Elastic IP)
       - name: Update known_hosts for EC2
         run: |
+          mkdir -p ~/.ssh                      # Create .ssh folder if it doesn't exist
           ssh-keygen -R ${{ secrets.EC2_HOST }} || true
           ssh-keyscan -H ${{ secrets.EC2_HOST }} >> ~/.ssh/known_hosts
 
