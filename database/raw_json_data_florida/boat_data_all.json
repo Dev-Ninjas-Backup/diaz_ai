@@ -1,0 +1,139 @@
+[
+    {
+        "Source": "custom",
+        "DocumentID": "a1055757-c6c7-4f84-a7d0-a10ec7675bf8",
+        "ListingTitle": "Resgfdfgd",
+        "Price": "67.00 USD",
+        "BoatLocation": {
+            "BoatCityName": "Pyrmont",
+            "BoatCountryID": "US",
+            "BoatStateCode": "Indiana"
+        },
+        "MakeString": "Abaco Yachts",
+        "ModelYear": 2024,
+        "Model": "170CC",
+        "BeamMeasure": "3453.58 ft",
+        "TotalEnginePowerQuantity": "6 hp",
+        "NominalLength": "45.5 ft",
+        "LengthOverall": "45.5 ft",
+        "LastModificationDate": "2025-11-26T19:59:03.225Z",
+        "ItemReceivedDate": "2025-11-26T19:58:32.993Z",
+        "GeneralBoatDescription": [
+            "dfgdfgfdgfdgfdgfdg"
+        ],
+        "Engines": [
+            {
+                "Make": "6",
+                "Model": "67",
+                "Fuel": "Other",
+                "EnginePower": "6",
+                "Type": "Other",
+                "PropellerType": "5 Blade",
+                "Hours": 6
+            }
+        ],
+        "Images": [
+            {
+                "Priority": 2,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/3af9e4bd-b9cd-4d78-96e1-585dd5d722a9.png",
+                "LastModifiedDateTime": "2025-11-26T19:58:33.881Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/697daeeb-e13d-4bce-b37c-12fffaa23a79.png",
+                "LastModifiedDateTime": "2025-11-26T19:58:33.925Z"
+            }
+        ]
+    },
+    {
+        "Source": "custom",
+        "DocumentID": "274c48ee-d08d-41bf-883c-a5d1a1f97986",
+        "ListingTitle": "Sapphire",
+        "Price": "125000.50 USD",
+        "BoatLocation": {
+            "BoatCityName": "Miami",
+            "BoatCountryID": "US",
+            "BoatStateCode": "Florida"
+        },
+        "MakeString": "Beneteau",
+        "ModelYear": 2018,
+        "Model": "Oceanis 38",
+        "BeamMeasure": "12.5 ft",
+        "TotalEnginePowerQuantity": "350 hp",
+        "NominalLength": "36.5 ft",
+        "LengthOverall": "36.5 ft",
+        "LastModificationDate": "2025-11-25T22:25:00.629Z",
+        "ItemReceivedDate": "2025-11-25T22:25:00.629Z",
+        "GeneralBoatDescription": [
+            "string"
+        ],
+        "AdditionalDetailDescription": [
+            "string"
+        ],
+        "Engines": [
+            {
+                "Make": "Mercury",
+                "Model": "Verado 350",
+                "Fuel": "Mercury",
+                "EnginePower": "350",
+                "Type": "Mercury",
+                "PropellerType": "12",
+                "Hours": 1200
+            }
+        ]
+    },
+    {
+        "Source": "custom",
+        "DocumentID": "99a97ca2-3514-4103-a9e3-f4082c808597",
+        "ListingTitle": "Rylee Prince",
+        "Price": "73455.00 USD",
+        "BoatLocation": {
+            "BoatCityName": "Chicago",
+            "BoatCountryID": "US",
+            "BoatStateCode": "Illinois"
+        },
+        "MakeString": "Abaco Yachts",
+        "ModelYear": 2025,
+        "Model": "158CS",
+        "BeamMeasure": "44.67 ft",
+        "TotalEnginePowerQuantity": "2 hp",
+        "NominalLength": "82.08 ft",
+        "LengthOverall": "82.08 ft",
+        "LastModificationDate": "2025-11-19T22:04:57.523Z",
+        "ItemReceivedDate": "2025-11-19T22:04:32.867Z",
+        "GeneralBoatDescription": [
+            "Quisquam eligendi nu"
+        ],
+        "AdditionalDetailDescription": [
+            "s d d d d d d d d d d d d dd d d d d d d d d"
+        ],
+        "Engines": [
+            {
+                "Make": "Quos nihil corporis ",
+                "Model": "Modi architecto et v",
+                "Fuel": "Inboard",
+                "EnginePower": "2",
+                "Type": "Inboard",
+                "PropellerType": "3 Blade",
+                "Hours": 58
+            }
+        ],
+        "Images": [
+            {
+                "Priority": 2,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/bfc2747b-1efb-4255-a88e-406ad8b1ef2b.jpg",
+                "LastModifiedDateTime": "2025-11-19T22:04:33.548Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/00084ef4-77fd-4af7-bc32-c5d2f4c2dfde.jpg",
+                "LastModifiedDateTime": "2025-11-19T22:04:33.613Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/5fed8b86-0e97-49ab-9b23-44a0a5f28379.jpg",
+                "LastModifiedDateTime": "2025-11-19T22:04:33.652Z"
+            }
+        ]
+    }
+]

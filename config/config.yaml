@@ -12,13 +12,16 @@ logger:
 #   api_1: "https://services.boats.com/pls/boats/search?key=9424cb9fae&fields=NumberOfEngines,DryWeightMeasure,WaterTankCapacityMeasure,FuelTankCapacityMeasure,HoldingTankCapacityMeasure,TotalEnginePowerQuantity,GeneralBoatDescription,AdditionalDetailDescription,DocumentID,MakeString,Model,ModelYear,BoatLocation,BoatCityNameNoCaseAlnumOnly,Price,OriginalPrice,CompanyName,Office,NominalLength,LengthOverall,BeamMeasure,MaxDraft,Engines,TotalEnginePowerQuantity,Images"
 #   api_2: "https://api.boats.com/inventory/search?key=YawGVsdoOdbfivrATkE4DM1XIGOEn1"
 api:
-  api_1: "https://api.floridayachttrader.com/api/boats/merged/all-sources"
-  api_2: "" 
+  # api_1: "https://api.floridayachttrader.com/api/boats/merged/all-sources"
+  api_1: "https://api.floridayachttrader.com/api/boats/all"
+  api_2: "https://api.floridayachttrader.com/api/boats/merged/all-sources" 
 
 
 database_loc:
-  raw_data_loc: "database/raw_json_data/"
-  process_data_loc: "database/process_csv_data/"
+  raw_data_loc_florida: "database/raw_json_data_florida/"
+  raw_data_loc_jupiter: "database/raw_json_data_jupiter/"
+  process_data_loc_florida: "database/process_csv_data_florida/"
+  process_data_loc_jupiter: "database/process_csv_data_jupiter/"
 
 # Data Preprocessing
 columns:
@@ -49,11 +52,11 @@ columns:
 
 # Vector Database
 vector:
-  # url: "http://localhost:6333"
-  url: "http://qdrant:6333"
-  collection_name: "boat_vector_data"
+  url: "http://localhost:6333"
+  #url: "http://qdrant:6333"
+  collection_name_florida: "florida_yacht_sales"
+  collection_name_jupiter: "jupiter_marine_sales"
   dim_size: 3072
-
 
 # Search engine
 search:

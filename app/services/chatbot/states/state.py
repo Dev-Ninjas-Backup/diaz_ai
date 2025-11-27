@@ -6,6 +6,7 @@ from typing import Sequence, Annotated
 
 class ChatState(TypedDict):
     messages : Annotated[Sequence[BaseMessage], add_messages]
+    collection_name : str
 
 
 

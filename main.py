@@ -3,8 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 import os
 
 
-from app.api.v1.endpoints import chat_endpoint, search_endpoint, search
-from app.api.v1.endpoints.search import initialize_agent
+from app.api.v1.endpoints import jupiter_chat, search_endpoint, florida_search, florida_chat, jupiter_search
+from app.api.v1.endpoints.jupiter_search import initialize_jupiter_agent
+from app.api.v1.endpoints.florida_search import initialize_florida_agent
 from app.utils.openapi import custom_openapi
 
 
@@ -14,7 +15,8 @@ app.openapi = lambda: custom_openapi(app)
 
 # Initialize CSV agent
 try:
-    initialize_agent("database/process_csv_data/process_data.csv")
+    initialize_jupiter_agent("database/process_csv_data_jupiter/process_data.csv")
+    initialize_florida_agent("database/process_csv_data_florida/process_data.csv")
 except Exception as e:
     print(f"Failed to initialize CSV agent: {e}")
 
@@ -37,9 +39,11 @@ app.add_middleware( CORSMiddleware,
                    allow_headers=["*"], 
                   )
 
-app.include_router(chat_endpoint.router, prefix="/api/v1", tags=["Chat"])
-app.include_router(search_endpoint.router, prefix="/api/v1", tags=["Elastic Search"])
-app.include_router(search.router, prefix="/api/v1", tags=["CSV Search"])
+app.include_router(jupiter_chat.router, prefix="/api/v1", tags=["Jupiter Chat"])
+#app.include_router(search_endpoint.router, prefix="/api/v1", tags=["Elastic Search"])
+app.include_router(jupiter_search.router, prefix="/api/v1", tags=["Jupiter Search"])
+app.include_router(florida_chat.router, prefix="/api/v1", tags=[" Florida Chat"])
+app.include_router(florida_search.router, prefix="/api/v1", tags=["Florida Search"])
 
 
 @app.get("/")

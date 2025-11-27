@@ -96,11 +96,18 @@ Column Details (ALL columns available for search):
                     context += f"\n  - Sample values: {', '.join(map(str, sample_values))}"
         
         # Include sample data with ALL columns (limit size)
-        sample_df = df.head(2)  # Only 2 rows to reduce context size
-        # Truncate long text columns in sample
+        # sample_df = df.head(2)  # Only 2 rows to reduce context size
+        # # Truncate long text columns in sample
+        # for col in sample_df.columns:
+        #     if sample_df[col].dtype == 'object':
+        #         sample_df[col] = sample_df[col].astype(str).str[:200]  # Limit to 200 chars per cell
+        sample_df = df.head(2).copy()  # <-- copy() prevents SettingWithCopyWarning
+
+        # Truncate long text columns without modifying original df
         for col in sample_df.columns:
             if sample_df[col].dtype == 'object':
-                sample_df[col] = sample_df[col].astype(str).str[:200]  # Limit to 200 chars per cell
+                sample_df.loc[:, col] = sample_df[col].astype(str).str[:200]  # Limit to 200 chars per cell
+                
         context += f"\n\nSample Data (first 2 rows with ALL columns):\n{sample_df.to_string()}"
         return context
     
