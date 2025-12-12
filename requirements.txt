@@ -19,7 +19,6 @@ asyncpg
 gunicorn
 pytest
 pytest-asyncio
-faiss-cpu
 bs4
 elasticsearch
 qdrant-client
@@ -29,3 +28,6 @@ more-itertools
 celery[redis]
 celery
 pandas
+sqlalchemy
+aiosqlite
+python-dateutil

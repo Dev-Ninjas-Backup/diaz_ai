@@ -6,7 +6,7 @@ RUN pip install uv
 
 COPY requirements.txt .
 
-RUN uv pip install --system -r requirements.txt
+RUN  pip install --no-cache -r requirements.txt
 
 COPY . .
 

@@ -58,15 +58,15 @@ vector:
   collection_name_jupiter: "jupiter_marine_sales"
   dim_size: 3072
 
-# Search engine
-search:
-  pre_index_data_loc: "indexDatabase/"
-  # elastic_url: "https://localhost:9200"
-  # user: "elastic"
-  # pass: "xARs94-gKY_Sc3gZSCzv"
-  elastic_url: "http://localhost:9200"
-  user: "" # Remove or leave blank
-  pass: "" # Remove or leave blank
-  # certificate: "certs/ca.crt"
-  index_name: "boat_data"
+# # Search engine
+# search:
+#   pre_index_data_loc: "indexDatabase/"
+#   # elastic_url: "https://localhost:9200"
+#   # user: "elastic"
+#   # pass: "xARs94-gKY_Sc3gZSCzv"
+#   elastic_url: "http://localhost:9200"
+#   user: "" # Remove or leave blank
+#   pass: "" # Remove or leave blank
+#   # certificate: "certs/ca.crt"
+#   index_name: "boat_data"
   

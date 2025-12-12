@@ -55,7 +55,7 @@
 # volumes:
 #   qdrant_storage:
 
-#for local development use this docker-compose file
+##for local development use this docker-compose file
 # services:
 #   redis:
 #     image: redis:7
