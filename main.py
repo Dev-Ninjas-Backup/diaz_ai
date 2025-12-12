@@ -54,7 +54,6 @@ app.include_router(leads_router, prefix="/api/v1", tags=["Jupiter Lead Generatio
 
 app.include_router(florida_chat.router, prefix="/api/v1", tags=[" Florida Chat"])
 app.include_router(florida_search.router, prefix="/api/v1", tags=["Florida Search"])
-app.include_router(leads_router, prefix="/api/v1", tags=["Jupiter Lead Generation"])
 
 
 @app.get("/")
