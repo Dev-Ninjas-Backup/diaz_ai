@@ -50,9 +50,11 @@ app.add_middleware( CORSMiddleware,
 app.include_router(jupiter_chat.router, prefix="/api/v1", tags=["Jupiter Chat"])
 #app.include_router(search_endpoint.router, prefix="/api/v1", tags=["Elastic Search"])
 app.include_router(jupiter_search.router, prefix="/api/v1", tags=["Jupiter Search"])
+app.include_router(leads_router, prefix="/api/v1", tags=["Jupiter Lead Generation"])
+
 app.include_router(florida_chat.router, prefix="/api/v1", tags=[" Florida Chat"])
 app.include_router(florida_search.router, prefix="/api/v1", tags=["Florida Search"])
-app.include_router(leads_router, prefix="/api/v1", tags=["Lead Generation"])
+app.include_router(leads_router, prefix="/api/v1", tags=["Jupiter Lead Generation"])
 
 
 @app.get("/")
