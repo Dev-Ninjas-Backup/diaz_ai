@@ -1,10 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.db.database import engine, Base
+from app.db.chat_db import engine, ChatBase
 import os
 
 
-from app.api.v1.endpoints import jupiter_chat, search_endpoint, florida_search, florida_chat, jupiter_search
+from app.api.v1.endpoints import jupiter_chat, search_endpoint, florida_search, florida_chat, jupiter_search, search_filter
 from app.api.v1.endpoints.jupiter_search import initialize_jupiter_agent
 from app.api.v1.endpoints.florida_search import initialize_florida_agent
 from app.api.v1.endpoints.leads import router as leads_router
@@ -16,7 +16,7 @@ app = FastAPI()
 @app.on_event("startup")
 async def startup():
     async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
+        await conn.run_sync(ChatBase.metadata.create_all)
 
 
 app.openapi = lambda: custom_openapi(app)
@@ -50,6 +50,7 @@ app.add_middleware( CORSMiddleware,
 app.include_router(jupiter_chat.router, prefix="/api/v1", tags=["Jupiter Chat"])
 #app.include_router(search_endpoint.router, prefix="/api/v1", tags=["Elastic Search"])
 app.include_router(jupiter_search.router, prefix="/api/v1", tags=["Jupiter Search"])
+app.include_router(search_filter.router, prefix="/api/v1", tags=["Jupiter Filter Search"])
 app.include_router(leads_router, prefix="/api/v1", tags=["Jupiter Lead Generation"])
 
 app.include_router(florida_chat.router, prefix="/api/v1", tags=[" Florida Chat"])

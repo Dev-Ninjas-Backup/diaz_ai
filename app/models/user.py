@@ -1,7 +1,7 @@
 from sqlalchemy import Column, String, DateTime, func
-from app.db.database import Base
+from app.db.chat_db import ChatBase
 
-class User(Base):
+class User(ChatBase):
     __tablename__ = "users"
 
     user_id = Column(String, primary_key=True)

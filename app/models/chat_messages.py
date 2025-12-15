@@ -1,8 +1,8 @@
 from sqlalchemy import Column, Integer, String, Text, DateTime, ForeignKey, func
-from app.db.database import Base
+from app.db.chat_db import ChatBase
 from datetime import datetime
 
-class ChatMessage(Base):
+class ChatMessage(ChatBase):
     __tablename__ = "chat_messages"
 
     id = Column(Integer, primary_key=True, index=True)

@@ -28,20 +28,20 @@ def daily_task():
     logger = getLogger(__name__)
     logger.info("Starting daily chatbot data pipeline task...")
 
-    async def run_florida():
-        vec = FloridaVectorDataBase()
-        await vec.collect_data()
-        vec.process_data()
-        await vec.vectorize_data()
+    # async def run_florida():
+    #     vec = FloridaVectorDataBase()
+    #     await vec.collect_data()
+    #     vec.process_data()
+    #     #await vec.vectorize_data()
 
     async def run_jupiter():
         vec = JupiterVectorDataBase()
         await vec.collect_data()
-        vec.process_data()
-        await vec.vectorize_data()
+        await vec.process_data()
+        #await vec.vectorize_data()
 
-    asyncio.run(run_florida())
-    logger.info("Completed Florida pipeline.")
+    # asyncio.run(run_florida())
+    # logger.info("Completed Florida pipeline.")
 
     asyncio.run(run_jupiter())
     logger.info("Completed Jupiter pipeline.")

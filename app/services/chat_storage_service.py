@@ -1,4 +1,4 @@
-from app.db.database import async_session
+from app.db.chat_db import async_session
 from app.models.user import User
 from app.models.chat_messages import ChatMessage
 from sqlalchemy import select
