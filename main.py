@@ -4,7 +4,7 @@ from app.db.chat_db import engine, ChatBase
 import os
 
 
-from app.api.v1.endpoints import jupiter_chat, search_endpoint, florida_search, florida_chat, jupiter_search, search_filter, vector_search
+from app.api.v1.endpoints import jupiter_chat, search_endpoint, florida_search, florida_chat, jupiter_search, search_filter
 from app.api.v1.endpoints.jupiter_search import initialize_jupiter_agent
 from app.api.v1.endpoints.florida_search import initialize_florida_agent
 from app.api.v1.endpoints.leads import router as leads_router
@@ -49,7 +49,6 @@ app.add_middleware( CORSMiddleware,
 
 
 
-# app.include_router(vector_search.router, prefix="/api/v1", tags=["Vector Search"])
 app.include_router(jupiter_chat.router, prefix="/api/v1", tags=["Jupiter Chat"])
 #app.include_router(search_endpoint.router, prefix="/api/v1", tags=["Elastic Search"])
 app.include_router(jupiter_search.router, prefix="/api/v1", tags=["Jupiter Search"])

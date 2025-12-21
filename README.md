@@ -1,53 +1,40 @@
-# 🚤 Diaz AI - Boat Sales AI Assistant
+# Diaz AI — repository overview and run instructions
 
-A production-ready conversational AI system built with FastAPI, LangGraph, and OpenAI for boat sales consultations. The system features intelligent retrieval-augmented generation (RAG) powered by Qdrant vector database and csv for semantic search across boat inventory data. 
+This README reflects the current repository layout and run instructions for the Diaz AI boat-sales conversational assistant (FastAPI + LangGraph + OpenAI + Qdrant + Elasticsearch).
 
-## 🎯 Overview
+Last updated: 2025-12-16
 
-**Diaz AI** is an advanced chatbot system designed to assist potential boat buyers by providing personalized recommendations, answering questions about available boats, and facilitating the sales process. It combines:
+---
 
-- **Conversational AI**: OpenAI GPT-4o-mini powered chatbot with natural language understanding
-- **Semantic Search**: Qdrant vector database + Elasticsearch for intelligent boat discovery
-- **Data Pipeline**: Automated ETL pipeline to collect, process, and vectorize boat inventory
-- **Session Management**: Multi-user conversation tracking with stateful chat history
-- **RESTful API**: FastAPI with automatic OpenAPI documentation and CORS support
+## Project layout (important files & folders)
 
-## 🚀 Features
-
-- ✅ **Conversational AI Chatbot**: Friendly, persuasive AI assistant specializing in boat sales
-- ✅ **Semantic Search**: Find boats using natural language queries (powered by vector embeddings)
-- ✅ **Session-based Chat History**: Persistent conversation tracking per user/session
-- ✅ **Data Indexing**: Automated pipeline to collect from boat APIs, process, and index in Qdrant
-- ✅ **Async Architecture**: Non-blocking async/await operations for high performance
-- ✅ **Multi-Source Integration**: Integrates with multiple boat inventory APIs
-- ✅ **Scalable Design**: Modular architecture with dependency injection and separation of concerns
-- ✅ **Docker Ready**: Docker and docker-compose files for containerized deployment
-
-## 🏗️ Project Structure
+Top-level:
 
 ```
-diaz_ai/
-├── app/
-│   ├── api/v1/endpoints/
-│   │   ├── chat_endpoint.py          # POST /chat, /chat_history endpoints
-│   │   └── search_endpoint.py        # POST /search_boat endpoint
-│   │
-│   ├── services/
-│   │   ├── chatbot/
-│   │   │   ├── chat_function/
-│   │   │   │   └── chat.py           # InitChat - Main chat orchestrator
-│   │   │   ├── data_pipeline/
-│   │   │   │   └── dataflow_pipeline.py  # VectorDataBase - ETL pipeline (collect, merge, process, vectorize)
-│   │   │   ├── graph/
-│   │   │   │   └── graph_builder.py  # GraphBuilder - LangGraph workflow construction
-│   │   │   ├── llms/
-│   │   │   │   └── open_ai_llm.py    # OpenaiLLM - LLM and embeddings configuration
-│   │   │   ├── memory/
-│   │   │   │   └── memory.py         # BotMemory - Memory management
-│   │   │   ├── nodes/
-│   │   │   │   └── node.py           # ChatbotNodes - Graph node definitions
-│   │   │   ├── retriever/
-│   │   │   │   └── qdrant_retriever.py  # Retriever - Qdrant vector retrieval
+any_test.py
+docker-compose.yml
+Dockerfile
+main.py
+pyproject.toml
+requirements.txt
+README.md
+app/
+config/
+database/
+indexDatabase/
+logs/
+reverse_proxy/
+diaz_server_file/
+```
+
+app/ (key folders)
+
+- `app/api/v1/endpoints/` — `chat_endpoint.py`, `search_endpoint.py` (FastAPI routes)
+- `app/services/chatbot/` — core chatbot logic (chat orchestration, graph, llms, memory, nodes, retriever, data_pipeline)
+- `app/services/search_engine/` — Elasticsearch-based search and indexing code
+- `app/schemas/schema.py` — Pydantic models (ChatRequest, ChatResponse, Message, etc.)
+- `app/utils/` — logger, helper, prompt, and other utilities
+- `app/config.py` — loads `config/config.yaml` and `.env`
 │   │   │   └── states/
 │   │   │       └── state.py          # ChatState - LangGraph state schema
 │   │   │
