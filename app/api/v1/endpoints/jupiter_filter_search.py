@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from app.schemas.boat_filter import BoatFilterRequest
-from app.repositories.boats_hub import BoatsHub
+from app.repositories.jupiter_boats_hub import BoatsHub
 
 router = APIRouter()
 

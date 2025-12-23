@@ -1,8 +1,8 @@
 
 from typing import Optional, List, Dict, Any
-from app.services.jupiter_AI_search import SQLiteQueryAgent
+from app.services.AI_search_engine import SQLiteQueryAgent
 from app.config import configs
-from app.models.boat import Boat
+from app.models.jupiter_boat import JupiterBoat
 import os
 
 from fastapi import APIRouter, HTTPException, Depends
@@ -43,7 +43,7 @@ def get_sqlite_agent() -> SQLiteQueryAgent:
     return _jupiter_sqlite_agent
 
 
-def initialize_jupiter_sqlite_agent(db_path: str, table_name: str = "boats") -> SQLiteQueryAgent:
+def initialize_jupiter_sqlite_agent(db_path: str, table_name: str = "jupiter_boats") -> SQLiteQueryAgent:
     """Initialize the agent with thread safety."""
     global _jupiter_sqlite_agent
     
@@ -74,6 +74,7 @@ async def search_sqlite(
     - "Boats in Miami with 2 engines"
     - "Most expensive boats"
     """
+    table_name = "jupiter_boats"
     if not request.query or not request.query.strip():
         raise HTTPException(status_code=400, detail="Query must be provided.")
     
@@ -85,7 +86,7 @@ async def search_sqlite(
     #add user message to db
     await storage.save_chat_message(request.user_id, "user", request.query)
     
-    result = agent.execute_query(request.query, limit=limit)
+    result = agent.execute_query(table_name=table_name, user_query=request.query, limit=limit)
 
     #save query result to db
     if result["success"] and result["data"]:

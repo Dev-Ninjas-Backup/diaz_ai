@@ -10,6 +10,7 @@ from app.api.v1.endpoints import jupiter_chat, jupiter_filter_search, florida_se
 from app.api.v1.endpoints.florida_search import initialize_florida_agent
 from app.api.v1.endpoints.jupiter_leads import router as leads_router
 from app.api.v1.endpoints.jupiter_ai_search import initialize_jupiter_sqlite_agent, router as jupiter_sqlite_router
+from app.api.v1.endpoints.florida_ai_search import initialize_florida_sqlite_agent, router as florida_sqlite_router 
 from app.utils.openapi import custom_openapi
 
 
@@ -22,7 +23,8 @@ async def startup():
 
     # Initialize the SQLiteQueryAgent on startup
     db_path = "boats.db"  # relative path to your SQLite file
-    initialize_jupiter_sqlite_agent(db_path=db_path, table_name="boats")
+    initialize_jupiter_sqlite_agent(db_path=db_path, table_name="jupiter_boats")
+    initialize_florida_sqlite_agent(db_path=db_path, table_name="florida_boats")
 
 
 
@@ -60,12 +62,13 @@ app.add_middleware( CORSMiddleware,
 app.include_router(jupiter_chat.router, prefix="/api/v1", tags=["Jupiter Chat"])
 #app.include_router(search_endpoint.router, prefix="/api/v1", tags=["Elastic Search"])
 # app.include_router(jupiter_search.router, prefix="/api/v1", tags=["Jupiter Search"])
-app.include_router(jupiter_sqlite_router, prefix="/api/v1", tags=["Jupiter SQLite AI Search"])
+app.include_router(jupiter_sqlite_router, prefix="/api/v1", tags=["Jupiter AI Search"])
 app.include_router(jupiter_filter_search.router, prefix="/api/v1", tags=["Jupiter Filter Search"])
 app.include_router(leads_router, prefix="/api/v1", tags=["Jupiter Lead Generation"])
 
 app.include_router(florida_chat.router, prefix="/api/v1", tags=[" Florida Chat"])
-app.include_router(florida_search.router, prefix="/api/v1", tags=["Florida Search"])
+# app.include_router(florida_search.router, prefix="/api/v1", tags=["Florida Search"])
+app.include_router(florida_sqlite_router, prefix="/api/v1", tags=["Florida AI Search"])
 
 
 

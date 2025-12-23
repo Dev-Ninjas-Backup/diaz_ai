@@ -1,6 +1,6 @@
 from sqlalchemy import select, and_
 from app.db.boats_db import boats_session
-from app.models.boat import Boat
+from app.models.jupiter_boat import Boat
 
 async def search_boats(
     make: str | None = None,
