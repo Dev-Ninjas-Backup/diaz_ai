@@ -14,7 +14,6 @@ _florida_sqlite_agent: Optional[SQLiteQueryAgent] = None
 
 
 class SearchRequest(BaseModel):
-    user_id: str = Field(..., description="User identifier for chat session")
     query: str = Field(..., description="Natural language search query")
     limit: Optional[int] = Field(10, description="Maximum number of results (default: 10, max: 100)")
 
