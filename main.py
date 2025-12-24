@@ -12,28 +12,31 @@ from app.api.v1.endpoints.jupiter_leads import router as leads_router
 from app.api.v1.endpoints.jupiter_ai_search import initialize_jupiter_sqlite_agent, router as jupiter_sqlite_router
 from app.api.v1.endpoints.florida_ai_search import initialize_florida_sqlite_agent, router as florida_sqlite_router 
 from app.utils.openapi import custom_openapi
+from app.utils.user_guide_setup import router as user_guide_router
+from contextlib import asynccontextmanager
 
-
-app = FastAPI()
-
-@app.on_event("startup")
-async def startup():
+# Lifespan event handler
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup logic
     async with engine.begin() as conn:
         await conn.run_sync(ChatBase.metadata.create_all)
 
-    # Initialize the SQLiteQueryAgent on startup
-    db_path = "boats.db"  # relative path to your SQLite file
+    # Initialize SQLite agents
+    db_path = "boats.db"
     initialize_jupiter_sqlite_agent(db_path=db_path, table_name="jupiter_boats")
     initialize_florida_sqlite_agent(db_path=db_path, table_name="florida_boats")
 
+    # Initialize CSV agent if needed
+    # try:
+    #     initialize_florida_agent("database/process_csv_data_florida/process_data.csv")
+    # except Exception as e:
+    #     print(f"Failed to initialize CSV agent: {e}")
 
+    yield  # Everything after this would be shutdown logic if needed
 
-    # Initialize CSV agent
-    try:
-        # initialize_jupiter_agent("database/process_csv_data_jupiter/process_data.csv")
-        initialize_florida_agent("database/process_csv_data_florida/process_data.csv")
-    except Exception as e:
-        print(f"Failed to initialize CSV agent: {e}")
+# Create app with lifespan
+app = FastAPI(lifespan=lifespan)
 
 app.openapi = lambda: custom_openapi(app)
 
@@ -70,7 +73,7 @@ app.include_router(florida_chat.router, prefix="/api/v1", tags=[" Florida Chat"]
 # app.include_router(florida_search.router, prefix="/api/v1", tags=["Florida Search"])
 app.include_router(florida_sqlite_router, prefix="/api/v1", tags=["Florida AI Search"])
 
-
+app.include_router(user_guide_router, prefix="/api/v1/utils", tags=["User Guide Setup upload to vector db"])
 
 
 @app.get("/")

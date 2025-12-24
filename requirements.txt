@@ -31,3 +31,5 @@ pandas
 sqlalchemy
 aiosqlite
 python-dateutil
+langchain-text-splitters
+python-docx
