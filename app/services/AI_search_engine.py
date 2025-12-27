@@ -5,6 +5,8 @@ from openai import OpenAI
 from sqlalchemy import create_engine, text
 from app.db.boats_db import boats_session
 from dotenv import load_dotenv
+import json
+from typing import Any
 
 # Load environment variables
 load_dotenv()
@@ -34,32 +36,92 @@ class SQLiteQueryAgent:
             if not result.fetchone():
                 raise ValueError(f"Table '{self.table_name}' not found in database")
     
+    # def execute_query(self, table_name: str, user_query: str, limit: int = 10) -> Dict[str, Any]:
+    #     """Execute natural language query using SQL generation."""
+    #     if not user_query.strip():
+    #         return {"success": False, "error": "Query is empty", "data": None, "count": 0}
+
+    #     try:
+    #         # Generate SQL query using OpenAI
+    #         sql_query = self._generate_sql(table_name, user_query, limit)
+            
+    #         # Execute SQL query safely
+    #         with self.engine.connect() as conn:
+    #             result = conn.execute(text(sql_query))
+    #             columns = result.keys()
+    #             rows = result.fetchall()
+                
+    #             # Convert to list of dicts
+    #             data = [dict(zip(columns, row)) for row in rows]
+            
+    #         return {
+    #             "success": True,
+    #             "data": data,
+    #             "error": None,
+    #             "count": len(data),
+    #             "sql_query": sql_query  # For debugging
+    #         }
+            
+    #     except Exception as e:
+    #         return {
+    #             "success": False,
+    #             "error": f"Query execution failed: {str(e)}",
+    #             "data": None,
+    #             "count": 0
+    #         }
+
+    @staticmethod
+    def convert_to_json(value: Any) -> Any:
+        """
+        Convert SQLite values into JSON-safe Python objects.
+        """
+        if value is None:
+            return None
+
+        # Try to decode JSON strings
+        if isinstance(value, str):
+            value = value.strip()
+            if value:
+                try:
+                    return json.loads(value)
+                except json.JSONDecodeError:
+                    return value
+
+        # Numbers, booleans, etc.
+        return value
+
+
     def execute_query(self, table_name: str, user_query: str, limit: int = 10) -> Dict[str, Any]:
-        """Execute natural language query using SQL generation."""
         if not user_query.strip():
             return {"success": False, "error": "Query is empty", "data": None, "count": 0}
 
         try:
-            # Generate SQL query using OpenAI
             sql_query = self._generate_sql(table_name, user_query, limit)
-            
-            # Execute SQL query safely
+
             with self.engine.connect() as conn:
                 result = conn.execute(text(sql_query))
                 columns = result.keys()
                 rows = result.fetchall()
+
+                data = []
+                for row in rows:
+                    row_dict = {}
+                    for col, val in zip(columns, row):
+                        row_dict[col] = self.convert_to_json(val)
+                    data.append(row_dict)
                 
-                # Convert to list of dicts
-                data = [dict(zip(columns, row)) for row in rows]
-            
+                                # Filter to only wanted columns
+                wanted_columns = ['document_id','make', 'model','model_year', 'price','location','images', 'link']
+                data = [{k: row_dict[k] for k in wanted_columns if k in row_dict} for row_dict in data]
+
             return {
                 "success": True,
                 "data": data,
                 "error": None,
                 "count": len(data),
-                "sql_query": sql_query  # For debugging
+                "sql_query": sql_query
             }
-            
+
         except Exception as e:
             return {
                 "success": False,
@@ -67,6 +129,8 @@ class SQLiteQueryAgent:
                 "data": None,
                 "count": 0
             }
+
+
 
     def _generate_sql(self, table_name: str, user_query: str, limit: int) -> str:
         """Generate SQL query using OpenAI (safer than code execution)."""
@@ -141,3 +205,73 @@ Example queries:
         """Dispose of the engine on cleanup."""
         if hasattr(self, 'engine'):
             self.engine.dispose()
+
+
+
+
+
+# def _generate_sql(self, table_name: str, user_query: str, limit: int) -> str:
+#         """Generate SQL query using OpenAI (safer than code execution)."""
+        
+#         system_prompt = f"""You are a SQL expert. Generate SQLite queries for a boat database.
+
+# Table: {self.table_name}
+# Columns:
+# - document_id (TEXT, PRIMARY KEY) - Unique identifier
+# - source (TEXT) - Data source
+# - make (TEXT) - Boat manufacturer
+# - model (TEXT) - Boat model
+# - model_year (INTEGER) - Year of manufacture
+# - price (FLOAT) - Boat price
+# - location (TEXT) - Full location description
+# - city (TEXT) - City location
+# - images (TEXT) - Image URLs
+# - link (TEXT) - Listing link
+
+# RULES:
+# 1. Return ONLY valid SQLite query, no explanations, no markdown
+# 2. Always SELECT * to keep all columns
+# 3. Use proper numeric comparisons (no CAST needed for FLOAT/INTEGER columns)
+# 4. Use LOWER() for case-insensitive text searches with LIKE
+# 5. Handle NULL values with IS NOT NULL when needed
+# 6. Add ORDER BY for rankings (e.g., ORDER BY price DESC for expensive boats)
+# 7. Never include LIMIT in your query (it will be added automatically)
+# 8. For text searches in descriptions, use: LOWER(general_description) LIKE '%keyword%'
+
+# Example queries:
+# - "boats under 500000" → SELECT * FROM {self.table_name} WHERE price < 500000
+# - "boats in Miami" → SELECT * FROM {self.table_name} WHERE LOWER(city) LIKE '%miami%' OR LOWER(location) LIKE '%miami%'
+# - "2024 Freeman boats" → SELECT * FROM {self.table_name} WHERE model_year = 2024 AND LOWER(make) LIKE '%freeman%'
+# - "boats longer than 40 feet" → SELECT * FROM {self.table_name} WHERE length_overall > 40
+# - "most expensive boats" → SELECT * FROM {self.table_name} ORDER BY price DESC
+# - "boats with 2 engines" → SELECT * FROM {self.table_name} WHERE number_of_engines = 2
+# """
+
+#         user_prompt = f"User Query: {user_query}\n\nGenerate the SQL query:"
+        
+#         response = client.chat.completions.create(
+#             model="gpt-4o-mini",
+#             messages=[
+#                 {"role": "system", "content": system_prompt},
+#                 {"role": "user", "content": user_prompt}
+#             ],
+#             temperature=0.1,
+#             max_tokens=300
+#         )
+        
+#         sql_query = response.choices[0].message.content.strip()
+        
+#         # Clean up the response (remove markdown, extra spaces)
+#         sql_query = sql_query.replace('```sql', '').replace('```', '').strip()
+#         sql_query = ' '.join(sql_query.split())  # Remove extra whitespace
+        
+#         # Add LIMIT if not present
+#         if 'LIMIT' not in sql_query.upper():
+#             sql_query += f" LIMIT {limit}"
+        
+#         return sql_query
+    
+#     def __del__(self):
+#         """Dispose of the engine on cleanup."""
+#         if hasattr(self, 'engine'):
+#             self.engine.dispose()
