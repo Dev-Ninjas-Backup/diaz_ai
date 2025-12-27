@@ -26,11 +26,9 @@ class SearchRequest(BaseModel):
 
 
 class SearchResponse(BaseModel):
-    success: bool
+    counts: int
     data: Optional[List[Dict[str, Any]]] = None
     error: Optional[str] = None
-    count: int
-    sql_query: Optional[str] = None
 
 
 def get_sqlite_agent() -> SQLiteQueryAgent:
@@ -89,12 +87,12 @@ async def search_sqlite(
     result = agent.execute_query(table_name=table_name, user_query=request.query, limit=limit)
 
     #save query result to db
-    if result["success"] and result["data"]:
+    if result["counts"] and result["data"]:
         # Extract make + model only
         make_model_list = [f"{item.get('make', '')} {item.get('model', '')}".strip() for item in result["data"]]
 
         # Convert to a single string if needed, e.g., comma-separated
-        message = f"Found {result['count']} results: " + ", ".join(make_model_list)
+        message = f"Found {result['counts']} results: " + ", ".join(make_model_list)
         
         # Save to DB
         await storage.save_chat_message(request.user_id, "assistant", message)

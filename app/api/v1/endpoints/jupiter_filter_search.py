@@ -46,8 +46,8 @@ async def filter_boats(filters: BoatFilterRequest, limit: Optional[int] = Query(
     limited_results = results[:limit]
 
     return {
-        "count": len(limited_results),
-        "results": limited_results
+        "counts": len(limited_results),
+        "data": limited_results
     }
 
 

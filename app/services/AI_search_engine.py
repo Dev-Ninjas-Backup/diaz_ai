@@ -107,31 +107,30 @@ class SQLiteQueryAgent:
                 for row in rows:
                     row_dict = {}
                     for col, val in zip(columns, row):
-                        row_dict[col] = self.convert_to_json(val)
+                        val = self.convert_to_json(val)
+                        # Ensure document_id is a string
+                        if col == "document_id" and val is not None:
+                            val = str(val)
+                        row_dict[col] = val
                     data.append(row_dict)
+
                 
                                 # Filter to only wanted columns
                 wanted_columns = ['document_id','make', 'model','model_year', 'price','location','images', 'link']
                 data = [{k: row_dict[k] for k in wanted_columns if k in row_dict} for row_dict in data]
 
             return {
-                "success": True,
+                "counts": len(data),
                 "data": data,
-                "error": None,
-                "count": len(data),
-                "sql_query": sql_query
+                "error": None
             }
 
         except Exception as e:
             return {
-                "success": False,
+                "counts": 0,
                 "error": f"Query execution failed: {str(e)}",
-                "data": None,
-                "count": 0
+                "data": None
             }
-
-
-
     def _generate_sql(self, table_name: str, user_query: str, limit: int) -> str:
         """Generate SQL query using OpenAI (safer than code execution)."""
         
