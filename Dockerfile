@@ -1,7 +1,5 @@
 FROM python:3.12-slim
 
-RUN useradd -m appuser
-
 
 WORKDIR /app
 
@@ -11,6 +9,11 @@ COPY requirements.txt .
 
 RUN  pip install --no-cache -r requirements.txt
 
+# Create non-root user
+RUN useradd -m appuser
+
+# Create logs directory & give ownership
+RUN mkdir -p /app/logs && chown -R appuser:appuser /app
 COPY . .
 
 USER appuser
