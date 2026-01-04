@@ -12,9 +12,14 @@ RUN  pip install --no-cache -r requirements.txt
 # Create non-root user
 RUN useradd -m appuser
 
-# Create logs directory & give ownership
-RUN mkdir -p /app/logs && chown -R appuser:appuser /app
+
 COPY . .
+
+RUN chown -R appuser:appuser /app
+
+RUN chmod -R u+rwX /app
+
+
 
 USER appuser
 
