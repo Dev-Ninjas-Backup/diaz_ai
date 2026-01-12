@@ -1,7 +1,7 @@
 from app.services.chatbot.states.state import ChatState
 from app.utils.logger import get_logger
 from app.services.chatbot.retriever.qdrant_retriever import Retriever
-from app.utils.prompt import SYSTEM_PROMPT
+from app.utils.prompts import get_prompt
 
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_classic.chains import create_retrieval_chain
@@ -36,8 +36,10 @@ class ChatbotNodes:
             if not state or "messages" not in state:
                 raise ValueError("Invalid state")
             #logic here
+            collection_name = state.get("collection_name", self.collection_name)
+            system_prompt = get_prompt(collection_name)
             prompt = ChatPromptTemplate([
-                        ('system' , SYSTEM_PROMPT),
+                        ('system' , system_prompt),
                         MessagesPlaceholder(variable_name="chat_history"),
                         ('human', "{input}")
                     ])
@@ -49,8 +51,6 @@ class ChatbotNodes:
             
             
             qa_chain = create_stuff_documents_chain(llm = self.llm, prompt=prompt)
-            # ⚡ dynamic collection in real usage
-            collection_name = state.get("collection_name", self.collection_name)
             retriever = await Retriever(collection_name).get_retriever()
 
             rag_chain = create_retrieval_chain(retriever, qa_chain)

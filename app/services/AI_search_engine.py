@@ -36,39 +36,7 @@ class SQLiteQueryAgent:
             if not result.fetchone():
                 raise ValueError(f"Table '{self.table_name}' not found in database")
     
-    # def execute_query(self, table_name: str, user_query: str, limit: int = 10) -> Dict[str, Any]:
-    #     """Execute natural language query using SQL generation."""
-    #     if not user_query.strip():
-    #         return {"success": False, "error": "Query is empty", "data": None, "count": 0}
-
-    #     try:
-    #         # Generate SQL query using OpenAI
-    #         sql_query = self._generate_sql(table_name, user_query, limit)
-            
-    #         # Execute SQL query safely
-    #         with self.engine.connect() as conn:
-    #             result = conn.execute(text(sql_query))
-    #             columns = result.keys()
-    #             rows = result.fetchall()
-                
-    #             # Convert to list of dicts
-    #             data = [dict(zip(columns, row)) for row in rows]
-            
-    #         return {
-    #             "success": True,
-    #             "data": data,
-    #             "error": None,
-    #             "count": len(data),
-    #             "sql_query": sql_query  # For debugging
-    #         }
-            
-    #     except Exception as e:
-    #         return {
-    #             "success": False,
-    #             "error": f"Query execution failed: {str(e)}",
-    #             "data": None,
-    #             "count": 0
-    #         }
+    
 
     @staticmethod
     def convert_to_json(value: Any) -> Any:

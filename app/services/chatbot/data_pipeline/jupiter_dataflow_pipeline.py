@@ -22,7 +22,7 @@ logger = get_logger(__name__)
 class JupiterVectorDataBase:
 
     def __init__(self):
-        #self.data_url_1 = configs["api"]["api_1"]
+        self.data_url_1 = configs["api"]["api_1"]
         self.data_url_2 = configs["api"]["api_2"]
         self.data_save_loc = configs["database_loc"]["raw_data_loc_jupiter"]
         self.keep_col = configs["columns"]["keep"]
@@ -37,39 +37,126 @@ class JupiterVectorDataBase:
         try:
             logger.info("Collecting Data (Paginated)...")
 
-            base_url = self.data_url_2
+            master_results = []  # 🔹 ONE list for everything
+
+            # ==============================
+            # SOURCE 1
+            # ==============================
+            base_url = self.data_url_1
+            source = "custom"
+            limit = 50
             page = 1
-            limit = 2000
-            all_results = []
 
             while True:
-                url = f"{base_url}?page={page}&limit={limit}&fields=minimal"
+                url = f"{base_url}?source={source}&fields=minimal&page={page}&limit={limit}"
+                print(f"Fetching source1 page {page} ...")
 
-                print(f"Fetching page {page} ...")
                 data = await request_data(url)
 
                 results = data.get("data", [])
                 metadata = data.get("metadata", {})
 
-                all_results.extend(results)
+                # (optional) tag origin
+                for item in results:
+                    item["_source"] = "data_url_1"
+
+                master_results.extend(results)
 
                 current_page = metadata.get("page", page)
-                #total_pages = metadata.get("totalPage", 1)
-                total_pages = 2
+                total_pages = metadata.get("totalPage", page)
 
-                print(f"Page {current_page}/{total_pages}: {len(results)} items")
+                print(f"Source1 Page {current_page}/{total_pages}: {len(results)} items")
 
                 if current_page >= total_pages:
-                    print("Reached last page. Stopping.")
                     break
 
                 page += 1
 
+
+            # ==============================
+            # SOURCE 2
+            # ==============================
+            base_url = self.data_url_2
+            page = 1
+            limit = 2000
+
+            while True:
+                url = f"{base_url}?page={page}&limit={limit}&fields=minimal"
+                print(f"Fetching source2 page {page} ...")
+
+                data = await request_data(url)
+
+                results = data.get("data", [])
+                metadata = data.get("metadata", {})
+
+                # (optional) tag origin
+                for item in results:
+                    item["_source"] = "data_url_2"
+
+                master_results.extend(results)
+
+                current_page = metadata.get("page", page)
+                total_pages = metadata.get("totalPage")
+
+                print(f"Source2 Page {current_page}/{total_pages}: {len(results)} items")
+
+                if not results:
+                    print("No result returnd, Stop fetching")
+                    break
+                
+                if total_pages is not None and current_page >= int(total_pages):
+                    print("Reached last page. Stop fetching")
+                    break
+
+                page += 1
+
+
+            # ==============================
+            # SAVE ONCE
+            # ==============================
             save_json(
-                json_data=all_results,
+                json_data=master_results,
                 index="all",
                 folder_loc=self.data_save_loc
             )
+
+            logger.info(f"Saved {len(master_results)} total records into one JSON file")
+
+            # logger.info("Collecting Data (Paginated)...")
+
+            # base_url = self.data_url_2
+            # page = 1
+            # limit = 2000
+            # all_results = []
+
+            # while True:
+            #     url = f"{base_url}?page={page}&limit={limit}&fields=minimal"
+
+            #     print(f"Fetching page {page} ...")
+            #     data = await request_data(url)
+
+            #     results = data.get("data", [])
+            #     metadata = data.get("metadata", {})
+
+            #     all_results.extend(results)
+
+            #     current_page = metadata.get("page", page)
+            #     total_pages = metadata.get("totalPage", 1)
+            #     #total_pages = 2
+
+            #     print(f"Page {current_page}/{total_pages}: {len(results)} items")
+
+            #     if current_page >= total_pages:
+            #         print("Reached last page. Stopping.")
+            #         break
+
+            #     page += 1
+
+            # save_json(
+            #     json_data=all_results,
+            #     index="all",
+            #     folder_loc=self.data_save_loc
+            # )
 
             print("\033[92m✅ PASSED: Collected Paginated Data\033[0m")
 
