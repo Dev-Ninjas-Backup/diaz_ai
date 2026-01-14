@@ -23,8 +23,8 @@ def daily_task():
     asyncio.run(run_florida())
     logger.info("Completed Florida pipeline.")
 
-    asyncio.run(run_jupiter())
-    logger.info("Completed Jupiter pipeline.")
+    # asyncio.run(run_jupiter())
+    # logger.info("Completed Jupiter pipeline.")
 
 daily_task()
 

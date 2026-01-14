@@ -18,11 +18,14 @@ class SearchRequest(BaseModel):
     limit: Optional[int] = Field(10, description="Maximum number of results (default: 10, max: 100)")
 
 class SearchResponse(BaseModel):
-    success: bool
+    counts: int
     data: Optional[List[Dict[str, Any]]] = None
     error: Optional[str] = None
-    count: int
-    sql_query: Optional[str] = None
+    # success: bool
+    # data: Optional[List[Dict[str, Any]]] = None
+    # error: Optional[str] = None
+    # count: int
+    # sql_query: Optional[str] = None
 
 
 def get_sqlite_agent() -> SQLiteQueryAgent:
@@ -57,10 +60,4 @@ async def search_sqlite(request: SearchRequest, agent: SQLiteQueryAgent = Depend
     table_name = "florida_boats"
     result = agent.execute_query(table_name, request.query, limit=request.limit)
     
-    return SearchResponse(
-        success=result["success"],
-        data=result.get("data"),
-        error=result.get("error"),
-        count=result.get("count", 0),
-        sql_query=result.get("sql_query")
-    )   
+    return SearchResponse(**result)   
