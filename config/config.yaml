@@ -52,11 +52,11 @@ columns:
 
 # Vector Database
 vector:
-  url: "http://localhost:6333"
+  #url: "http://localhost:6333"
   #starting docker: docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
 
   #__For production__#
-  #url: "http://qdrant:6333"
+  url: "http://qdrant:6333"
   collection_name_florida: "florida_yacht_sales"
   collection_name_jupiter: "jupiter_marine_sales"
   dim_size: 3072
