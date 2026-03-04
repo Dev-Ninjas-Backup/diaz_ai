@@ -1,43 +1,68 @@
-# Environment files
-.env                 # sensitive environment variables
-.venv/             # local Python virtual environment
-uv.lock              # pip-compile lock file
+# ===============================
+# Environment & Secrets
+# ===============================
+.env
+.env.*
+.venv/
+venv/
 
-# Python cache and compiled files
+# ===============================
+# Python Cache / Compiled Files
+# ===============================
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.so
 
+# ===============================
+# Dependency / Lock Files
+# ===============================
+uv.lock
+
+# ===============================
 # Logs
+# ===============================
 logs/
 *.log
 
-# IDE and editor settings
+# ===============================
+# IDE / Editor
+# ===============================
 .idea/
+.vscode/
 
-# Notebooks
+# ===============================
+# Jupyter Notebooks
+# ===============================
 notebook/
 .ipynb_checkpoints/
 
-# Test cache
+# ===============================
+# Testing
+# ===============================
 .pytest_cache/
 
+# ===============================
 # Docker
-*.tar               # built Docker images (optional)
-docker-compose.override.yml  # local overrides
+# ===============================
+*.tar
+docker-compose.override.yml
 
-# Miscellaneous files
+# ===============================
+# Local / Temporary Files
+# ===============================
+.DS_Store
 ab.json
 test.py
 chat.html
-.DS_Store
 
-# Qdrant storage (don't push local data)
+# ===============================
+# Vector DB / Local Storage
+# ===============================
 qdrant_storage/
 
-# Celery beat schedule (optional, keeps your local schedule file out of git)
+# ===============================
+# Celery
+# ===============================
 celerybeat-schedule
-
-
-.venv
