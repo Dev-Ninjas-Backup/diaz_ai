@@ -18,13 +18,13 @@ def daily_task():
         vec = JupiterVectorDataBase()
         await vec.collect_data()
         await vec.process_data()
-        await vec.vectorize_data()
+        #await vec.vectorize_data()
 
     asyncio.run(run_florida())
     logger.info("Completed Florida pipeline.")
 
-    # asyncio.run(run_jupiter())
-    # logger.info("Completed Jupiter pipeline.")
+    asyncio.run(run_jupiter())
+    logger.info("Completed Jupiter pipeline.")
 
 daily_task()
 
