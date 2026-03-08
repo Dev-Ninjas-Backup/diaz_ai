@@ -12,7 +12,7 @@ def daily_task():
         vec = FloridaVectorDataBase()
         await vec.collect_data()
         await vec.process_data()
-        await vec.vectorize_data()
+        #await vec.vectorize_data()
 
     async def run_jupiter():
         vec = JupiterVectorDataBase()
