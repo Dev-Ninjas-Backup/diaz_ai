@@ -223,12 +223,12 @@ IMPORTANT RULES:
     async def generate_all_leads(self):
         """
         Generate leads from all users' chat history.
-        Now saves leads to database.
-        If same user has different product, creates new lead.
+        Save them to the all-time table and refresh them in the 24-hour table.
         """
         # Initialize database if not exists
         await lead_storage.init_db()
-        
+        await lead_storage.delete_expired_daily_leads()
+
         users = await storage.get_all_users()
         leads = []
 
@@ -237,18 +237,25 @@ IMPORTANT RULES:
 
             if product:
                 try:
-                    # This will create new lead if user+product combo is new
-                    # If it exists, it will return existing lead
-                    lead = await lead_storage.create_or_get_lead(
+                    all_time_lead = await lead_storage.create_or_get_lead(
                         user_id=user.user_id,
                         name=user.name,
                         email=user.email,
                         product=product
                     )
-                    leads.append(lead)
+                    daily_lead = await lead_storage.create_or_refresh_daily_lead(
+                        user_id=user.user_id,
+                        name=user.name,
+                        email=user.email,
+                        product=product,
+                        status=all_time_lead["status"]
+                    )
+                    leads.append({
+                        "all_time": all_time_lead,
+                        "daily": daily_lead
+                    })
                 except Exception as e:
                     logger.error(f"Error saving lead for user {user.user_id}: {e}")
-                    # Still add to response even if save fails
                     leads.append({
                         "user_id": user.user_id,
                         "name": user.name,

@@ -30,11 +30,28 @@ class UpdateLeadStatusRequest(BaseModel):
 @router.get("/generate_daily_leads")
 async def generate_daily_leads():
     """
-    Analyzes last 24h chat history and generates leads.
-    Automatically saves to database.
-    If same user has different product, creates new lead with status 'not contacted'.
+    Analyze recent chat history, refresh the persisted 24-hour lead bucket,
+    and return the currently active daily leads.
     """
-    leads = await lead_generator.generate_all_leads()
+    await lead_generator.generate_all_leads()
+    await lead_storage.init_db()
+    await lead_storage.delete_expired_daily_leads()
+    leads = await lead_storage.get_active_daily_leads()
+
+    return {
+        "status": "success",
+        "total_leads": len(leads),
+        "leads": leads
+    }
+
+@router.get("/daily_leads")
+async def get_daily_leads():
+    """
+    Get the currently active daily leads that have not expired yet.
+    """
+    await lead_storage.init_db()
+    await lead_storage.delete_expired_daily_leads()
+    leads = await lead_storage.get_active_daily_leads()
 
     return {
         "status": "success",
