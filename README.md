@@ -38,5 +38,5 @@ Notes
 - Keep secrets out of source control.
 - For production: secure endpoints, use managed vector/search services, scale Celery and Uvicorn.
 
-Need more detail or a full, expanded README? I can add usage examples and diagrams......
+
 
