@@ -15,7 +15,8 @@ api:
   # api_1: "https://api.floridayachttrader.com/api/boats/merged/all-sources"
   api_1: "https://api.floridayachttrader.com/api/boats/all"
   api_2: "https://api.floridayachttrader.com/api/boats/merged/all-sources" 
-
+  api_3: "https://api.jupitermarinesales.com/api/boats-com/ai"
+  api_4: "https://api.jupitermarinesales.com/api/yachtbroker/ai"
 
 database_loc:
   raw_data_loc_florida: "database/raw_json_data_florida/"

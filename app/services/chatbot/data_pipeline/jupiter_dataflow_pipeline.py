@@ -19,8 +19,8 @@ logger = get_logger(__name__)
 class JupiterVectorDataBase:
 
     def __init__(self):
-        self.data_url_1 = configs["api"]["api_1"]
-        self.data_url_2 = configs["api"]["api_2"]
+        self.data_url_1 = configs["api"]["api_3"]
+        self.data_url_2 = configs["api"]["api_4"]
         self.data_save_loc = configs["database_loc"]["raw_data_loc_jupiter"]
         self.keep_col = configs["columns"]["keep"]
         self.process_data_loc = configs["database_loc"]["process_data_loc_jupiter"]
@@ -43,7 +43,8 @@ class JupiterVectorDataBase:
             page = 1
 
             while True:
-                url = f"{base_url}?source={source}&fields=minimal&page={page}&limit={limit}"
+                # url = f"{base_url}?source={source}&fields=minimal&page={page}&limit={limit}"
+                url = f"{base_url}?page={page}&limit={limit}"
                 print(f"Fetching source1 page {page} ...")
 
                 data = await request_data(url)
@@ -69,10 +70,11 @@ class JupiterVectorDataBase:
             # SOURCE 2
             base_url = self.data_url_2
             page = 1
-            limit = 2000
+            limit = 50
 
             while True:
-                url = f"{base_url}?page={page}&limit={limit}&fields=minimal"
+                # url = f"{base_url}?page={page}&limit={limit}&fields=minimal"
+                url = f"{base_url}?page={page}&limit={limit}"
                 print(f"Fetching source2 page {page} ...")
 
                 data = await request_data(url)

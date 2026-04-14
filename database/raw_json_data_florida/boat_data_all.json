@@ -1,844 +1,2056 @@
 [
     {
         "Source": "custom",
-        "DocumentID": "ac4e45f3-dbf6-444e-99fa-360f4361a08a",
-        "ListingTitle": "Dillon Strong",
-        "Price": "1231313.00 USD",
+        "DocumentID": "6881f167-3594-4e25-8271-25c8d5f46854",
+        "ListingTitle": "Pursuit DC 266 Dual Console",
+        "Price": "184900.00 USD",
         "BoatLocation": {
-            "BoatCityName": "Hollywood",
+            "BoatCityName": "Riviera Beach ",
             "BoatCountryID": "US",
             "BoatStateCode": "Florida"
         },
-        "MakeString": "Abaco",
-        "ModelYear": 2025,
-        "Model": "Officiis exercitatio",
-        "BeamMeasure": "0 ft",
-        "TotalEnginePowerQuantity": "0 hp",
-        "NominalLength": "25.83 ft",
-        "LengthOverall": "25.83 ft",
-        "LastModificationDate": "2026-03-09T10:57:13.780Z",
-        "ItemReceivedDate": "2026-03-05T00:38:21.040Z",
+        "MakeString": "Pursuit",
+        "ModelYear": 2022,
+        "Model": "DC 266 Dual Console",
+        "BeamMeasure": "8.67 ft",
+        "TotalEnginePowerQuantity": "600 hp",
+        "NominalLength": "27.25 ft",
+        "LengthOverall": "27.25 ft",
+        "LastModificationDate": "2026-04-08T14:24:43.617Z",
+        "ItemReceivedDate": "2026-04-08T14:24:43.617Z",
         "GeneralBoatDescription": [
-            "Dolorem cupidatat"
+            "\ud83d\udd25 2022 DC 266 Dual Console \u2013 Twin Yamaha F200s \u2013 Loaded & Turn-Key! \ud83d\udd25",
+            "If you\u2019re looking for the perfect blend of family comfort, offshore capability, and serious fishability, this DC 266 Dual Console checks every box. Designed for versatility and built with premium materials, this boat delivers performance, reliability, and style in one package.",
+            "\u2693 Key Specs",
+            "Length Overall (LOA): 27\u20194\u201d (27.33 ft)",
+            "Beam: 8\u20199\u201d",
+            "Draft: 1\u20199\u201d \u2013 2\u20199\u201d",
+            "Bridge Clearance: 7\u201911\u201d",
+            "Dry Weight: 6,800 lbs",
+            "Deadrise: 21\u00b0 (excellent offshore ride)",
+            "\ud83d\udea4 Power & Performance",
+            "Twin Yamaha F200 Outboards (2022)",
+            "Total Power: 400 HP",
+            "Only 90 Hours on BOTH Engines",
+            "Direct Drive / Gasoline",
+            "Known for legendary Yamaha reliability and efficiency",
+            "\ud83d\udee2\ufe0f Tank Capacities",
+            "Fuel: 139 gallons",
+            "Fresh Water: 20 gallons",
+            "\ud83e\udded Electronics & Helm",
+            "Garmin-compatible helm setup with excellent visibility",
+            "Adjustable helm seat for optimal control and comfort",
+            "Equipped with:",
+            "\u2714 GPS",
+            "\u2714 Plotter",
+            "\u2714 Depthsounder",
+            "\u2714 Log-Speedometer",
+            "\u2714 Compass",
+            "\u2714 VHF Radio",
+            "\u2714 Cockpit Speakers & Stereo System",
+            "\ud83d\udecb\ufe0f Comfort & Family Features",
+            "Fiberglass hardtop with tempered glass windshield",
+            "Vacuum-infused fiberglass frame for strength and durability",
+            "Spacious walkthrough design with tons of storage",
+            "Wraparound bow seating \u2013 perfect for entertaining",
+            "Optional bow sunpad converts seating into a lounging oasis",
+            "Cockpit table & plush cushions for socializing",
+            "Enclosed head with sink \u2013 ideal for day trips",
+            "Cockpit shower for rinse-downs after swimming",
+            "\ud83c\udfa3 Fishing-Ready Setup",
+            "Foldaway seating transforms cockpit into open fishing space",
+            "20-gallon livewell",
+            "Gunwale-mounted rod holders",
+            "Transom fish box",
+            "Wide, uncluttered cockpit for serious anglers",
+            "\ud83c\udf0a Additional Features",
+            "Swim ladder for easy water access",
+            "Smart layout for both cruising and offshore runs",
+            "Built for family days, sandbar trips, and offshore fishing alike",
+            "\ud83d\udca5 Why This Boat Stands Out",
+            "This DC 266 is the ultimate do-it-all boat\u2014comfortable enough for family cruising, yet fully equipped for fishing. With low hours, twin Yamahas, and premium construction, it\u2019s ready to hit the water immediately.",
+            "\ud83d\udccd Turn-key and ready for its next owner",
+            "\ud83d\udce9 Message for more details, pricing, or to schedule a showing!"
+        ],
+        "AdditionalDetailDescription": [
+            "key: \u2014 value:"
         ],
         "Engines": [
             {
-                "Make": "Quo sunt amet quisq",
-                "Model": "",
-                "Fuel": "",
-                "EnginePower": "0",
-                "Type": "",
-                "PropellerType": "",
-                "Hours": 0
-            }
-        ],
-        "Images": [
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/cebb28e4-16ec-4ad4-82c8-f086bde575ad.png",
-                "LastModifiedDateTime": "2026-03-05T00:38:22.058Z"
+                "Make": "Yamaha ",
+                "Model": "F300 ",
+                "Fuel": "Gasoline",
+                "EnginePower": "300",
+                "Type": "Gasoline",
+                "PropellerType": "Stainless ",
+                "Hours": 90
             },
             {
-                "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/0e28eb98-4d0c-49d6-ae04-a648502db3ef.png",
-                "LastModifiedDateTime": "2026-03-05T00:38:22.117Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "8300d1fd-eed7-426c-9a9c-6d38513ca671",
-        "ListingTitle": "Graiden Ware",
-        "Price": "300000.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Est quos sed laborio",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Idaho"
-        },
-        "MakeString": "Abaco",
-        "ModelYear": 2024,
-        "Model": "Numquam iure suscipi",
-        "BeamMeasure": "0 ft",
-        "TotalEnginePowerQuantity": "0 hp",
-        "NominalLength": "69.75 ft",
-        "LengthOverall": "69.75 ft",
-        "LastModificationDate": "2026-03-05T23:49:49.035Z",
-        "ItemReceivedDate": "2026-03-05T23:49:20.079Z",
-        "GeneralBoatDescription": [
-            "Accusamus enim simil"
-        ],
-        "Engines": [
-            {
-                "Make": "Ea explicabo Soluta",
-                "Model": "",
-                "Fuel": "Inboard",
-                "EnginePower": "0",
-                "Type": "Inboard",
-                "PropellerType": "4 Blade",
-                "Hours": 0
+                "Make": "Yamaha ",
+                "Model": "F300 ",
+                "Fuel": "Gasoline",
+                "EnginePower": "300",
+                "Type": "Gasoline",
+                "PropellerType": "Stainless ",
+                "Hours": 90
             }
         ],
         "Images": [
             {
                 "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/e0654745-0f20-4a94-ac74-e3d38e370648.jpg",
-                "LastModifiedDateTime": "2026-03-05T23:49:21.088Z"
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/5c73be3d-a3c7-4807-b1e4-91c5694701df.jpg",
+                "LastModifiedDateTime": "2026-04-08T14:24:43.712Z"
             }
         ]
     },
     {
         "Source": "custom",
-        "DocumentID": "d75f6241-f656-4bf8-8341-07add4c0ec9a",
-        "ListingTitle": "Olympia Wells",
-        "Price": "131313.00 USD",
+        "DocumentID": "801dbe8a-21f9-4850-bb18-1bd1e09375b1",
+        "ListingTitle": "Tiara 34 LS",
+        "Price": "459000.00 USD",
         "BoatLocation": {
-            "BoatCityName": "Obcaecati vitae et r",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Indiana"
-        },
-        "MakeString": "Abaco",
-        "ModelYear": 2025,
-        "Model": "Rem reiciendis possi",
-        "BeamMeasure": "0.67 ft",
-        "TotalEnginePowerQuantity": "0 hp",
-        "NominalLength": "34.92 ft",
-        "LengthOverall": "34.92 ft",
-        "LastModificationDate": "2026-03-05T23:40:36.552Z",
-        "ItemReceivedDate": "2026-03-05T23:40:15.228Z",
-        "GeneralBoatDescription": [
-            "Sint autem pariatur"
-        ],
-        "Engines": [
-            {
-                "Make": "Velit dicta cillum s",
-                "Model": "",
-                "Fuel": "",
-                "EnginePower": "0",
-                "Type": "",
-                "PropellerType": "",
-                "Hours": 0
-            }
-        ],
-        "Images": [
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/ae808136-0f9a-43d4-b72a-3019b72482ed.jpg",
-                "LastModifiedDateTime": "2026-03-05T23:40:16.146Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "c4157ead-8931-4e91-8e98-e937a396a4b6",
-        "ListingTitle": "Simone Leblanc",
-        "Price": "300000.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Hollywood",
+            "BoatCityName": "Lighthouse Point ",
             "BoatCountryID": "US",
             "BoatStateCode": "Florida"
         },
-        "MakeString": "Abaco Yachts",
-        "ModelYear": 2024,
-        "Model": "Nemo asperiores alia",
-        "BeamMeasure": "0 ft",
-        "TotalEnginePowerQuantity": "0 hp",
-        "NominalLength": "18.5 ft",
-        "LengthOverall": "18.5 ft",
-        "LastModificationDate": "2026-03-05T22:24:02.373Z",
-        "ItemReceivedDate": "2026-03-05T22:23:42.328Z",
-        "GeneralBoatDescription": [
-            "Eius quis duis volup"
-        ],
-        "Engines": [
-            {
-                "Make": "Ipsum adipisci quide",
-                "Model": "",
-                "Fuel": "Inboard",
-                "EnginePower": "0",
-                "Type": "Inboard",
-                "PropellerType": "3 Blade",
-                "Hours": 0
-            }
-        ],
-        "Images": [
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/798603f2-6145-461b-a2e3-101be6499845.jpg",
-                "LastModifiedDateTime": "2026-03-05T22:23:43.245Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "828b5cef-7138-4ff6-8142-86123f8039c2",
-        "ListingTitle": "Abra Holland",
-        "Price": "75013123.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Adipisci consectetur",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Hawaii"
-        },
-        "MakeString": "Abaco Yachts",
-        "ModelYear": 2025,
-        "Model": "Occaecat natus velit",
-        "BeamMeasure": "0 ft",
-        "TotalEnginePowerQuantity": "0 hp",
-        "NominalLength": "60.33 ft",
-        "LengthOverall": "60.33 ft",
-        "LastModificationDate": "2026-03-05T22:20:34.317Z",
-        "ItemReceivedDate": "2026-03-05T22:20:16.852Z",
-        "GeneralBoatDescription": [
-            "Aspernatur quaerat s kkljlk"
-        ],
-        "Engines": [
-            {
-                "Make": "Suscipit voluptates ",
-                "Model": "",
-                "Fuel": "Other",
-                "EnginePower": "0",
-                "Type": "Other",
-                "PropellerType": "3 Blade",
-                "Hours": 0
-            }
-        ],
-        "Images": [
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/ec320343-a0bb-4e60-9205-e09c6c5b3822.png",
-                "LastModifiedDateTime": "2026-03-05T22:20:17.804Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "25e45f9f-239d-4fad-a335-1cd7a4b55437",
-        "ListingTitle": "Abra Holland",
-        "Price": "75013123.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Adipisci consectetur",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Hawaii"
-        },
-        "MakeString": "Abaco Yachts",
-        "ModelYear": 2025,
-        "Model": "Occaecat natus velit",
-        "BeamMeasure": "0 ft",
-        "TotalEnginePowerQuantity": "0 hp",
-        "NominalLength": "60.33 ft",
-        "LengthOverall": "60.33 ft",
-        "LastModificationDate": "2026-03-05T22:17:52.075Z",
-        "ItemReceivedDate": "2026-03-05T22:17:52.075Z",
-        "GeneralBoatDescription": [
-            "Aspernatur quaerat s kkljlk"
-        ],
-        "Engines": [
-            {
-                "Make": "Suscipit voluptates ",
-                "Model": "",
-                "Fuel": "Other",
-                "EnginePower": "0",
-                "Type": "Other",
-                "PropellerType": "3 Blade",
-                "Hours": 0
-            }
-        ],
-        "Images": [
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/251f0f95-84c5-4ef2-b9aa-6fe03ecdaeb1.png",
-                "LastModifiedDateTime": "2026-03-05T22:17:53.207Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "34468b87-ebe0-4c95-b43c-2b64fe1712aa",
-        "ListingTitle": "Abra Holland",
-        "Price": "75013123.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Adipisci consectetur",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Hawaii"
-        },
-        "MakeString": "Abaco Yachts",
-        "ModelYear": 2025,
-        "Model": "Occaecat natus velit",
-        "BeamMeasure": "0 ft",
-        "TotalEnginePowerQuantity": "0 hp",
-        "NominalLength": "60.33 ft",
-        "LengthOverall": "60.33 ft",
-        "LastModificationDate": "2026-03-05T22:11:25.200Z",
-        "ItemReceivedDate": "2026-03-05T22:11:25.200Z",
-        "GeneralBoatDescription": [
-            "Aspernatur quaerat s kkljlk"
-        ],
-        "Engines": [
-            {
-                "Make": "Suscipit voluptates ",
-                "Model": "",
-                "Fuel": "Other",
-                "EnginePower": "0",
-                "Type": "Other",
-                "PropellerType": "3 Blade",
-                "Hours": 0
-            }
-        ],
-        "Images": [
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/c260e09c-478c-4db9-837d-eba446023473.png",
-                "LastModifiedDateTime": "2026-03-05T22:11:26.178Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "bd395fe7-4562-4204-9241-afbd9d653d8f",
-        "ListingTitle": "jlkjkljlkj",
-        "Price": "54645645646.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Reno",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Nevada"
-        },
-        "MakeString": "Abaco Yachts",
-        "ModelYear": 2024,
-        "Model": "jkhjkhhk",
-        "BeamMeasure": "0 ft",
-        "TotalEnginePowerQuantity": "0 hp",
-        "NominalLength": "10.42 ft",
-        "LengthOverall": "10.42 ft",
-        "LastModificationDate": "2026-03-05T21:49:47.943Z",
-        "ItemReceivedDate": "2026-03-05T21:44:05.189Z",
-        "GeneralBoatDescription": [
-            "jkljkljkljkl kl jkl kl klj k jkkl jk jkl jlk kl"
-        ],
-        "Engines": [
-            {
-                "Make": "jhkhkjhk",
-                "Model": "",
-                "Fuel": "",
-                "EnginePower": "0",
-                "Type": "",
-                "PropellerType": "",
-                "Hours": 0
-            }
-        ],
-        "Images": [
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/2a5aee1b-5667-414c-990d-facb9da48644.png",
-                "LastModifiedDateTime": "2026-03-05T21:44:06.202Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "0e093052-f071-454f-ba3c-cf0ada4399c5",
-        "ListingTitle": "sdfghsdfsg",
-        "Price": "10000000.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Alpharetta",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Georgia"
-        },
-        "MakeString": "Abaco",
-        "ModelYear": 2025,
-        "Model": "vtyb",
-        "BeamMeasure": "0 ft",
-        "TotalEnginePowerQuantity": "0 hp",
-        "NominalLength": "12 ft",
-        "LengthOverall": "12 ft",
-        "LastModificationDate": "2026-03-05T21:15:06.035Z",
-        "ItemReceivedDate": "2026-03-05T12:22:21.867Z",
-        "GeneralBoatDescription": [
-            "sdfsgnhdfgnh"
-        ],
-        "Engines": [
-            {
-                "Make": "cfyu",
-                "Model": "",
-                "Fuel": "",
-                "EnginePower": "0",
-                "Type": "",
-                "PropellerType": "",
-                "Hours": 0
-            }
-        ],
-        "Images": [
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/874ada16-b18b-4ae8-a054-4e4fc9ad390f.png",
-                "LastModifiedDateTime": "2026-03-05T12:22:22.813Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "775be4a7-65a9-4138-ad9f-047207ffe671",
-        "ListingTitle": "sdfghsdfsg",
-        "Price": "10000000.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Marietta",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Georgia"
-        },
-        "MakeString": "Abaco",
-        "ModelYear": 2025,
-        "Model": "vtyb",
-        "BeamMeasure": "0 ft",
-        "TotalEnginePowerQuantity": "0 hp",
-        "NominalLength": "12 ft",
-        "LengthOverall": "12 ft",
-        "LastModificationDate": "2026-03-05T12:19:27.284Z",
-        "ItemReceivedDate": "2026-03-05T12:19:27.284Z",
-        "GeneralBoatDescription": [
-            "sdfsgnhdfgnh"
-        ],
-        "Engines": [
-            {
-                "Make": "cfyu",
-                "Model": "",
-                "Fuel": "",
-                "EnginePower": "0",
-                "Type": "",
-                "PropellerType": "",
-                "Hours": 0
-            }
-        ],
-        "Images": [
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/a6aaac42-afe7-4435-98ff-724a7795be06.png",
-                "LastModifiedDateTime": "2026-03-05T12:19:28.177Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "657dd85d-d237-4f2f-a2d9-430504296bcb",
-        "ListingTitle": "Leo Love",
-        "Price": "668.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Pearl City",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Hawaii"
-        },
-        "MakeString": "Abaco",
-        "ModelYear": 2024,
-        "Model": "Nulla cumque autem q",
-        "BeamMeasure": "31 ft",
-        "TotalEnginePowerQuantity": "74 hp",
-        "NominalLength": "94.5 ft",
-        "LengthOverall": "94.5 ft",
-        "LastModificationDate": "2026-03-05T00:06:45.057Z",
-        "ItemReceivedDate": "2026-03-05T00:06:45.057Z",
-        "GeneralBoatDescription": [
-            "Enim dolor unde pari"
-        ],
-        "Engines": [
-            {
-                "Make": "Ipsam molestiae cons",
-                "Model": "Dicta rerum in minus",
-                "Fuel": "Electric",
-                "EnginePower": "74",
-                "Type": "Electric",
-                "PropellerType": "2 Blade",
-                "Hours": 48
-            }
-        ],
-        "Images": [
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/ebeea503-d3e9-4b0c-9d6d-39cce45ea4ab.png",
-                "LastModifiedDateTime": "2026-03-05T00:06:45.975Z"
-            },
-            {
-                "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/09767d6c-4577-4f75-b03d-87de13d7408c.png",
-                "LastModifiedDateTime": "2026-03-05T00:06:46.017Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "d2e109c5-38ef-4864-9e9a-d0d5faba8d16",
-        "ListingTitle": "Lars Johnson",
-        "Price": "536.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Marietta",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Georgia"
-        },
-        "MakeString": "Abaco",
-        "ModelYear": 2025,
-        "Model": "Qui corrupti eum be",
-        "BeamMeasure": "29.33 ft",
-        "TotalEnginePowerQuantity": "3 hp",
-        "NominalLength": "47.42 ft",
-        "LengthOverall": "47.42 ft",
-        "LastModificationDate": "2026-03-05T00:05:06.066Z",
-        "ItemReceivedDate": "2026-03-05T00:04:51.609Z",
-        "GeneralBoatDescription": [
-            "Laboris architecto d"
-        ],
-        "Engines": [
-            {
-                "Make": "Aspernatur velit eos",
-                "Model": "Fuga Excepturi iure",
-                "Fuel": "Electric",
-                "EnginePower": "3",
-                "Type": "Electric",
-                "PropellerType": "2 Blade",
-                "Hours": 47
-            }
-        ],
-        "Images": [
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/eb22c0cc-6142-4d03-afc4-f4532330782d.png",
-                "LastModifiedDateTime": "2026-03-05T00:04:52.590Z"
-            },
-            {
-                "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/d715cd74-d238-46c8-a5c4-bc77e28dd895.png",
-                "LastModifiedDateTime": "2026-03-05T00:04:52.630Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "c7f1b1f6-2fd6-461a-9273-dc87a5e18708",
-        "ListingTitle": "Darius Castillo",
-        "Price": "435.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Miramar",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Florida"
-        },
-        "MakeString": "Abaco",
+        "MakeString": "Tiara",
         "ModelYear": 2023,
-        "Model": "Quo exercitationem p",
-        "BeamMeasure": "45 ft",
-        "TotalEnginePowerQuantity": "33 hp",
-        "NominalLength": "24.75 ft",
-        "LengthOverall": "24.75 ft",
-        "LastModificationDate": "2026-03-04T23:51:08.798Z",
-        "ItemReceivedDate": "2026-03-04T23:51:08.798Z",
+        "Model": "34 LS",
+        "BeamMeasure": "11 ft",
+        "TotalEnginePowerQuantity": "800 hp",
+        "NominalLength": "34.67 ft",
+        "LengthOverall": "34.67 ft",
+        "LastModificationDate": "2026-04-08T13:47:24.791Z",
+        "ItemReceivedDate": "2026-04-08T13:47:24.791Z",
         "GeneralBoatDescription": [
-            "Sint deserunt sunt"
+            "2023 Tiara Yachts 34 LS \u2013 Luxury, Power & Precision in One Stunning Package",
+            "Introducing the 2023 Tiara Yachts 34 LS \u2014 a premium luxury sport cruiser that perfectly blends bold performance with refined elegance. Measuring 34.75 feet in length, this vessel showcases Tiara\u2019s legendary overbuilt fiberglass hull design, delivering a smooth, confident ride even when conditions turn rough.",
+            "Powered by Twin Mercury 400HP Verado Outboards (220 Hours \u2013 Fresh Service Completed), this 34 LS cruises comfortably at 30 MPH and reaches exhilarating top speeds up to 50 MPH. Whether you're chasing sunsets or offshore adventures, this boat delivers the performance to match your lifestyle.",
+            "\u2728 Mercury Platinum Warranty Through March 2030 \u2014 Buy with Confidence!",
+            "\u26a1 Performance & Handling",
+            "Twin 400HP Mercury Verado Engines",
+            "Joystick Control with Spot Lock & Autopilot",
+            "Bow Thruster for Precision Docking",
+            "Seakeeper Gyro Stabilization System \u2013 Dramatically reduces roll for ultimate comfort",
+            "Ritchie Compass",
+            "Windshield Wiper",
+            "Power & Systems",
+            "BRAND NEW Fischer Panda Diesel Generator \u2013 ONLY 2 Hours",
+            "Air Conditioning (Cabin + Helm Area)",
+            "Electric Windlass",
+            "Fireboy Fire Suppression System",
+            "2 Onboard Battery Chargers",
+            "Hot Water Heater",
+            "Electronics & Navigation",
+            "Twin Garmin XSV Touchscreen Displays",
+            "Simrad GO9 Backup Unit w/ Engine Display",
+            "Garmin VHF Radio",
+            "LED Navigation Lights",
+            "Entertainment & Comfort",
+            "Fusion Bluetooth Stereo",
+            "JL Audio Premium Speakers",
+            "Dual Amplifiers",
+            "LED Cockpit Lighting",
+            "LED Underwater Lights",
+            "Recessed Dynamic Cockpit Shade",
+            "Removable Bow Shade",
+            "Dynamic Aft Seating",
+            "Teak Helm Station",
+            "Cockpit & Bow Tables",
+            "Pop-Up Cleats",
+            "Custom Swim Ladder",
+            "2 Rod Holders",
+            "Cabin Amenities",
+            "Full Marine Head with Shower",
+            "Spacious, well-appointed cabin perfect for weekend escapes",
+            "Climate-controlled comfort for you and your guests",
+            "The 2023 Tiara 34 LS is built for those who demand performance without sacrificing luxury. From its advanced stabilization system to its premium electronics suite and upscale finishes, every detail is designed to elevate your time on the water.",
+            "Whether you're entertaining dockside, cruising offshore, or enjoying a relaxing weekend getaway, this Tiara delivers a first-class experience every time.",
+            "Serious inquiries only. This one won\u2019t last."
+        ],
+        "AdditionalDetailDescription": [
+            "Electrical Equipment Shore Power Inlet Generator Electronics Depthsounder Log-Speedometer Navigation Center Plotter Autopilot Radio Compass GPS Cockpit Speakers VHF AIS Inside Equipment Seakeeper: Bow Thruster: Electric Bilge Pump: Marine Head: Air Conditioning: Hot Water: Refrigerator: Sea Water Pump: Battery Charger: Outside Equipment Cockpit Shower: Cockpit Cushions: Cockpit Table: Swimming Ladder: Gyroscopic Stabilizer: Additional Equipment Underwater Lights Walk Around: Touch Screen"
         ],
         "Engines": [
             {
-                "Make": "Excepturi dolores al",
-                "Model": "Rem maxime unde dolo",
+                "Make": "Mercury",
+                "Model": "Verado 400CXL",
+                "Fuel": "Gasoline",
+                "EnginePower": "400",
+                "Type": "Gasoline",
+                "PropellerType": "Stainless ",
+                "Hours": 210
+            },
+            {
+                "Make": "Mercury ",
+                "Model": "Verado 400CXL ",
+                "Fuel": "Gasoline",
+                "EnginePower": "400",
+                "Type": "Gasoline",
+                "PropellerType": "Stainless ",
+                "Hours": 210
+            }
+        ],
+        "Images": [
+            {
+                "Priority": 2,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/c1526879-c50a-4630-a492-0ecd8ba515f4.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:24.883Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/38098401-5dff-4ff3-bfd2-3f47ee1065f4.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:24.918Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/90399ace-c278-4592-b554-ac95366f091e.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:24.956Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/a4a179fb-ac7f-4db1-8d69-3f80a0b6bb03.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:24.992Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/aa43e8fe-6524-458e-af16-238e19188b47.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.028Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/fd33f812-29c5-426b-ba77-44b08ee81748.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.068Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/ad10cea9-55f2-41a8-8365-9bf41a4d244b.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.106Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/2ca30673-9140-464c-9223-6fbc4aeda236.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.146Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/b73475c9-0ef3-4eb6-8b2f-0ccc0e55ef96.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.190Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/390d394f-9598-463e-adcf-e6cc522d6101.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.234Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/06ddf8f1-0048-4573-88d9-892daadf0b55.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.274Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/83e65adc-280b-4b45-9fd9-d48f0dd4c180.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.314Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/1b67a1cb-2cdb-4914-b75f-68f37376f941.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.356Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/30b3d42a-bc78-4e76-90d5-8945e29317bc.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.395Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/a4a87c88-7356-4855-ad8f-5f00ef594803.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.445Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/19cd0a33-9c7b-4b6d-92db-3ef3a15dec47.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.482Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/11c593f4-e4bb-4208-8440-bb32b0c447dc.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.526Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/93e327cd-33bc-46a8-aca0-f3eba99b914b.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.566Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/fd7a9318-3c72-46d7-bca9-106eead87b7e.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.605Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/4551a91e-2360-4a6f-bdce-d2c97308b5ac.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.644Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/16ea0ff5-43e0-4617-8a20-707a1929dbdf.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.685Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/2b4ab2e5-b91b-47d3-8ebf-e1a0859b74dd.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.721Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/5013cfed-99ec-4ae1-8bac-667144955a0b.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.762Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/a58511a1-349d-4e1e-ad40-a5b9bba4af92.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.799Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/390814bc-b626-4688-8d1e-9cba8e13684b.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.833Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/d8058c2e-4de6-4074-bbb5-1b0c756f564e.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.872Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/71233326-a4c7-4671-9065-7185c1290194.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.912Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/19d4375c-4c01-4d51-aa02-3f40068d188d.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.950Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/811138d3-ef5b-41fc-9afa-34e37d3e7587.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:25.989Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/b103023f-20a4-4f84-8dce-be33456e8a16.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:26.034Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/bc4b8940-18ef-4e98-9070-7da5488d97bb.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:26.084Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/27977161-e891-441e-8c68-1ccdeb521d25.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:26.165Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/870c6c70-9ec7-4ac3-8dc2-e7cd8f869aa0.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:26.204Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/aa2d1e8c-3b1d-4dbc-ac1c-e74a21dae4f2.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:26.241Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/cc07a72b-d88d-475d-abfc-e70fb00bf28b.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:26.284Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/9713b873-c643-412a-a576-9c82ad658003.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:26.323Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/dcef3697-ac08-4a9a-afae-1a2a83aa86cd.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:26.363Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/9374cedb-8cbc-4325-a89d-f1c72f21264a.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:26.403Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/42593961-cb6a-422d-aac3-a2add35fc628.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:26.444Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/7f3634be-fe24-44e6-b10c-0da9e5a484f8.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:26.480Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/36e0b2f8-7867-45a5-8646-2c6ae4d871c4.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:26.522Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/d2ce08e0-2a33-4114-9eb7-39f90eba6dca.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:26.560Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/9dc63b7f-75c4-43c2-ac7a-dc11d9b23aa3.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:26.599Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/37e90590-ea51-4c16-b7db-59018fbb3ccf.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:47:26.640Z"
+            }
+        ]
+    },
+    {
+        "Source": "custom",
+        "DocumentID": "2019fb26-afe6-442b-add0-ade4a18899e6",
+        "ListingTitle": "Custom Carolina Joey Miller ",
+        "Price": "349000.00 USD",
+        "BoatLocation": {
+            "BoatCityName": "Cocoa",
+            "BoatCountryID": "US",
+            "BoatStateCode": "Florida"
+        },
+        "MakeString": "Joey Miller ",
+        "ModelYear": 2019,
+        "Model": "Carolina Custom",
+        "BeamMeasure": "10 ft",
+        "TotalEnginePowerQuantity": "600 hp",
+        "NominalLength": "28 ft",
+        "LengthOverall": "28 ft",
+        "LastModificationDate": "2026-04-08T13:37:43.243Z",
+        "ItemReceivedDate": "2026-04-08T13:37:43.243Z",
+        "GeneralBoatDescription": [
+            "2019 Custom Carolina 28' Express \u2013 Handcrafted by Sinepuxent Boatworks",
+            "Experience the perfect blend of classic Carolina craftsmanship and modern performance with this one-of-a-kind 28' Express, finished in 2023 by renowned builder Captain Joey Miller of Sinepuxent Boatworks. Known for his traditional wood plank on frame Carolina and Deadrise-style boats, Captain Joey brings unmatched attention to detail and seaworthiness to every vessel.",
+            "Key Features & Performance:",
+            "Twin Suzuki 300 HP outboards with electronic gauges",
+            "Cruises effortlessly at 29 knots, top speed 45 knots",
+            "Fuel capacity: 225 gallons",
+            "3KW gas generator",
+            "Optimus joystick control & power steering",
+            "Stainless steel wheel with suicide knob",
+            "Fishing & Functionality:",
+            "Baush custom hardtop with telescoping outriggers & rod holders",
+            "Teak covering boards with combo drink/rod holders",
+            "Pop-up spring cleats & stainless steel windlass anchoring system",
+            "Built-in dive ladder",
+            "Comfort & Interior:",
+            "High-quality wood interior with custom craftsmanship",
+            "Queen-size berth + cabin loveseat",
+            "Freshwater head system (15-gallon holding tank)",
+            "30-gallon freshwater tank",
+            "New custom enclosure with shade covers",
+            "Deck-It style soft flooring in cockpit",
+            "Electronics & Systems:",
+            "Garmin electronics package: Autopilot, Radar, GPS Plotter, VHF",
+            "Fusion stereo system",
+            "Custom wiring and breaker panel",
+            "Additional Highlights:",
+            "Lift-kept and stored indoors",
+            "Stunning hull and topside paint",
+            "Includes custom twin-axle trailer",
+            "A Rare Opportunity",
+            "This isn\u2019t just a boat\u2014it\u2019s a handcrafted piece of Carolina tradition brought to life with modern engineering. Perfect for tournament fishing or weekend cruising, this custom 28\u2019 Express combines classic style, seaworthy performance, and top-tier equipment.",
+            "Must See! Contact us today to schedule a showing or sea trial.",
+            "Custom Carolina craftsmanship meets modern performance in this one-of-a-kind 28' Express, finished in 2023 by renowned builder Captain Joey Miller of Sinepuxent Boatworks. Located on Maryland\u2019s Eastern Shore, Captain Joey is a lifelong waterman known for building traditional wood plank on frame Carolina and Deadrise-style boats with unmatched attention to detail and seakeeping ability.",
+            "This stunning Carolina-style express offers the classic look with high freeboard, dramatic flare, and an amazingly dry, seaworthy ride. Powered by twin Suzuki 300s, she cruises effortlessly at 29 knots burning just 19 GPH, and tops out at an impressive 45 knots.",
+            "Performance & Power:",
+            "Twin Suzuki 300 HP outboards (electronic gauges)",
+            "29-knot cruise / 45-knot WOT",
+            "225-gallon fuel tank",
+            "Baush custom hardtop with telescoping outriggers",
+            "Rod holders on hardtop legs",
+            "Pop-up spring cleats",
+            "Stainless steel windlass anchoring system",
+            "High-quality wood interior with custom craftsmanship throughout",
+            "Queen-size berth + loveseat in cabin",
+            "Freshwater head system with 15-gallon holding tank",
+            "Garmin electronics package",
+            "Autopilot, Radar, GPS Plotter, VHF",
+            "Lift-kept and currently stored indoors",
+            "Gorgeous hull and topside paint",
+            "This is not just a boat \u2014 it's a handcrafted piece of Carolina tradition, brought to life with modern engineering and top-tier equipment. From tournament fishing to weekend cruising, this custom 28\u2019 Express turns heads and performs beyond expectations.",
+            "Must see to truly appreciate! Contact us today to schedule a showing or sea trial."
+        ],
+        "AdditionalDetailDescription": [
+            "Dimensions Length: 28ft Length Overall: 28ft Beam: 10ft Tanks Fresh Water Tanks: 30gal Fuel Tanks: 225gal Features Electrical Equipment Shore Power Inlet: Generator: Electronics Depthsounder: Radar: Plotter: Autopilot: Radio: Compass: GPS: VHF: Inside Equipment Manual Bilge Pump: Air Conditioning: Electric Head: Battery Charger: Outside Equipment Teak Cockpit Outboard Engine Brackets: Cockpit Cushions: Outriggers:"
+        ],
+        "Engines": [
+            {
+                "Make": "Suzuki",
+                "Model": "F300",
+                "Fuel": "Gasoline",
+                "EnginePower": "300",
+                "Type": "Gasoline",
+                "PropellerType": "Stainless ",
+                "Hours": 51
+            },
+            {
+                "Make": "Suzuki",
+                "Model": "F300",
+                "Fuel": "Gasoline",
+                "EnginePower": "300",
+                "Type": "Gasoline",
+                "PropellerType": "Stainless ",
+                "Hours": 51
+            }
+        ],
+        "Images": [
+            {
+                "Priority": 2,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/c4e450f5-6295-4856-9ca8-978107de8202.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:43.347Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/fe301728-755a-4315-9d66-dec03ba6c6be.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:43.388Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/795ef866-7399-41c3-9bba-9db008bf7ffa.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:43.450Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/3822bfb8-93a7-4855-8462-a117e95aa4b2.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:43.493Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/dd5dbae5-835d-4056-9e9b-74f0fba6ac90.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:43.537Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/1aa7795f-a166-4bec-aa55-76f88fe4579f.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:43.585Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/8f87d485-fff3-4c44-bd36-da16d51395a9.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:43.641Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/ae5282a3-8dd3-4b18-b782-ef6d5a62c99d.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:43.679Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/be5879dd-b0f4-448c-be1f-694ddd70702d.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:43.721Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/769f455e-25f7-4d47-ae3d-754bf409d217.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:43.765Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/e036c40d-802e-4631-bebd-b3ae469db253.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:43.805Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/41faadf2-afbc-430a-ba00-e1b90837aebe.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:43.846Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/677cb855-1f54-4d3b-be03-e8c9aa43c811.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:43.887Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/223e9ba2-2c69-4c54-b3d0-7c8b1604dff8.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:43.931Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/1e1257d7-fa6c-41ab-9fd1-e659162b11d7.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:43.972Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/3569b760-3e7e-4a49-b0fc-438f99eb0d74.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.019Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/fff6605b-c6eb-4d91-861a-b8cc14194f67.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.062Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/37b7f563-5957-40c1-8bc4-7998476670ee.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.106Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/e1bb287e-ce40-41d7-9f1c-6686b90649ff.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.149Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/cc74db60-2a48-4a19-9c8d-742732196bfb.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.187Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/9fa0d156-5bba-4f31-b68c-cea02a984b4a.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.229Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/5456242c-e240-4e9f-8cbc-aa0075c0ec66.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.271Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/17b7845b-6763-43bd-8bc1-0c9cf8f02efa.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.314Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/95644efa-cf74-45b7-9e5f-76da402421db.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.358Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/1180a2fb-ec12-4f4f-86c9-dba516f71bfa.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.400Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/e8c60285-c0d6-4e36-9293-3676f37dd30d.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.444Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/98dfa254-1558-4bfb-9388-395e171d07db.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.491Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/4081b834-e376-47df-8b28-64bbf7b2f664.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.547Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/0b16888f-59dd-421b-9653-21cc114544da.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.601Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/334e0b56-1552-4eb1-ae85-aac42022202c.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.645Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/b4b9bbf5-d1dd-4940-b72a-4dcf59837678.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.686Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/cc964a74-4c4b-40d6-8bfd-bec2dc217b8e.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.734Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/120be51f-f828-467b-9bda-0df47971a3fc.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.788Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/3be5f4bc-be97-4fe3-869c-677b2ff8dbd5.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.832Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/d13d27b1-db96-4871-81ea-09948062e0a7.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.874Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/6f724536-3797-42c7-89a6-6710decf6c14.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.922Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/4a70da28-f58d-4d46-a735-20c447ff7875.jpg",
+                "LastModifiedDateTime": "2026-04-08T13:37:44.967Z"
+            }
+        ]
+    },
+    {
+        "Source": "custom",
+        "DocumentID": "9bdc5fb1-277e-45c6-ae7f-1aa0641b4e87",
+        "ListingTitle": "Contender 44 ST",
+        "Price": "699000.00 USD",
+        "BoatLocation": {
+            "BoatCityName": "Dunedin",
+            "BoatCountryID": "US",
+            "BoatStateCode": "Florida"
+        },
+        "MakeString": "Contender",
+        "ModelYear": 2021,
+        "Model": "44ST ",
+        "BeamMeasure": "12 ft",
+        "TotalEnginePowerQuantity": "0 hp",
+        "NominalLength": "43.83 ft",
+        "LengthOverall": "43.83 ft",
+        "LastModificationDate": "2026-04-06T15:27:22.284Z",
+        "ItemReceivedDate": "2026-04-06T15:27:22.284Z",
+        "GeneralBoatDescription": [
+            "2024 Contender 44ST \u2013 Quad Mercury Verados | Ultimate Offshore Fishing Machine",
+            "Dominate the offshore scene with the legendary Contender 44ST\u2014a center console built for serious anglers who demand elite performance, unmatched range, and tournament-level capability. Known as one of the most feared and respected fishing platforms on the water, the 44ST is engineered to outpace, outmaneuver, and outfish anything in its class.",
+            "With a commanding 44-foot length and an expansive 12+ foot beam, this vessel delivers exceptional stability, deck space, and fishability. Backed by an incredible 600-gallon fuel capacity, the 44ST offers the range and confidence to push far offshore and back without compromise.",
+            "Powered by quad Mercury Verado outboards, this boat delivers blistering speed, smooth handling, and proven reliability\u2014making it equally suited for tournament competition or luxury offshore cruising.",
+            "Key Features & Highlights",
+            "Quad Mercury Verado Engines \u2013 Power, speed, and efficiency",
+            "Mercury Joystick Piloting with Skyhook \u2013 Precision control and station-keeping at the touch of a button",
+            "(2) Garmin 24\u201d GPS Displays \u2013 Premium navigation and fish-finding technology",
+            "Garmin GHP Autopilot \u2013 Effortless long-range cruising",
+            "Outriggers \u2013 Ready for serious offshore trolling",
+            "Twin Rhodan 120 lb Thrust GPS-Guided Trolling Motors \u2013 Ultimate positioning and stealth fishing capability",
+            "Fishing & Storage Capabilities",
+            "Designed with hardcore anglers in mind, this 44ST is fully equipped to handle big water and big game:",
+            "340 Gallon Forward Fish Box",
+            "(2) 110 Gallon Aft Fish Boxes",
+            "(2) 55 Gallon Transom Livewells",
+            "315 Gallon Forward Storage",
+            "(2) 10\u2019 Rod Lockers",
+            "(4) Flush Mount Gunnel Rod Holders",
+            "Forward Anchor Locker with Storage",
+            "Deck & Hardware",
+            "Built tough with premium components and thoughtful design:",
+            "Heavy Duty Bow Lifting Ring (Floor Peak Locker)",
+            "(2) Heavy Duty Stern Lifting Rings",
+            "(2) 10\u201d Stern Cleats",
+            "(2) 8\u201d Midship Cleats with Hause Pipes",
+            "8\u201d Pop-Up Cleat",
+            "Custom Aluminum Recessed Bow Handrail",
+            "Additional Specs",
+            "Fuel Capacity: 600 Gallons",
+            "Water Capacity: 70 Gallons",
+            "Beam: 12+ Feet",
+            "Length: 44 Feet",
+            "If you're looking for a no-compromise offshore fishing platform that blends cutting-edge technology with legendary Contender performance, this 44ST deserves your attention.",
+            "Serious inquiries only\u2014this vessel will not last."
+        ],
+        "AdditionalDetailDescription": [
+            "key: \u2014 value:"
+        ],
+        "Engines": [
+            {
+                "Make": "Mercury",
+                "Model": "Verado",
+                "Fuel": "Gasoline",
+                "EnginePower": "0",
+                "Type": "Gasoline",
+                "PropellerType": "Stainless ",
+                "Hours": 185
+            },
+            {
+                "Make": "Mercury ",
+                "Model": "Verado ",
+                "Fuel": "Gasoline",
+                "EnginePower": "0",
+                "Type": "Gasoline",
+                "PropellerType": "Stainless ",
+                "Hours": 185
+            },
+            {
+                "Make": "Mercury ",
+                "Model": "Verado ",
+                "Fuel": "Gasoline",
+                "EnginePower": "0",
+                "Type": "Gasoline",
+                "PropellerType": "Stainless ",
+                "Hours": 183
+            },
+            {
+                "Make": "Mercury ",
+                "Model": "Verado ",
+                "Fuel": "Gasoline",
+                "EnginePower": "0",
+                "Type": "Gasoline",
+                "PropellerType": "Stainless ",
+                "Hours": 185
+            }
+        ],
+        "Images": [
+            {
+                "Priority": 2,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/26b00ae8-dd1e-4db7-a517-e97d0fd01a73.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:22.433Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/38378b03-14ed-46c7-a7a9-fe83dde94fe8.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:22.484Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/0d89b22e-1716-49d1-8827-9cffcc76bdbf.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:22.527Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/f877c900-55d4-436f-88a7-9848ad8d6d51.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:22.569Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/ad1775ee-a88f-4bdf-8e6a-9a1e063dc9e4.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:22.615Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/9938127f-c71f-4144-9333-2689669e9dd9.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:22.663Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/23af2dd2-1f7f-4107-8647-f6317afedf06.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:22.710Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/03f2a394-fc04-46ee-9138-c52e2bc41d64.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:22.760Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/2ec28f8b-b2f9-4095-a887-9072b867184d.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:22.804Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/964086e5-76a9-44a3-b5ef-1fce469a1b41.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:22.848Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/f146a694-51dc-47a5-8fe1-b3e453552379.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:22.889Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/9aec4986-32bf-4ab8-b24b-dca883dc0bc5.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:22.928Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/4663c49e-6dfa-4c28-8c94-d323bd098d90.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:22.967Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/0f91b233-461c-4cee-a351-5986a10ccefa.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.010Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/eadf053d-1a2f-456b-85fc-e1fde296cead.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.055Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/77a1e058-9103-44e5-beee-96ecff5e668a.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.099Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/0edb0cc9-0762-4f8c-85ee-fa87c40db38d.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.142Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/40b5f7d6-3f30-4c71-8a96-339a7a4f00af.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.184Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/ea7d3974-c015-43a4-9e01-95f28f459584.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.224Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/29724e26-e03d-4c5e-8a2a-70a856cf75d1.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.270Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/53233aab-2d0e-42ba-940b-ce3f0ebb85ce.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.317Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/9a668f84-fb2a-401b-9359-2eb171fab12e.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.364Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/ea6e0e10-fffd-4b19-a894-f1145d256b57.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.406Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/9d26a236-e97d-4a93-8d9a-1d84c5203723.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.452Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/f084110f-214e-4f0e-a10c-144bdf6ca180.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.501Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/2611cf55-bf5c-4ab0-848c-2dcb82320bde.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.549Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/bb8f5310-0bad-4727-bc1a-d06f9b9da92d.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.593Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/1d023d7c-5e37-4515-b905-5c2cacd6c5eb.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.638Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/6ef09fb5-a8bc-48ae-9f5f-c485c88fc2cb.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.679Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/e4fba424-d857-4f1b-bb77-f91920464aec.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.723Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/28c20435-4adf-4c46-bbc8-a6069bf81abf.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.769Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/5a117986-902c-4ee0-b8e1-d1b72a9ea603.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.812Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/68cf5e8c-4c1f-4287-9e11-c4dc393c5eae.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.870Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/0b2ea634-cf76-4aa3-9b61-8468dd731649.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.918Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/3e471476-2917-4a53-8aec-932f95300ec8.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:23.966Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/4cce85e0-03b3-4c25-99d2-8652662979ac.jpg",
+                "LastModifiedDateTime": "2026-04-06T15:27:24.008Z"
+            }
+        ]
+    },
+    {
+        "Source": "custom",
+        "DocumentID": "42e7588a-6d17-48f1-9d14-60ec4400aaab",
+        "ListingTitle": "Legacy",
+        "Price": "1675000.00 USD",
+        "BoatLocation": {
+            "BoatCityName": "Marco Island",
+            "BoatCountryID": "US",
+            "BoatStateCode": "Florida"
+        },
+        "MakeString": "Formula",
+        "ModelYear": 2022,
+        "Model": "500 SSC ",
+        "BeamMeasure": "14.5 ft",
+        "TotalEnginePowerQuantity": "2400 hp",
+        "NominalLength": "53.25 ft",
+        "LengthOverall": "53.25 ft",
+        "LastModificationDate": "2026-04-01T16:52:21.872Z",
+        "ItemReceivedDate": "2026-04-01T16:52:21.872Z",
+        "GeneralBoatDescription": [
+            "2022 Formula 500 SSC \u2013 MINT \u2013 Captain Maintained \u2013 Quad Mercury V12 600s \u2013 Seakeeper 9 \u2013 Loaded Raymarine + FLIR + KVH",
+            "Offered in absolutely mint condition, this 2022 Formula 500 Super Sport Crossover (500 SSC) is the definition of a turn-key, flagship day yacht\u2014captain maintained, meticulously cared for, and fully equipped for luxury cruising, entertaining, and serious offshore performance.",
+            "This 500 SSC delivers what few boats in its class can: instant planing, incredible ride quality, and an impressively quiet running experience. Even at 30 knots, the aft deck remains quiet as a mouse, making long-distance cruising and onboard conversation effortless. The Formula 500 SSC blends the best of both worlds\u2014open bow freedom with a fully enclosed, climate-ready salon and true overnight capability.",
+            "Warranties",
+            "All coverage conveys to the next owner:",
+            "Formula Guard warranties convey",
+            "Mercury factory warranties convey",
+            "Coverage period: 03/01/2022 through 02/14/2027",
+            "Stabilization / Generator",
+            "Seakeeper 9 Gyro Stabilizer \u2013 266 run hours",
+            "Yearly service completed",
+            "Kohler Diesel 15kW Generator \u2013 291 hours / 280 hours loaded",
+            "Premium Electronics + Offshore Tech (Raymarine / FLIR / Sirius / AIS / KVH)",
+            "This boat is stacked with top-tier navigation, safety, and entertainment systems:",
+            "Raymarine Axiom XL 24 Chartplotter (dual)",
+            "Raymarine Axiom+ 12 RV Chartplotter",
+            "Raymarine Axiom+ 9 RV Chartplotter",
+            "Raymarine Open Array Radar \u2013 Magnum Array",
+            "4kW Magnum Radar Pedestal",
+            "Raymarine SR200 Sirius Weather",
+            "Raymarine CP470 Depth Sounder",
+            "VHF Radio w/ AIS650 Class B Transceiver",
+            "Raymarine RMK-10 Keyboard",
+            "Raymarine CAM210IP & CAM220IP Cameras",
+            "AR200 GPS / Camera Stabilization Module",
+            "FLIR M364C Thermal Camera",
+            "KVH TV3 HD Satellite TV Antenna",
+            "KVH TracPhone LTE-1 Receiver + TracPhone LTE",
+            "KVH TV Hub",
+            "Sirius Stereo Tuner (SXV300V1M)",
+            "Power & Performance \u2013 Quad Mercury V12 600 Verados",
+            "Purpose-built for the next generation of performance, this 500 SSC is powered by:",
+            "(4) Mercury Verado V12 600hp Outboards",
+            "Steerable gearcase + two-speed transmission platform",
+            "Smooth, confident acceleration and high-speed cruising capability",
+            "Additional Premium Equipment",
+            "Mercury Premium Theft Deterrent System",
+            "SeaBob F5S (Star White)",
+            "Apple iPad 128GB WiFi/Cellular",
+            "The Formula 500 SSC Experience",
+            "The 500 SSC is widely recognized as one of the most innovative luxury crossovers on the water\u2014part bowrider, part express yacht, and entirely Formula. The spacious salon is fully enclosed beneath the sculpted fiberglass hardtop, with a full-width retractable glass bulkhead that allows the boat to transform from open-air to fully protected at the touch of a button\u2014perfect for changing weather or extended cruising.",
+            "If you\u2019re looking for a flagship Formula that is truly dialed in, loaded with the right options, and maintained to an exceptional standard, this 2022 Formula 500 SSC is a must-see.",
+            "Easy to show \u2014 contact listing broker for full details and a private showing."
+        ],
+        "AdditionalDetailDescription": [
+            "This boat is absolutely mint. Captain maintained. This boat planes out instantly and is quiet as a mouse on the aft deck while running 30kts. All Formula guard warranties convey as well as all Mercury factory warranties. 3/1/22 through 02/14/2027 Kohlar Diesel 15KW Genset Hours - 291 hours - 280 hours loaded. SeaKeeper 9 - 266 run hours - Yearly service on Seakeeper and Genset. RAYMARINE SR200 SIRIUS WEATHER CAMERA RAYMARINE CAM210IP RADAR 4KW MAGNUM PEDESTAL RADIO VHF AIS650 AIS CLS B TRN CHARTPLOTTER RAY AXIOM XL 24 RADAR OPEN ARRAY-MAGNUM ARRAY CHARTPLOTTER RAY AXIOM+ 12 RV CAMERA RAYMARINE CAM220IP KEYBOARD RAYMARINE RMK-10 GPS AR200 CAMERA STABILZTN MOD CHARTPLOTTER RAY AXIOM XL 24 CHARTPLOTTER RAY AXIOM+ 9 RV STEREO SIRIUS TUNER SXV300V1M RAYMARINE CP470 DEPTH SOUNDER TV HUB KVH TV3 210701438 KVH TRACPHONE LTE-1 RECEIVER O/I KVH TRACPHONE LTE (292913) TV SAT ANTENNA KVH TV3 HD GEN KHLR DSL 16EKOZD 240V SEAKEEPER 9 GYRO #90221 9-213-3618 MERC THEFT DETER SYSTEM PREMIU SEABOB F5S STAR WHITE CM 11867 APPLE iPAD 128GB WIFI/CELL CAMERA THERMAL M364C FLIR EM OB 600HP XL 25\" UNDECAL 12V 3B182176 EM OB 600HP XXXL 35\" UNDECAL 3B182196 EM OB 600HP XXXL 35\" UNDECAL 3B182205 EM OB 600HP XL 25\" UNDECAL 12V 3B182203 \u201cThe Formula 500 SSC combines an open bow and deck layout with a full cabin to create an inviting day boat with overnighting capabilities and offshore cruising comfort.\u201d \u2013Boattest.com \u201cThe Formula 500 Super Sport Crossover lives up to its name, blending the lines between yacht and bowrider in expert fashion.\u201d \u2013Power & Motoryacht Magazine Part bowrider and part express, the spacious salon is fully enclosed with a sculpted fiberglass hardtop. A full-width retractable glass bulkhead allows the cabin to be opened up or enclosed depending on the weather. A Seakeeper 9 gyro stabilizer is standard. The 500 SSC was designed for the new Mercury V12 600hp Verado outboards with their two-speed transmission and steerable gear case. Cruise at 40 knots (mid to high 50s top) with quad power. Build Sheet Lower Lumbar Vinyl \u2010 Moondust A\u2010Pillow 3 \u2010 Tbd A\u2010Pillow 3 \u2010 Tbd A\u2010Pillow 3 \u2010 Tbd Designer Collection Boat #1 Cabin Seating\u2010Beluga Cabin Woodgrain Floor\u2010Tungsten Oak Open Grain Sun bleached Gray Doors Salon & Cabin Bar Cabinetry Pull\u2010Lambeth Fwd Cabin Accent Clmn, Speckle Onx Aft Cabin Accent Clmn, French Gray Corian\u00ae\u2010Gray Onyx Head Corian, Gray Onyx Cabin Table, Deep Nocturne Mercury\u00ae Remote Joystick Raymarine\u00ae Twin Axiom\u00ae Xl 24 Gps Chartplotters W/Magnum Radar Standard Flir\u00ae M364\u2122 Color Hd/Thermal Camera Mercury Premium Theft Deterrent System Siriusxm\u00ae Satellite Weather Service Receiver Us Maps Shorepower\u2010120/240v Std Satellite Tv Hd System Tv3, 120v Salon Beverage Center Vacuum Head W/Holding Tank & Macerator Discharge Tracphone\u00ae Lte\u20101 Wifi Hotspot Seabob F5s Premium Underwater Scooter W/Quick Charger & Color\u2010 Coordinating Graphic Stand Up Paddleboard \ufd3eSup\ufd3f Racks Aft Cockpit Fixed Corian Table Carbon Fiber Gangway W/Rail & Mounts Painted Coupe Top Electronics Woodgrain Vinyl Decking Throughout Full Cockpit\u2010Natural Teak W/White Lines Seabob Color Midnight Sapp Metallic Painted Electronic Midnight Sapp Metallic Concealed Sureshade\u2122 Electric Power Retractable Sun Shade\u2010Black Aft Enclosure, Silver Std Bow Cockpit Cover, Silver Std Sp Sprt Stn Cvr, White Std Fuel Capacity 650 gal 2,460 L Water Capacity 100 gal 380 L LOA 53ft 4in 16.26 m Draft 51in 1.30 m Bridge Clearance w/mast & VHF antennas up 19ft 5in 5.92 m LOA w/Outboards Trailered 53ft 10in/56ft 3ftft 16.41/17.15m LOA to Transom 50ft 0in 15.24 m Holding Tank Capacity 60 gal 227 L Cabin Headroom 6ft 7in 2.01m Approximate Weight 43,400 lbs 19,686 kg Diesel Capacity \u2010 Generator 50 gal 189 L Maximum Beam 14ft 6in 4.42 m Bridge Clearance w/radar, mast down 11ft 10in 3.61 m LOA w/Outboards Running 52ft 10in 16.10 m Deadrise 19\u00b0 19\u00b0 Manufacturer Provided Description The Formula 500 Super Sport Crossover is your best choice for taking a time out on the water. Finally, a fifty-foot answer to your private escape with family and friends, combining a commanding offshore ride with unprecedented amenities and luxury. The 500 SSC offers the Formula Crossover heritage of a wide-open, single-level bowrider inviting open station-to-station wandering. From the enclosed coupe-top salon to the aft lounge bar, the 500 SSC is a true evolution and culmination of the Formula SmartZone\u2122 concept. From the full bow lounge forward to the expansive extended swim platform aft, you will find air-conditioned comfort, entertainment and innovation. A full-width motorized glass salon bulkhead allows you to choose your degree of separation or shared fun with the aft cockpit lounges and bar areas. The 500 SSC amenities below offer a respite from the outside world with a true cabin experience. A complete galley at the cabin entry stairs, the large convertible U-lounge forward, a head with Corian surfacing, vanity sink and spacious shower create a residential feel. Slip aft to the separate stateroom with queen-size berth, sofa and complete entertainment suite. The proven, surefooted double-step FAS3Tech\u00ae hull will take your complement of guests to dinner across the bay or on far-flung offshore journeys in speed and comfort with the confidence and might of the revolutionary all-new quad Mercury V12, 600 horsepower Verado outboards. The horizons are limitless in your 500 Super Sport Crossover."
+        ],
+        "Engines": [
+            {
+                "Make": "Mercury ",
+                "Model": "V12 600",
+                "Fuel": "Outboard",
+                "EnginePower": "600",
+                "Type": "Outboard",
+                "PropellerType": "7 Blade Duo Prop",
+                "Hours": 240
+            },
+            {
+                "Make": "Mercury ",
+                "Model": "V12 600",
+                "Fuel": "Outboard",
+                "EnginePower": "600",
+                "Type": "Outboard",
+                "PropellerType": "7 Blade Duo Prop",
+                "Hours": 240
+            },
+            {
+                "Make": "Mercury ",
+                "Model": "V12 600",
+                "Fuel": "Outboard",
+                "EnginePower": "600",
+                "Type": "Outboard",
+                "PropellerType": "7 Blade Duo Prop",
+                "Hours": 240
+            },
+            {
+                "Make": "Mercury ",
+                "Model": "V12 600",
+                "Fuel": "Outboard",
+                "EnginePower": "600",
+                "Type": "Outboard",
+                "PropellerType": "7 Blade Duo Prop",
+                "Hours": 240
+            }
+        ],
+        "Images": [
+            {
+                "Priority": 2,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/8e2bde91-6049-4e0c-b1ff-82459519203c.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:21.981Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/c6bacfe9-c894-4147-b585-37b9c3cf1acf.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.028Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/e5fda5cc-1ed7-4e7c-865f-51fe0a290958.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.078Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/df1d2d26-5292-454b-9066-7b0eb849b35e.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.143Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/3755bbf9-ecc0-4969-a0e0-4232f2ebf413.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.194Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/e595baa1-0ca7-4e70-bf3e-58847ad3d584.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.239Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/2ccd0593-d91b-4941-98fb-358564a6cff5.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.285Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/f98b20b2-83fa-4c6c-a0d8-7e3cce95e8f6.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.338Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/1d69b61a-3d63-440e-88fb-b5ba4c9571aa.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.386Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/b4f74672-ad8c-42be-aadd-d2d07316aa7f.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.434Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/6e34fc44-32d4-4eaf-9805-ce001caafc52.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.482Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/dbbf6537-d6a7-4f45-b44a-2030e0733f12.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.523Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/b2d63b23-f261-4c56-9938-a7cdd75f1ff8.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.569Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/bcd3b7af-8e6c-4d0a-946b-3597c0139bc9.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.614Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/200089d3-c8b6-4817-b6b2-c625efe32816.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.705Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/8404f0c7-efbb-40d4-955e-c839088818b5.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.750Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/b64da0e6-9d22-416e-8572-01cc825e912c.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.796Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/f1b7d194-625f-4357-a06c-2f3dc701bb59.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.842Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/87cb704c-07bf-43b8-8667-dd343811039a.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.892Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/99def1a8-2303-43e9-9f16-04794262f139.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.937Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/ead8b6ee-8a5c-4257-ba69-931747a856af.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:22.982Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/1ad30ba1-f472-46a0-9fd1-32c535ddbda7.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.032Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/57c013d7-ea96-4095-8d4c-98aa97fce5e1.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.080Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/82606d92-907f-4e20-9e42-a9e3966b3a25.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.125Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/2d5d2346-03a2-4e2b-9c50-1eeb48df5c5c.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.172Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/bf85dc8a-8553-450e-b614-9076cd25f51b.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.214Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/70a26ff8-e162-4e3d-a94a-1a383c62243c.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.260Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/45f85d86-28e4-4624-b5e4-885ec7082c09.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.309Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/027f8dd4-6f1d-43b6-92c4-380922991643.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.360Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/a1a7070e-7daf-4823-bf7b-301f768be881.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.411Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/08fc6c55-b5e6-411f-b20a-69577200f9c8.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.461Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/3a9889f8-608e-4e3b-bf82-9df416b8bab3.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.506Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/0647dba3-135b-4517-acff-0cfb2391e6d0.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.555Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/b96d9af3-a803-4fa8-a38f-d87caf6360c9.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.618Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/6969373f-11fe-42c1-ad99-f06a2c5cfd50.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.697Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/2e8c01cd-0f31-4f08-943e-36da0cb46bdc.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.759Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/5084e494-b952-4bfd-8a69-2c990a66ebc5.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.808Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/0a5976a1-3113-4121-a4da-18c216d52640.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.855Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/5eb5e210-8415-458b-b7b8-5d08a5fde343.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.904Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/d894d575-5f31-4fd5-82bf-ae847db2c702.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:23.958Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/3e54668f-9704-45b8-9f12-726b8aa9a1b7.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.013Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/73f9c4e1-2fdd-4390-924d-00a0179b90fa.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.064Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/6ab78bff-73e4-4558-b2c0-53da04c944ca.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.112Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/f3dc2ebc-8b1b-4a53-bb1a-71be6bd47f7a.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.160Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/5459d9eb-efff-4609-987b-008b378ff82c.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.215Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/e749d094-9979-4ec0-a022-29756d43e780.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.263Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/62bbd902-c97d-4f39-b0d9-2ff2c5d9c834.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.309Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/62c890f7-2117-4d51-a349-ae21fdc8489c.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.361Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/14c924e6-81b0-43e3-b213-4f10d47b1f67.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.410Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/bc3de615-9cae-4964-a113-c0e0168cbcac.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.456Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/9554f1a2-fea8-425c-8be4-f7db684055a4.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.502Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/f92d2ede-0078-48ac-9dbe-e0d412755d0d.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.549Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/42e981d4-fb17-4d3d-b228-7a7f982a90cb.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.595Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/4da6376b-f0c8-471b-bd0f-c9359f393d2b.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.644Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/48fc4c56-f725-4f38-8231-74863869812f.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.688Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/5ecb528d-335f-41f8-aea3-1b3bb22bcbd0.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.731Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/acf9e5d9-104b-4de9-9155-adbc76299935.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.775Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/765af8ac-58c3-4e87-8887-1ee26fdc8696.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.822Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/867e0e22-cfc0-47a7-9271-0aa86bc8d5c0.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.870Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/21f7a2a2-3b8e-4adc-99de-2206f064c3f6.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.914Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/45b690fb-cce2-4603-9f93-9980aa8804c1.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:24.967Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/d6d5e04b-60c1-420f-b63b-d7be6efd7e13.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:25.016Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/35a32eb6-4161-415f-b52d-16efc6def13d.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:25.060Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/cbbcd805-89b0-4896-90d3-26ec50b6fcb8.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:25.113Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/f8a52861-39ee-4bec-81d9-d3dd54238247.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:25.172Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/8c7425f4-ffac-40ea-a177-4ae7a7463d77.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:25.223Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/9d736a73-1940-4aef-9a13-4954227be077.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:25.277Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/79eb1961-b427-4886-a152-9a2a0f3ee404.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:25.327Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/06fd8da7-31cd-4f9d-a95d-f4b320ccda12.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:25.402Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/afe861e0-18de-4bf0-bd95-180053cf0afe.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:25.474Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/672ae87c-dcd8-4662-a788-b8cdc7a1d5fc.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:25.524Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/490f6bf7-3bc5-4cb6-b281-c90650b16fc7.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:25.574Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/35c083be-0ff6-4ac7-af9a-6283519e7794.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:25.622Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/e5f11321-6c25-4584-ac66-56a3dbd0e3ce.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:25.666Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/2f04fbd3-42e4-43e8-96cd-95e4e2220b32.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:52:25.715Z"
+            }
+        ]
+    },
+    {
+        "Source": "custom",
+        "DocumentID": "5f259584-a078-468c-9d50-c82553f327ef",
+        "ListingTitle": "Livy Rose",
+        "Price": "179900.00 USD",
+        "BoatLocation": {
+            "BoatCityName": "Boca Raton",
+            "BoatCountryID": "US",
+            "BoatStateCode": "Florida"
+        },
+        "MakeString": "Cobia",
+        "ModelYear": 2021,
+        "Model": "320 CC ",
+        "BeamMeasure": "10.25 ft",
+        "TotalEnginePowerQuantity": "600 hp",
+        "NominalLength": "32 ft",
+        "LengthOverall": "32 ft",
+        "LastModificationDate": "2026-04-01T16:14:44.739Z",
+        "ItemReceivedDate": "2026-04-01T16:14:44.739Z",
+        "GeneralBoatDescription": [
+            "Cobia 320 CC \u2013 Loaded Options \u2013 Meticulously Maintained \u2013 Aggressively Priced",
+            "If you\u2019re looking for a fully-equipped, serious offshore center console that\u2019s been properly cared for and kept in top condition, this Cobia 320 CC checks every box. This boat has higher hours (~1600), but it shows the benefits of consistent use and professional upkeep\u2014serviced on schedule, dialed in, and ready to run today.",
+            "Outfitted with an impressive list of upgrades and premium options, this 320 CC is built for long-range fishing, family cruising, and confident offshore performance. From the advanced electronics package to the outriggers and comfort features, it\u2019s a true \u201cloaded\u201d setup for the buyer who wants capability without compromise.",
+            "Highlights",
+            "High hours (~800) but exceptionally well maintained",
+            "Loaded with premium options",
+            "Navigation electronics package",
+            "Autopilot",
+            "Radar",
+            "Outriggers",
+            "Offshore-ready layout with excellent fishability and comfort",
+            "Spacious seating, storage, and a well-thought-out helm and deck plan",
+            "Aggressively Priced",
+            "This boat is priced to sell and reflects the engine hours accordingly\u2014nearly $20,000 under market retail for a similarly equipped 320 CC. If you want the features, condition, and capability of a premium offshore center console without paying full retail, this is an outstanding opportunity.",
+            "This is the kind of boat that makes sense for buyers who value condition, equipment, and proven reliability over low-hour marketing. If you want a turn-key 320 CC that\u2019s ready for the canyon, the islands, or weekend cruising with the family, this one deserves a look.",
+            "Easy to show \u2014 contact listing broker for full specs and details."
+        ],
+        "AdditionalDetailDescription": [
+            "Dimensions Length: 32ft Length Overall: 32ft Min Draft: 1.92ft Beam: 10.25ft Weights Dry Weight: 9,260Lb Miscellaneous Deadrise At Transom: 21.5deg Tanks Fuel Tanks: 275gal",
+            "With an overall length of 32\u2019, a beam of 10\u2019 3\u201d, and a 275 gallon fuel capacity, the 320 CC is a spacious, big water hull capable of long range trips that can still be comfortably trailered. Designed for the discerning family fisherman, the 320 CC blends a tournament ready layout with the elegance, comfort and style of a cruiser. Serious anglers will appreciate the large unobstructed cockpit, a tackle center with sink and bait prep area big enough for all your terminal tackle and baits, under-gunwale rod storage, macerated in-deck fish boxes, and twin pressurized livewells that combine for a 70 gallon capacity. But the 320 CC is much more than a hardcore fishing machine. With elegant front seating, an electric bow table, inward opening side door, spacious walk-down forward entry head with 6\u20192\u2033 of headroom, and optional integrated windshield, this boat puts a premium on riding in luxury and style. A drop-in helm pod big enough to fit dual 16\u201d multi-function displays and a full array of control elements can be color matched to the hull and all the upholstery on board is available in three optional color packages, including a tri-color custom Bentley-style stitching. Combine all of this with the 320 CC hull\u2019s top of class ride and the 320 CC is sure to be a stunner whether on the trolling grounds or at the marina."
+        ],
+        "Engines": [
+            {
+                "Make": "Yamaha",
+                "Model": "F300",
+                "Fuel": "Outboard",
+                "EnginePower": "300",
+                "Type": "Outboard",
+                "PropellerType": "3 Blade",
+                "Hours": 1600
+            },
+            {
+                "Make": "Yamaha",
+                "Model": "F300",
+                "Fuel": "Outboard",
+                "EnginePower": "300",
+                "Type": "Outboard",
+                "PropellerType": "3 Blade",
+                "Hours": 1600
+            }
+        ],
+        "Images": [
+            {
+                "Priority": 2,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/6fada4b7-9448-4eba-afcc-e3d7ab48c65e.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:44.848Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/29116646-b2d5-498c-90ec-c50bf2a02d90.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:44.887Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/2ad89cc2-b826-4547-82c7-d4a311182771.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:44.933Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/01f547e5-87b8-4ff3-91f4-ff3a35c85691.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:44.970Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/9ea842cd-1a21-43f1-aa7a-9baedae793bb.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.015Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/6c43525c-b75c-456f-8add-525d44d80081.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.061Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/249e8a98-5a6d-4fde-baaf-7605b618521a.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.103Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/21d13bad-44be-4026-88b6-634160a34133.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.144Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/3ec19e92-f1b9-4e1e-b749-55e76d2c9124.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.191Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/18a326a4-ca92-41b4-b3a2-b5fbcba7e3e1.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.237Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/76648dc2-c800-4c75-b498-4567248e8331.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.316Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/70644f37-d40c-4f6a-87fa-d6ee5b524193.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.358Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/821fc4c5-7338-40bf-9f9f-da84fa40dc68.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.404Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/4fddcc2b-17a6-4ea3-a58e-094895bad355.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.449Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/f80f79af-a6ff-4d52-a23c-6023661bf752.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.499Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/0b2f84eb-bd7d-4d56-b591-2bb4389acb73.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.548Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/a3c114ff-b7b9-463b-8b6d-4479eebe9c8f.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.591Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/4f1fe884-af39-4550-a719-7aed83b1912e.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.632Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/357bdb3b-222f-4ff4-badc-6f25dbaa656b.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.676Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/7485fee8-d382-430f-abf4-2e5651ca6fd3.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.726Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/e25a42eb-6fd0-4de1-99ff-0790ed7b7a30.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.769Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/44386314-11b0-4797-98e0-345162f76027.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.820Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/cd90c772-c2ba-4d9e-9b77-7670ba6c495a.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.860Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/1da3de63-201d-47fc-9615-739fd02666cf.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.905Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/f8fb8906-defb-4802-b2dd-104fe42d2b4d.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:45.968Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/faa0047d-7991-4e06-adbb-abc54fd056fa.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:46.018Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/bcff2966-3a5d-4511-a89f-832be9e0600a.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:46.074Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/f66bae14-9373-4417-b570-4dabd522976b.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:46.116Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/84cf1766-b990-4580-a6a1-741d65f2d7d4.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:46.163Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/b7123755-f323-47f5-944c-f816b525469e.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:46.206Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/8111f05a-8be6-4f56-bfb3-7431814cd8cf.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:46.254Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/3585aaed-cf32-4865-8b36-6db879f5bdb5.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:46.328Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/94de5338-2011-41a1-bec9-513034e70d6f.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:46.375Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/61a424f4-28a9-4a88-82a8-acf26d60c627.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:46.420Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/50cbc8a0-533b-42ef-83c9-ef7ae63fbc79.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:46.467Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/0a9d7bcb-b7a8-481f-b5ed-7d187a3d69ef.jpg",
+                "LastModifiedDateTime": "2026-04-01T16:14:46.514Z"
+            }
+        ]
+    },
+    {
+        "Source": "custom",
+        "DocumentID": "f837bb5f-c0fc-4e00-bb91-43468a02bdeb",
+        "ListingTitle": "38 Formula",
+        "Price": "699000.00 USD",
+        "BoatLocation": {
+            "BoatCityName": "Fort Lauderdale",
+            "BoatCountryID": "US",
+            "BoatStateCode": "Florida"
+        },
+        "MakeString": "Formula ",
+        "ModelYear": 2022,
+        "Model": "380 SSC ",
+        "BeamMeasure": "11.42 ft",
+        "TotalEnginePowerQuantity": "450 hp",
+        "NominalLength": "38 ft",
+        "LengthOverall": "38 ft",
+        "LastModificationDate": "2026-03-17T20:28:02.393Z",
+        "ItemReceivedDate": "2026-03-12T14:54:38.071Z",
+        "GeneralBoatDescription": [
+            "2022 Formula 380 Super Sport Crossover \u2013 Triple Mercury Racing 450Rs \u2013 Fully Loaded",
+            "Fresh engine Service 300hr Service completed 12/25",
+            "SeaKeeper Service Completed 12/25 - All major services up to date.",
+            "Turn Key. Easy to see at F3 Marina in sunny Fort Lauderdale FL!!!",
+            "Experience luxury, performance, and versatility like never before with this 2022 Formula 380 Super Sport Crossover. Powered by triple Mercury Racing 450R outboards with joystick piloting, this high-performance crossover delivers effortless handling, incredible stability, and exhilarating speed. Every inch of this Formula is designed for the ultimate on-water lifestyle \u2014 from elegant styling to premium comfort features and cutting-edge technology.",
+            "Performance & Power",
+            "Triple Mercury Racing 450R Outboards with Joystick Piloting",
+            "SeaKeeper 3 Gyro Stabilizer (120V) for unmatched ride comfort",
+            "Automatic Outboard Flushing System",
+            "7.5 kW Westerbeke Low-CO Gas Generator",
+            "Central Vacuum System (120V)",
+            "Electronics & Navigation",
+            "Dual Raymarine Axiom XL 16 GPS Chartplotters",
+            "Raymarine Radar Dome",
+            "LED/LCD HDTV with Blu-Ray Player",
+            "Remote-Controlled LED Searchlight",
+            "JL Audio\u00ae Premium Sound System Upgrade",
+            "Comfort & Interior",
+            "18,000 BTU Cockpit A/C with Mooring Windshield Sunshade",
+            "Full Coupe Windshield with Glass Side Wings",
+            "SureShade\u00ae Electric Retractable Sun Shade",
+            "All-Weather Sunbrella\u00ae Canvas Enclosures",
+            "Teak-Look Aged Decking with White Lines (Extended Swim Platform & Cockpit)",
+            "Luxurious Cabin with galley, convertible dinette, and enclosed head",
+            "Entertainment & Lifestyle",
+            "Woodgrain Vinyl Decking on Swim Platform",
+            "Swim Platform Sport Station with drink holders",
+            "Yeti\u00ae Tundra 35 Cooler with Pullout Drawer",
+            "Stand-Up Paddleboard Racks",
+            "Bow & Cockpit Sun Shades",
+            "Exterior Styling",
+            "Full Hullside Flagship Graphic B",
+            "Crystal Blue Metallic with Midnight Blue Metallic Accents",
+            "Sleek, modern lines with Formula\u2019s signature deep-V hull for superior performance",
+            "Highlights",
+            "Professionally maintained, top-spec build",
+            "Loaded with nearly every available option",
+            "Designed for luxury cruising, entertaining, and performance boating",
+            "Perfect for family weekends, sandbar parties, and coastal cruising"
+        ],
+        "AdditionalDetailDescription": [
+            "Dimensions Length: 38ft Length Overall: 38ft Bridge Clearance: 9.33ft Max Draft: 3.58ft Beam: 11.5ft Cabin Headroom: 6.42ft Weights Dry Weight: 20,500Lb Miscellaneous Deadrise At Transom: 21deg Tanks Fresh Water Tanks: 43gal Fuel Tanks: 250gal Holding Tanks: 37gal Accommodations Heads: 1 Propulsion Engine 1 Engine Make: Mercury Engine Model: 450R Engine Year: 2022 Total Power: 450hp Engine Hours: 294 Engine Type: outboard Fuel Type: gasoline Engine 2 Engine Make: Mercury Engine Model: 450R Engine Year: 2022 Total Power: 450hp Engine Hours: 293 Engine Type: outboard Fuel Type: gasoline Engine 3 Engine Make: Mercury Engine Model: 450R Engine Year: 2022 Total Power: 450hp Engine Hours: 293 Engine Type: outboard Fuel Type: gasoline Features Electrical Equipment Shore Power Inlet: \u2713 Generator: \u2713 Electronics Depthsounder: \u2713 TV Set: \u2713 Navigation Center: \u2713 Plotter: \u2713 Autopilot: \u2713 Compass: \u2713 GPS: \u2713 Cockpit Speakers: \u2713 Flat Screen TV: \u2713 AIS: \u2713 Inside Equipment Seakeeper: \u2713 Bow Thruster: \u2713 Electric Bilge Pump: \u2713 Microwave Oven: \u2713 Marine Head: \u2713 Air Conditioning: \u2713 Hot Water: \u2713 Refrigerator: \u2713 Battery Charger: \u2713 Outside Equipment Cockpit Cushions: \u2713 Cockpit Table: \u2713 More Details Additional Information Specifications Make: Formula Model: 380 Super Sport Crossover Year: 2022 Length: 38 ft Beam: 11 ft 6 in Hull Material: Fiberglass Hull Color: Crystal Blue Metallic w/ Midnight Blue Metallic Accent Style: Performance Crossover / Sport Cruiser Location: [Add your location] Condition: Excellent Fuel Type: Gasoline Engines: Triple Mercury Racing 450R Outboards with Joystick Piloting Generator: Westerbeke\u00ae 7.5 kW Low CO Gas (120V) Stabilizer: SeaKeeper\u00ae 3 Gyro (120V) \u2699\ufe0f Engines & Performance Triple Mercury Racing 450R outboards Joystick Piloting System for effortless docking Automatic Outboard Flushing System SeaKeeper\u00ae 3 Gyro Stabilizer (120V) 7.5 kW Westerbeke\u00ae Low CO Gas Generator (120V) Central Vacuum System (120V) Electronics & Navigation Dual Raymarine Axiom XL 16\u201d GPS Chartplotters Raymarine Dome Radar VHF Radio with Antenna LED/LCD HDTV with Blu-Ray Player (120V) JL Audio\u00ae Premium Sound System Upgrade Remote-Controlled LED Searchlight \u2600\ufe0f Exterior & Deck Equipment Full Hullside Flagship Graphic B Crystal Blue Metallic with Midnight Blue Metallic Accent Full Coupe Windshield with Glass Side Wings SureShade\u00ae Electric Power Retractable Sun Shade Bow Docking Lights Swim Platform Sport Station with Drink Holders Stand-Up Paddleboard Racks Woodgrain Vinyl Decking on Extended Water Sport Swim Platform Teak-Look Aged Decking with White Lines Polished Stainless Steel Hardware Throughout FX Metallic Finish Package Canvas & Shade Options SureShade\u00ae Electric Retractable Sun Shade Aft Cockpit Enclosure \u2013 Black Sunbrella\u00ae Bow Sun Shade (Crystal Blue / Midnight Blue) Bow & Cockpit Covers (Sunbrella\u00ae) All-Weather Canvas Enclosures Cockpit & Entertainment 18,000 BTU Cockpit Air Conditioning (120V) Aft Cockpit Electric Grill (120V) Cockpit Corian\u00ae Countertop Aft Cockpit Table JL Audio\u00ae M6 Cockpit Speakers Yeti\u00ae Tundra 35 Cooler with Pullout Drawer LED Accent Lighting Mooring Windshield Sunshade Cabin & Interior Luxurious Cabin with Convertible Dinette Full Galley \u2013 Refrigerator, Sink, Microwave, and Solid Surface Countertops Enclosed Head with Shower and Vanity Premium Upholstery and Finishes LED Interior Lighting Package Abundant Storage and Cabinetry \u2693 Additional Options & Highlights FX Metallic Paint Upgrade Generator (Low CO, 120V) SeaKeeper\u00ae 3 Gyro Stabilizer Stand-Up Paddleboard Racks Swim Platform Vinyl Decking Raymarine\u00ae Dual 16\" Navigation System Bow Sun Shade & Enclosure Package JL Audio\u00ae Sound Upgrade SureShade\u00ae Power Sunshade 18,000 BTU Cockpit A/C Summary This 2022 Formula 380 Super Sport Crossover is fully loaded with nearly every available factory option, maintained in excellent condition, and built for those who demand the best in luxury, performance, and technology. The triple Mercury Racing 450Rs deliver thrilling performance, while the Seakeeper\u00ae gyro stabilizer ensures a smooth, comfortable ride even in choppy waters. Whether cruising, entertaining, or island-hopping, this Formula delivers on every level."
+        ],
+        "Engines": [
+            {
+                "Make": "Mercury",
+                "Model": "450R",
+                "Fuel": "Outboard 4S",
+                "EnginePower": "450",
+                "Type": "Outboard 4S",
+                "PropellerType": "4 Blade",
+                "Hours": 294
+            },
+            {
+                "Make": "13",
+                "Model": "12",
                 "Fuel": "",
-                "EnginePower": "33",
+                "EnginePower": "0",
                 "Type": "",
                 "PropellerType": "",
-                "Hours": 88
+                "Hours": 0
+            },
+            {
+                "Make": "14",
+                "Model": "13",
+                "Fuel": "",
+                "EnginePower": "0",
+                "Type": "",
+                "PropellerType": "",
+                "Hours": 0
             }
         ],
         "Images": [
             {
                 "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/524d824b-7c73-4a8c-b173-1fb43bab1404.png",
-                "LastModifiedDateTime": "2026-03-04T23:51:09.767Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "ae3942fa-4542-467e-9fc5-463593935228",
-        "ListingTitle": "Chelsea Rojas",
-        "Price": "12132123.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Hollywood",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Florida"
-        },
-        "MakeString": "Abaco",
-        "ModelYear": 2024,
-        "Model": "Tempora eos accusan",
-        "BeamMeasure": "1.25 ft",
-        "TotalEnginePowerQuantity": "82 hp",
-        "NominalLength": "69.25 ft",
-        "LengthOverall": "69.25 ft",
-        "LastModificationDate": "2026-03-04T21:57:04.901Z",
-        "ItemReceivedDate": "2026-03-04T21:56:49.485Z",
-        "GeneralBoatDescription": [
-            "Sunt labore vel expe"
-        ],
-        "Engines": [
-            {
-                "Make": "Quibusdam rerum illo",
-                "Model": "Sint quas iure sint",
-                "Fuel": "Other",
-                "EnginePower": "82",
-                "Type": "Other",
-                "PropellerType": "3 Blade",
-                "Hours": 49
-            }
-        ],
-        "Images": [
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/80dc4a52-a7c1-4e20-8e2f-714acf6ba0d2.webp",
-                "LastModifiedDateTime": "2026-03-04T21:56:50.465Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "fea38d51-8efe-4f13-9f54-93bdd8a76a78",
-        "ListingTitle": "Rhonda May",
-        "Price": "1321213.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Hollywood",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Florida"
-        },
-        "MakeString": "Abaco Yachts",
-        "ModelYear": 2016,
-        "Model": "228CC",
-        "BeamMeasure": "3.17 ft",
-        "TotalEnginePowerQuantity": "29 hp",
-        "NominalLength": "30.08 ft",
-        "LengthOverall": "30.08 ft",
-        "LastModificationDate": "2026-03-04T21:33:29.025Z",
-        "ItemReceivedDate": "2026-02-27T17:46:32.491Z",
-        "GeneralBoatDescription": [
-            "Dolorum in molestiae"
-        ],
-        "Engines": [
-            {
-                "Make": "Aute maiores ex et s",
-                "Model": "Esse quaerat ex ea a",
-                "Fuel": "Inboard",
-                "EnginePower": "29",
-                "Type": "Inboard",
-                "PropellerType": "2 Blade",
-                "Hours": 16
-            }
-        ],
-        "Images": [
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/75d1a660-1d75-43bb-97b1-5d6ae6611a59.jpg",
-                "LastModifiedDateTime": "2026-02-27T17:46:33.482Z"
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/d27e3e6c-042b-4192-95e6-389309b735a8.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.187Z"
             },
             {
                 "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/a9a0e2cd-07b7-4fbc-992a-4fc06630415d.jpg",
-                "LastModifiedDateTime": "2026-02-27T17:49:07.764Z"
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/93e82170-0442-4d4e-8b9a-6049d00276a3.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.241Z"
             },
             {
                 "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/6158101d-94ff-469b-85e1-a89d44408e13.jpg",
-                "LastModifiedDateTime": "2026-02-27T17:49:07.809Z"
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/bf24bb69-9d3e-4d8e-9c44-e87678bd342e.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.283Z"
             },
             {
                 "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/bd0fefa1-dfa7-4972-8f9d-aa9d0cb8c7dc.jpg",
-                "LastModifiedDateTime": "2026-02-27T17:49:07.852Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "3b44f157-3667-4e36-abdc-ea2ae22ee5f1",
-        "ListingTitle": "Blythe Bartlett",
-        "Price": "300000.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Hollywood",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Florida"
-        },
-        "MakeString": "Abaco Yachts",
-        "ModelYear": 2014,
-        "Model": "Dicta sit ullamco ev",
-        "BeamMeasure": "7.17 ft",
-        "TotalEnginePowerQuantity": "20 hp",
-        "NominalLength": "52.08 ft",
-        "LengthOverall": "52.08 ft",
-        "LastModificationDate": "2026-03-04T17:14:12.925Z",
-        "ItemReceivedDate": "2026-02-28T04:47:18.699Z",
-        "GeneralBoatDescription": [
-            "Quo veritatis ea molhkjhk hkj hkj kjh kjhjk hjk kj kjh jk h"
-        ],
-        "Engines": [
-            {
-                "Make": "adfhj fjkasdf",
-                "Model": "220CC",
-                "Fuel": "Inboard",
-                "EnginePower": "20",
-                "Type": "Inboard",
-                "PropellerType": "3 Blade",
-                "Hours": 5
-            }
-        ],
-        "Images": [
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/3f0d2313-7e32-4103-bbc3-8367a2b768d5.jpg",
-                "LastModifiedDateTime": "2026-02-28T04:47:18.796Z"
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/519212e1-66f3-4970-8682-961c48a92ced.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.323Z"
             },
             {
                 "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/227b0c34-a139-4128-95f7-3c30cb03a544.jpg",
-                "LastModifiedDateTime": "2026-02-28T04:50:45.298Z"
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/b3000a66-b398-4e38-bf3e-0f55518d3f3c.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.366Z"
             },
             {
                 "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/b35b9169-67f7-4b6b-b021-c99be5f3958c.jpg",
-                "LastModifiedDateTime": "2026-02-28T04:50:45.336Z"
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/4384b8f2-a545-4992-b060-f15a9eae7e0d.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.407Z"
             },
             {
                 "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/0d94cad0-1c4c-49e4-932f-c6541e2e5c31.jpg",
-                "LastModifiedDateTime": "2026-02-28T04:50:45.383Z"
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/b06a4058-a223-464e-a11d-9bc421bdc05a.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.454Z"
             },
             {
                 "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/20c88526-12ac-480f-938c-eccc44d2de2e.jpg",
-                "LastModifiedDateTime": "2026-02-28T04:50:45.426Z"
-            },
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/c1bc75fb-4af1-4406-806b-6f5c41b61781.png",
-                "LastModifiedDateTime": "2026-02-28T05:21:08.254Z"
-            },
-            {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/f81183ab-e273-46c8-a40f-ac736e5e9dfa.png",
-                "LastModifiedDateTime": "2026-02-28T05:21:57.771Z"
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/8fd2f8e7-cffd-42c6-84ba-d3d5a3dbac38.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.497Z"
             },
             {
                 "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/96ab6c8d-53d0-487b-853d-24a33f906622.png",
-                "LastModifiedDateTime": "2026-02-28T05:23:52.003Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "58cc0138-bf69-4308-9a50-20c16763e3f2",
-        "ListingTitle": "Fiona Doyle",
-        "Price": "231234.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Natus dicta nostrum ",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Hawaii"
-        },
-        "MakeString": "Abaco",
-        "ModelYear": 2025,
-        "Model": "Et tempora atque con",
-        "BeamMeasure": "94.17 ft",
-        "TotalEnginePowerQuantity": "39 hp",
-        "NominalLength": "51.75 ft",
-        "LengthOverall": "51.75 ft",
-        "LastModificationDate": "2026-02-28T09:48:16.662Z",
-        "ItemReceivedDate": "2026-02-28T05:33:31.242Z",
-        "GeneralBoatDescription": [
-            "Expedita sit sint ljkhklhkljlkjlkjkljklj"
-        ],
-        "Engines": [
-            {
-                "Make": "Nulla ipsum ut itaq",
-                "Model": "Necessitatibus itaqu",
-                "Fuel": "Inboard",
-                "EnginePower": "39",
-                "Type": "Inboard",
-                "PropellerType": "2 Blade",
-                "Hours": 100
-            }
-        ],
-        "Images": [
-            {
-                "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/6fa9337f-7673-4991-8d5e-d5e67d753fee.png",
-                "LastModifiedDateTime": "2026-02-28T05:33:32.275Z"
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/24977f6a-fc5d-4a19-860c-ed7763f49c88.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.543Z"
             },
             {
                 "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/6d287ce1-1595-46d1-9190-c21455fbadfa.jpg",
-                "LastModifiedDateTime": "2026-02-28T05:33:32.311Z"
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/7431ce9d-9c8f-44e2-8794-0202f238e867.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.595Z"
             },
             {
                 "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/cdd388f8-36ab-40b6-87c6-5a95d64a6f5a.jpg",
-                "LastModifiedDateTime": "2026-02-28T05:33:32.350Z"
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/2b3dfedf-5c60-4446-8aa3-90becda247d7.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.634Z"
             },
             {
                 "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/007dce1f-5007-4f2d-bdfb-0fd18bff3735.jpg",
-                "LastModifiedDateTime": "2026-02-28T05:33:32.391Z"
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/a9ecac14-7cc9-403d-942e-eb78e69dac3c.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.679Z"
             },
             {
                 "Priority": 1,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/68daca23-20e8-4bb0-9489-a01e1a98e0ff.jpg",
-                "LastModifiedDateTime": "2026-02-28T05:33:32.429Z"
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/e1e56d58-878e-4dfd-a0da-5d0531cc7b5e.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.721Z"
             },
             {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/ea26659b-31ff-483b-a9f6-b033b3616ffd.png",
-                "LastModifiedDateTime": "2026-02-28T06:03:00.575Z"
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/5fbad9fb-d230-4afe-988b-0a7040c2a29e.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.758Z"
             },
             {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/3c7ce141-ce52-4487-b24e-1d68158629e9.png",
-                "LastModifiedDateTime": "2026-02-28T06:03:20.988Z"
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/3201de5f-99ac-4ada-8ce2-2a8da7ed2ec4.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.802Z"
             },
             {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/e651e3ea-dcd7-4da6-b403-3b3b6d473ee1.png",
-                "LastModifiedDateTime": "2026-02-28T06:03:36.709Z"
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/47e557c4-f8db-406a-8096-68bd564d0a55.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.858Z"
             },
             {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/f5821c63-f558-4570-bf8f-862d4dd26913.png",
-                "LastModifiedDateTime": "2026-02-28T06:04:25.375Z"
-            }
-        ]
-    },
-    {
-        "Source": "custom",
-        "DocumentID": "5fdef3f3-c5a1-4cfd-90a2-d981705d4c9b",
-        "ListingTitle": "Bruce Wheeler",
-        "Price": "702.00 USD",
-        "BoatLocation": {
-            "BoatCityName": "Coral Springs",
-            "BoatCountryID": "US",
-            "BoatStateCode": "Florida"
-        },
-        "MakeString": "Abaco",
-        "ModelYear": 2025,
-        "Model": "Natus laboriosam qu",
-        "BeamMeasure": "57.42 ft",
-        "TotalEnginePowerQuantity": "36 hp",
-        "NominalLength": "77.08 ft",
-        "LengthOverall": "77.08 ft",
-        "LastModificationDate": "2026-02-27T16:49:28.992Z",
-        "ItemReceivedDate": "2026-02-26T23:50:25.014Z",
-        "GeneralBoatDescription": [
-            "Dignissimos vel quis"
-        ],
-        "Engines": [
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/c1c58788-b8f8-4788-bd9e-106504d9c730.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.900Z"
+            },
             {
-                "Make": "Quidem sunt et sit ",
-                "Model": "Quo esse nobis nobis",
-                "Fuel": "Electric",
-                "EnginePower": "36",
-                "Type": "Electric",
-                "PropellerType": "2 Blade",
-                "Hours": 61
-            }
-        ],
-        "Images": [
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/d567b200-4546-4f98-9ab8-68ad83a563a3.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.938Z"
+            },
             {
-                "Priority": 2,
-                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/c6714aa8-9dbb-4e93-bce6-a8f0a82e12e9.webp",
-                "LastModifiedDateTime": "2026-02-26T23:50:25.996Z"
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/efd0c8ab-2f55-435a-ae12-2e155dbe875c.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:38.980Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/b2dc8cef-afeb-45a3-9fa4-0c38635bd7e8.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.022Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/cfbbca2c-0437-4911-bd84-2f61a4dd0385.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.060Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/1ac88c5a-cfe0-4a2a-815c-38b3eb6559dd.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.101Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/5eecd3e4-52e3-4d8c-ba2a-9bd855f9b19c.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.147Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/973572df-df9e-4914-91f7-037fa6685822.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.193Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/9ded531c-8f18-46d1-9d69-3ed403e07d76.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.246Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/ae025b5c-b5ba-426f-9644-34ea9c0c2cc3.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.290Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/db6b8bde-1acf-4aab-8681-fcc3ae4d8afc.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.330Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/3c4b91ee-14e2-4a09-b8fa-734036e762d4.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.376Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/b429c7ae-f45b-4411-bb84-693be0d99be6.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.425Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/0ac6d4f9-80d5-465d-9e00-2c7a81a78fa0.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.467Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/58b2cd05-df41-4a50-9cfb-a8782ee9884d.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.510Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/f2fdd34b-602e-4d2c-8eaa-0f24fe475fc6.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.557Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/6bb0a9e9-4006-4366-ae4a-9aa9e9bd8a12.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.606Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/fcc90c25-09b8-4061-9e59-22a6c7527e3e.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.651Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/d88b0dae-3974-4891-a3a1-1430f1859028.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.697Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/b70b8cf3-a536-448b-a59f-80c2b8d130ce.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.740Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/340f949c-399a-40e6-8d0c-2876aff74bb5.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.780Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/b92feaf3-2292-4238-bbca-c84efd3c7c74.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.824Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/091330f8-2a43-4842-bc68-f4fcb4adcbb3.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.872Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/f359f5ca-2cc4-4e01-83ef-2e8004d2a95e.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.914Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/e9ac0b7f-d991-48ef-9e28-0a66a0b18df2.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:39.962Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/0d86dac8-fb27-4895-ad48-4bb2bd76b4d6.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:40.006Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/d1651612-7601-4f61-aea4-6fb928e28a76.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:40.048Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/8c313221-23f7-49bd-9b37-22397218d715.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:40.093Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/2f118909-69af-4cb2-a962-534c06c56216.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:40.140Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/0bc2f0ab-9bed-4fc4-adcf-1df24ad2090a.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:40.188Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/89805ddc-8f9d-48a9-9432-21d2fa799460.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:40.316Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/7a3cc0c3-48e1-48c8-81a1-4a03c219fb29.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:40.373Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/a1e66cad-3b12-40a6-a48f-d16b1c703607.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:40.430Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/2d6dce4d-feb5-433a-856c-48b42114fdd0.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:40.477Z"
+            },
+            {
+                "Priority": 1,
+                "Uri": "https://floridayt.s3.eu-north-1.amazonaws.com/images/2936906d-8a41-4f5c-910b-8d149a541ec6.jpg",
+                "LastModifiedDateTime": "2026-03-12T14:54:40.522Z"
             }
         ]
     }
