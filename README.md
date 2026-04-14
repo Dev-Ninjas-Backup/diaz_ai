@@ -36,7 +36,7 @@ Testing & maintenance
 
 Notes
 - Keep secrets out of source control.
-- For production: secure endpoints, use managed vector/search services, scale Celery and Uvicorn...
+- For production: secure endpoints, use managed vector/search services, scale Celery and Uvicorn.
 
 
 

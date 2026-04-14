@@ -30,7 +30,6 @@ logs/
 # IDE / Editor
 # ===============================
 .idea/
-.vscode/
 
 # ===============================
 # Jupyter Notebooks
@@ -66,3 +65,6 @@ qdrant_storage/
 # Celery
 # ===============================
 celerybeat-schedule
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
