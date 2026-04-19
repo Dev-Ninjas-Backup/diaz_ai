@@ -53,7 +53,8 @@ app.add_middleware( CORSMiddleware,
                        "https://development.floridayachttrader.com",
                        "https://floridayachttrader.com",
                        "https://jupitermarinesales.com",
-                       "https://admin.floridayachttrader.com"
+                       "https://admin.floridayachttrader.com",
+                       "https://admin.jupitermarinesales.com"
                        ],
                    allow_credentials=True,
                    allow_methods=["*"],
